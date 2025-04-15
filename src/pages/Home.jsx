@@ -1,5 +1,5 @@
 import React from "react";
-import AboutCards from "../components/AboutCards";
+import AboutCards from "../components/Home/AboutCards";
 
 const Home = () => {
   return (
@@ -49,6 +49,56 @@ const Home = () => {
       </div>
       <div>
         <AboutCards />
+      </div>
+
+       {/* Bottom Section */}
+       <div className="grid md:grid-cols-2 gap-8 mt-16 items-center">
+        {/* Left quote */}
+        <div>
+          <p
+            style={{ fontFamily: "Archivo, sans-serif" }}
+            className="
+    text-[#FF7544] font-normal
+    tracking-[-1px] text-[20px]
+    md:text-[198px] md:tracking-[-9.9px]
+    mb-4
+  "
+          >
+            “
+          </p>
+          <p className="uppercase text-sm font-semibold mb-1">Who we are</p>
+          <h2 className="text-[#FFF] font-[700]  tracking-normal md:text-[79.371px] text-[14px] md:leading-[90%] leading-[12.6px] font-[Rethink Sans] mb-2">
+            We are a <span className="text-[#FF7544] text-outline">Mark — tech</span> <br />
+            <span>Fusion company</span>
+            <span className="text-[#FF7544]">.</span>
+          </h2>
+        </div>
+
+        {/* Right quote */}
+        <div className="flex flex-col items-start md:items-end text-gray-300">
+          <p
+            style={{ fontFamily: "Archivo, sans-serif" }}
+            className="
+    text-[#FF7544] font-normal
+    tracking-[-1px] text-[20px]
+    md:text-[198px] md:tracking-[-9.9px]
+    mb-4
+  "
+          >
+            ”
+          </p>
+          <p
+            style={{ fontFamily: '"Rethink Sans", sans-serif' }}
+            className="
+    text-white font-medium leading-[92.7%]
+    text-[10px] text-right
+    md:text-[50px] md:text-end
+  "
+          >
+            We are a team of marketing and tech experts that will grow your
+            brand through innovative solutions.
+          </p>
+        </div>
       </div>
     </section>
   );
