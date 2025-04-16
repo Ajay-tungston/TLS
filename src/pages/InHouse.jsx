@@ -4,6 +4,7 @@ import thumbsup from "../assets/Vectooor.png";
 import checkIcon from "../assets/check_small.png";
 import inHouse from '../assets/inhouse.png';
 import Navbar from '../components/Navbar'
+import Footer from "../components/Footer";
 
 const FeatureItem = ({boldPart, restPart }) => {
   return (
@@ -130,11 +131,8 @@ const PlanCard = ({ name, isTopRated }) => {
 
 const InHouseProducts = () => {
   return (
-<>
- <div className="bg-black py-10">
-
-  <Navbar/>
- </div>
+    <>
+    <Navbar/>
     <section className="bg-black w-screen min-h-screen flex flex-col items-center justify-start pt-20 md:pt-32 lg:pt-40 px-4 md:px-8 lg:px-16">
       <div className="max-w-5xl mt[125px] text-white/70 text-sm md:text-base lg:text-lg text-left mb-16">
       <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold text-[#FF7544] font-['Bricolage_Grotesque'] text-center mb-6 md:mb-10">
@@ -365,7 +363,8 @@ const InHouseProducts = () => {
   </div>
 
     </section>
-    </>
+    <Footer/>
+   </> 
   )
   
 };

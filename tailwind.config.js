@@ -5,8 +5,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        rethink: ['"Rethink Sans"', ],
-        // bricolage: ['"Bricolage Grotesque"', ],
+        rethink: ['"Rethink Sans"', "sans-serif"],
+                // bricolage: ['"Bricolage Grotesque"', ],
         rubik: ['"Rubik"', 'sans-serif'],
         exo: ['"Exo"', 'sans-serif'],
       },
