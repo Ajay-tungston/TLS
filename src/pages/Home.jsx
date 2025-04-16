@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import AboutCards from "../components/Home/AboutCards";
 import Realms from "../components/Home/Realms";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const [formData, setFormData] = useState({
@@ -25,6 +27,7 @@ const Home = () => {
   };
   return (
     <div className="bg-black w-screen">
+      <Navbar/>
       <section className="bg-black text-white px-6 py-12 md:px-32 md:py-24">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left section */}
@@ -539,6 +542,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <Footer/>
     </div>
   );
 };

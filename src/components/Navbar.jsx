@@ -70,7 +70,7 @@ const navLinks = [
   { name: 'Prominova', path: '/prominova' },
   { name: 'Proxitech', path: '/proxitech' },
   { name: 'Pixellar', path: '/pixellar' },
-  { name: 'Inhouse Products', path: '/products' },
+  { name: 'Inhouse Products', path: '/inhouse-products' },
 ];
 
 const Navbar = () => {
@@ -106,7 +106,7 @@ const Navbar = () => {
 
           {/* Contact Button */}
           <Link 
-            to="/contactus" 
+            to="/contact" 
             className="bg-[#FF7544] hover:bg-[#e86638] text-black font-extrabold px-6 py-2 rounded-md text-sm"
           >
             Contact us

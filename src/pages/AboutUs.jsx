@@ -1,4 +1,6 @@
 import React from "react";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const AboutSection = () => {
     const teamItems = [
@@ -31,6 +33,7 @@ const AboutSection = () => {
 
     return (
         <div className="relative w-full overflow-hidden bg-black">
+            <Navbar/>
             {/* Header Section */}
             <div className="relative z-10 flex flex-col items-center justify-center min-h-[40vh] md:min-h-[50vh] px-4 py-8 md:py-24 mt-10 md:mt-20">
                 <img
@@ -221,6 +224,7 @@ const AboutSection = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 };
