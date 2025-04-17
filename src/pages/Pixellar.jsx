@@ -1,5 +1,7 @@
 import React from "react";
 import ServiceListCard from "../components/ServiceListCard";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 
 const Pixellar = () => {
   const services = [
@@ -1890,19 +1892,61 @@ const Pixellar = () => {
       ),
     },
   ];
+  // 982,165
   return (
-    <section className="bg-black text-white p-6 md:p-16 space-y-6">
-      {services.map((service, index) => (
-        <ServiceListCard
-          key={index}
-          title={service.title}
-          no={index + 1}
-          description={service.description}
-          largeSvg={service.largeSvg}
-          mobileSvg={service.mobileSvg}
-        />
-      ))}
-    </section>
+    <div className="bg-black">
+      <Navbar />
+      <section
+        className=" bg-[url('/images/proxitech.png')] 
+    max-md:bg-[url('/images/proxitech (1).png')] bg-no-repeat bg-center bg-cover h-[165px] md:h-[982px] w-screen flex justify-center items-center  text-white"
+      >
+        <div className="text-center">
+          <h3
+            class="text-white text-center text-[34px] font-normal leading-[133.863%] text-shadow-[0px_0px_12.2px_rgba(0,0,0,0.33)] font-bricolage 
+  max-md:text-[10px] max-md:leading-[133.863%]"
+          >
+            We are the Team
+          </h3>
+          <h1
+            class="text-[#E0DCD9] text-center text-[64px] font-medium leading-[133.863%] 
+  text-shadow-[0px_0px_12.2px_rgba(0,0,0,0.33)] font-bricolage 
+  max-md:text-[20px] max-md:leading-[133.863%]"
+          >
+            Pixellar
+          </h1>{" "}
+        </div>
+      </section>
+      <section className="text-white p-6 md:p-16 space-y-6">
+        {services.map((service, index) => (
+          <ServiceListCard
+            key={index}
+            title={service.title}
+            no={index + 1}
+            description={service.description}
+            largeSvg={service.largeSvg}
+            mobileSvg={service.mobileSvg}
+          />
+        ))}
+      </section>
+      <section className="bg-[url('/images/Frame-1748.png')] max-md:bg-[url('/images/Frame-1749.png')] bg-no-repeat bg-center  h-[167px] md:h-[442px] w-screen flex justify-center items-center text-white my-[36px] md:my-[104px]">
+        <div className="w-[208px]  md:w-[875px]  text-center">
+          <h1
+            className="
+    text-[#FF7544] 
+    text-center 
+    font-bricolage 
+    text-[85px] 
+    font-semibold 
+    leading-[91%] 
+    max-md:text-[20px] 
+    max-md:leading-[91%]"
+          >
+            "Crafting Creativity, Elevating Your Vision"
+          </h1>
+        </div>
+      </section>
+      <Footer />
+    </div>
   );
 };
 
