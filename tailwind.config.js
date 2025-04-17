@@ -6,9 +6,9 @@ module.exports = {
     extend: {
       fontFamily: {
         rethink: ['"Rethink Sans"', "sans-serif"],
-                // bricolage: ['"Bricolage Grotesque"', ],
-        rubik: ['"Rubik"', 'sans-serif'],
-        exo: ['"Exo"', 'sans-serif'],
+        bricolage: ['"Bricolage Grotesque"'],
+        rubik: ['"Rubik"', "sans-serif"],
+        exo: ['"Exo"', "sans-serif"],
       },
     },
   },
