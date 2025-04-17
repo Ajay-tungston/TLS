@@ -1068,6 +1068,7 @@ const ProminovaSection = () => {
             </h2>
           </div>
         </div>
+       
       </section>
       <Footer />
     </>
