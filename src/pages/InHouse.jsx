@@ -216,7 +216,7 @@ const InHouseProducts = () => {
         </div>
 
         {/* Product Cards Section */}
-        <div className="self-stretch mt-[52px] overflow-x-auto pb-10">
+        <div className="self-stretch mt-[52px] -ml-12 md:ml-0  overflow-x-auto pb-10">
           <div
             className="inline-flex justify-center items-end ml-16 gap-8 min-w-max mx-auto"
             style={{
