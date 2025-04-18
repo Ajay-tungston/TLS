@@ -27,7 +27,7 @@ const Home = () => {
   };
   return (
     <div className="bg-black w-screen">
-      <Navbar/>
+      <Navbar />
       <section className="bg-black text-white px-6 py-12 md:px-32 md:py-24">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left section */}
@@ -241,7 +241,7 @@ const Home = () => {
           <div className="flex flex-wrap justify-center gap-[39px] md:gap-[64px] ">
             {/* Card */}
             <div
-              className="bg-[#434343] flex flex-col justify-center items-center 
+              className="bg-[#434343] hover:bg-white hover:scale-105 flex flex-col justify-center items-center 
                   w-[74px] h-[78px] p-[25px_14.869px_26px_14.869px]
                   lg:w-[285px] lg:h-[300px] lg:p-[76px_21.51px_77px_22.51px]"
             >
@@ -253,19 +253,19 @@ const Home = () => {
             </div>
 
             <div
-              className="bg-[#434343] flex flex-col justify-center items-center 
+              className="bg-[#434343] hover:bg-white hover:scale-105 flex flex-col justify-center items-center 
                   w-[74px] h-[78px] p-[25px_14.869px_26px_14.869px]
                   lg:w-[285px] lg:h-[300px] lg:p-[76px_21.51px_77px_22.51px]"
             >
               <img
-                src="/images/Frame 1752.png"
+                src="/images/Frame 1800.png"
                 alt="Essensuals"
                 className=" w-[44.262px] h-[27px] md:h-[147px] md:w-[240.981px]"
               />
             </div>
 
             <div
-              className="bg-[#434343] flex flex-col justify-center items-center 
+              className="bg-[#434343] hover:bg-white hover:scale-105 flex flex-col justify-center items-center 
                   w-[74px] h-[78px] p-[25px_14.869px_26px_14.869px]
                   lg:w-[285px] lg:h-[300px] lg:p-[76px_21.51px_77px_22.51px]"
             >
@@ -277,7 +277,7 @@ const Home = () => {
             </div>
 
             <div
-              className="bg-[#434343] flex flex-col justify-center items-center 
+              className="bg-[#434343] hover:bg-white hover:scale-105 flex flex-col justify-center items-center 
                   w-[74px] h-[78px] p-[25px_14.869px_26px_14.869px]
                   lg:w-[285px] lg:h-[300px] lg:p-[76px_21.51px_77px_22.51px]"
             >
@@ -289,7 +289,7 @@ const Home = () => {
             </div>
 
             <div
-              className="bg-[#434343] flex flex-col justify-center items-center 
+              className="bg-[#434343] hover:bg-white hover:scale-105 flex flex-col justify-center items-center 
                   w-[74px] h-[78px] p-[25px_14.869px_26px_14.869px]
                   lg:w-[285px] lg:h-[300px] lg:p-[76px_21.51px_77px_22.51px]"
             >
@@ -309,8 +309,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-      
 
       <section className="bg-[#2b2b2b] text-white px-6 py-2 md:px-52 md:py-8">
         <div className=" mx-auto flex flex-col md:flex-row gap-10">
@@ -542,7 +540,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
