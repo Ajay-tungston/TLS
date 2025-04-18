@@ -5,19 +5,19 @@ const Realms = () => {
     {
       title: "Proxitech",
       description:
-        "Protect at Tungston Labs is an innovative technology initiative focused on delivering cutting-edge solutions in AI, automation, and digital transformation. It combines advanced analytics, machine learning, and cloud-based architectures to enhance business efficiency and scalability. Whether it's optimizing workflows, streamlining operations, or enabling smart decision-making, Protect drives innovation for enterprises seeking next-generation tech solutions.",
+        "At Tungston Labs, we provide wide range of technical services to drive digital transformation and performing business. Under Proxitech, we provide ERPsolutions that streamline operations, web development that help you build a powerful presence online and app development tailored for both iOS and Andriod platforms. We offer custom technical services, including system integration, cloud solutions and IT support for your business needs.",
       icon: "/images/Wheels.png",
     },
     {
       title: "Prominova",
       description:
-        "Prominova at Tungston Labs is a dedicated division specializing in digital marketing, data and analytics, AI and machine learning, web and mobile app development, and more. Our expert teams collaborate to deliver innovative, data-driven solutions that drive growth and digital transformation.",
+        "Prominova at Tungston Labs is a dedicated division in branding and digital marketing services. Our team helps you build unique brand identities that connect with your audience. Through performing Pay-Per-Click campaigns(PPC), targeted Social Media Marketing (SMM), and strategic Search Engine Optimization (SEO) we help to drive traffic, boost engagement, and increase conversions. We offer other branding services that manages your brand identity.",
       icon: "/images/People.png",
     },
     {
       title: "Pixellar",
       description:
-        "Pixellar at Tungston Labs is a creative powerhouse specializing in digital design, branding, and visual storytelling. It merges cutting-edge design techniques with AI-driven insights to craft stunning visuals, immersive user experiences, and impactful brand identities. From UI/UX design to dynamic graphics and motion visuals, Pixellar transforms ideas into visually compelling digital experiences, helping businesses stand out in a competitive landscape.",
+        "Pixellar at Tungston Labs is a creative powerhouse specializing in digital design, branding and visual story telling. We blend creativity with innovation to build your brands look. We help you to create compelling designs through graphic designing, UI/UX designing, 3D/2D visualisation to make your brand visually exciting and other creative services. From logos and marketing creatives to immersive 3D visuals, we provide unique visual solutions.",
       icon: "/images/Draw.png",
     },
   ];

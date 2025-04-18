@@ -216,8 +216,7 @@ const Home = () => {
         style={{ backgroundImage: "url('/images/Frame 1748.svg')" }}
       >
         <h1 className="text-[#FF7544] text-center font-[Bricolage Grotesque 72pt] text-[21px] font-semibold leading-[91%]">
-          Maximize your brand's potential with our innovative solutions
-          and expertise
+        Empowering Brands with Innovation and Expertise
         </h1>
       </section>
 
@@ -226,14 +225,14 @@ const Home = () => {
           Our Clients
         </h2>{" "}
         <p className="text-center text-white font-[Rethink_Sans] text-[10px] font-normal leading-[13.386px] md:text-[25px] md:leading-[33.466px] md:px-28">
-          We take pride in collaborating with forward-thinking brands across
-          diverse industries. From ambitious startups to established global
-          enterprises, our clients rely on us to craft and execute innovative
-          marketing strategies that drive measurable success. Through tailored
-          solutions, cutting-edge creativity, and data-driven insights, we help
-          brands strengthen their market presence, connect with their audience,
-          and achieve sustainable growth. At TLS, every partnership is built on
-          trust, innovation, and a shared commitment to excellence.
+        As a branding and technology expert, we take pride in working with growth
+oriented brands across different industries. Be it an ambitious startup
+building a brand from the base or an established business seeking digital
+transformation, our clients rely on us to craft and execute innovative
+marketing strategies and advanced web development that drive measurable
+success. At Tungston Labs every partnership is built on trust, innovation and
+shared commitment to excellence. 
+
         </p>
       </section>
       <section className="bg-black text-white px-6 py-2 md:px-0  md:py-8">
@@ -340,13 +339,10 @@ const Home = () => {
     leading-[13.386px] md:leading-[36.143px]
   "
             >
-              Thank you for expressing your interest in our services. We are
-              thrilled to have the opportunity to learn more about your business
-              and explore ways to collaborate towards achieving your objectives.
-              Kindly fill out the form below or use the provided contact details
-              to reach us. We will promptly respond to your inquiry and initiate
-              a conversation on how we can assist you. Thank you for considering
-              us as your partner, and we look forward to hearing from you soon.
+              Thank you for showing interest in our services, we are glad for the opportunity
+to work with you. To learn more about our services, kindly fill out the form
+below to connect with our team or use the given contact details to reach us.
+Our team will shortly reach out to you.
             </p>
             <p
               className="

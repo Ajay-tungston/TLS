@@ -10,8 +10,8 @@ const ProminovaSection = () => {
     {
       title: "Marketing Automation",
       description:
-        "We automate your marketing processes using innovative tools, enhancing customer engagement, lead generation and marketing efficiency.",
-      mobileSvg: (
+        "We automate your marketing process, to simplify, automate, and assess marketing activities such as email campaigns, social media updates, and lead management.",
+       mobileSvg: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="36"
@@ -65,7 +65,7 @@ const ProminovaSection = () => {
     {
       title: "Content Marketing",
       description:
-        "We create engaging content across media—from written to visual—to connect brands with their audiences in a valuable, educational, and persuasive manner.",
+        "We focus on creating and sharing meaningful, valuable content to connect, engage and retain a target audience.",
       mobileSvg: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -184,7 +184,7 @@ const ProminovaSection = () => {
     {
       title: "Pay-Per-Click Advertising",
       description:
-        "We design targeted PPC campaigns to achieve your desired outcomes, maximizing efficiency, and enhancing brand visibility across digital platforms.",
+        "We administer PPC campaigns to achieve your desired Result of return outcomes (ROI), maximise reach and enhance brand visibility across digital platforms. ",
       mobileSvg: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -304,7 +304,7 @@ const ProminovaSection = () => {
     {
       title: "Email Marketing",
       description:
-        "We develop personalized emails that deliver meaningful information, drive connections, and build brand relationships with your audience.",
+        "We develop personalized emails that deliver meaningful interactions, drive conversations and build brand relationship with your audience.",
       mobileSvg: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -407,7 +407,7 @@ const ProminovaSection = () => {
     {
       title: "Social Media Management",
       description:
-        "We craft tailored strategies to manage your brand's identity, engage audiences, and foster a vibrant brand presence online.",
+        "We craft tailored campaign strategies to manage your brand’s identity, engage audience, create new leads and foster a vibrant brand presence online. ",
       mobileSvg: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -556,7 +556,7 @@ const ProminovaSection = () => {
     {
       title: "Search Engine Optimization",
       description:
-        "Our SEO strategies enhance your search engine rankings, increasing visibility while driving high-intent traffic to your digital properties.",
+        "We use SEO strategies to enhance your website’s search engine rankings, improve visibility while driving high intent traffic. ",
       mobileSvg: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -713,7 +713,7 @@ const ProminovaSection = () => {
     {
       title: "Conversion Rate Optimization",
       description:
-        "We analyze and refine your digital assets to improve conversions and maximize your marketing performance.",
+        "We use CRO techniques to improve the design, content, and user experience of a website or campaign to improve conversions and maximise marketing ROI.",
       mobileSvg: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -811,7 +811,7 @@ const ProminovaSection = () => {
     {
       title: "Performance Marketing",
       description:
-        "We focus on data-driven marketing campaigns, optimized in real-time, to deliver measurable results and maximize return on investment.",
+        "We focus on data – driven marketing campaigns, optimized in real – time, and driven to optimize results and maximise return on investment.",
       mobileSvg: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -997,23 +997,12 @@ const ProminovaSection = () => {
   lg:leading-[133.863%]
 "
               >
-                Prominova at Tungston Labs is a dedicated division specializing
-                in performance marketing, digital advertising, and brand growth
-                strategies. We leverage data-driven insights, targeted
-                campaigns, and advanced automation to help businesses scale and
-                achieve measurable success in the ever-evolving digital
-                landscape. Our expertise spans SEO, PPC, social media
-                management, and conversion optimization, making Prominova the
-                go-to solution for brands aiming for rapid growth and digital
-                transformation.
-                <br />
-                Prominova also focuses on audience behavior analysis, ensuring
-                marketing efforts are precisely tailored for maximum engagement.
-                Our team continuously adapts to emerging trends and
-                technologies, keeping brands ahead in the competitive digital
-                space. With a results-driven approach, we transform marketing
-                strategies into powerful growth engines that drive long-term
-                success.
+                Prominova, a team of Tungston Labs, specializes in branding and digital marketing
+solutions. Our team assists you in creating distinctive brand identities that resonate
+with your target audience. By executing Pay-Per-Click campaigns (PPC), and focused
+Social Media Marketing (SMM), strategic Search Engine Optimization (SEO) we aim to
+drive traffic, enhance engagement, and elevate conversions. Additionally, given below
+are the other services we provide that oversee your brand identity.
               </p>
             </div>
           </div>
@@ -1062,9 +1051,9 @@ const ProminovaSection = () => {
       leading-[91%]
     "
             >
-              Precision Marketing,
+              Custom Strategies
               <br />
-              Measurable Impact
+              That Drive Growth
             </h2>
           </div>
         </div>

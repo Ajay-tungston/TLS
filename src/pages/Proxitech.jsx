@@ -10,7 +10,7 @@ const ServicesSection = () => {
     {
       title: "Web Development",
       description:
-        "We craft high-performance, scalable, and user-friendly websites tailored to your business needs. From front-end design to back-end development, our solutions ensure seamless functionality and an exceptional user experience.",
+        "We craft high – performance, scalable and user-friendly websites tailored to your business needs. From front – end design to back – end development, our solutions ensure seamless functionality and exceptional user experience.",
       mobileSvg: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -282,7 +282,7 @@ const ServicesSection = () => {
     {
       title: "Mobile App Development",
       description:
-        "We build innovative, high-performance mobile apps for iOS and Android. Our user-centric approach ensures intuitive design, seamless performance, and robust functionality to keep your audience engaged.",
+        "We build innovative, high – performance mobile apps for iOS and Android. Our user – centric approach ensures intuitive design, seamless performance, and robust functionality to keep your audience engaged.",
       mobileSvg: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -385,7 +385,7 @@ const ServicesSection = () => {
     {
       title: "E-Commerce",
       description:
-        "We create powerful, secure, and scalable e-commerce platforms that drive sales and enhance customer experiences. From seamless checkout to advanced analytics, our solutions help businesses thrive in the digital marketplace.",
+        "We create powerful, secure and scalable e-commerce platforms that drives sales and enhance customer experiences. From seamless checkout to advanced analytics, our solutions help business thrives in the digital marketplace. ",
       mobileSvg: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -466,7 +466,7 @@ const ServicesSection = () => {
     {
       title: "Dev Ops",
       description:
-        "Ensures seamless integration, automation, and deployment for faster, more reliable software delivery. Our expertise in CI/CD, cloud infrastructure, and monitoring helps businesses optimize performance, enhance security, and scale efficiently.",
+        "Ensures seamless integration, automation and deployment for faster, more reliable software delivery. Our expertise lies CI/CD, cloud infrastructure, and monitoring help businesses optimize performance, enhance security, and scale efficiently. ",
 
       mobileSvg: (
         <svg
@@ -597,7 +597,7 @@ const ServicesSection = () => {
     {
       title: "Data & Analytics",
       description:
-        "Ensures seamless integration, automation, and deployment for faster, more reliable software delivery. Our expertise in CI/CD, cloud infrastructure, and monitoring helps businesses optimize performance, enhance security, and scale efficiently.",
+        "We help you drive smarter business decisions and strategies by collecting, processing, and analysing data to uncover insights that drive smarter business decisions and strategies.",
       mobileSvg: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -767,7 +767,7 @@ const ServicesSection = () => {
     {
       title: "AI and Machine Learning",
       description:
-        "Leverages cutting-edge algorithms and deep learning to drive intelligent automation, predictive analytics, and data-driven decision-making. Our solutions help businesses enhance efficiency, personalize experiences, and unlock new opportunities with AI-powered innovation.",
+        "We help you create AI systems that can simulate human thinking, automate complex tasks, and adapt to changing inputs. Along with machine learning (ML) focusing on building models that learn from data, allowing applications to improve their accuracy and performance over time without manual updates.",
 
       mobileSvg: (
         <svg
@@ -893,7 +893,7 @@ const ServicesSection = () => {
     {
       title: "AR & V App Development",
       description:
-        "Creating augmented reality applications that enhance real-world experiences with interactive digital elements.",
+        "We create augmented reality applications that enhance real-world experiences with interactive digital elements.",
       mobileSvg: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -976,7 +976,7 @@ const ServicesSection = () => {
     {
       title: "Cloud Services",
       description:
-        "We offer scalable, secure, and efficient cloud solutions to optimize business operations. From cloud migration to infrastructure management, our expertise ensures flexibility, reliability, and cost efficiency.",
+        "We offer scalable, secure and efficient cloud solutions to optimize business operations.From cloud migration to infrastructure management, our expertise ensures flexibility, reliability and cost efficiency.",
 
       mobileSvg: (
         <svg
@@ -1102,7 +1102,7 @@ const ServicesSection = () => {
     {
       title: "Cyber Security",
       description:
-        "We provide cutting-edge cybersecurity solutions to protect businesses from digital threats. Our services include threat detection, data encryption, and risk management to ensure robust security and compliance.",
+        "We provide sharp cybersecurity solutions to protect business from digital threats. Our services include threat detection, data encryption and risk management to ensure robust security and compliance.",
 
       mobileSvg: (
         <svg
@@ -1313,21 +1313,13 @@ const ServicesSection = () => {
   lg:leading-[133.863%]
 "
               >
-                Proxitech, an innovative arm of Tungston Labs, is transforming
-                AI, automation, and digital transformation through scalable,
-                intelligent solutions. Leveraging technologies like machine
-                learning, cloud computing, predictive analytics, and
-                cybersecurity, Proxitech empowers businesses to streamline
-                operations, automate workflows, and make smarter decisions. Our
-                expertise spans AI-driven automation, data insights, cloud
-                infrastructure, AR/VR, and robust security—ensuring adaptability
-                in a fast-evolving digital world. With a strong focus on
-                innovation and future-readiness, we help organizations
-                transition from legacy systems to AI-powered, cloud-native
-                solutions that enhance performance, scalability, and
-                resilience—driving impactful digital growth and helping
-                enterprises stay ahead in an increasingly connected and
-                competitive landscape.
+                At Tungston Labs, we offer a set of comprehensive technical services aimed to facilitate
+digital transformation and enhancing business performance. Through Proxitech, we
+deliver ERP solutions that optimize operational efficiency, web development services
+that enable you to establish a strong online presence, and app development
+customized for both iOS and Android platforms. We provide personalized technical
+services, encompassing system integration, cloud solutions, and IT support tailored to
+your business requirements.
               </p>
             </div>
           </div>
@@ -1380,9 +1372,9 @@ const ServicesSection = () => {
       leading-[91%]
     "
             >
-              We come with great
+              Bringing Ideas
               <br />
-              expertise
+              into Digital World
             </h2>
           </div>
         </div>

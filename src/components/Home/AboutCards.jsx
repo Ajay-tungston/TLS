@@ -4,7 +4,13 @@ const AboutCards = () => {
   const cards = [
     {
       title: "About us",
-      content: `At TLS, we’re a team of skilled professionals dedicated to empowering our clients’ marketing objectives. With idea generators, brand strategists, digital specialists, roll out managers, and creative designers, we deliver unparalleled outcomes. We unlock the full potential of brands with innovative ideas and custom solutions that drive sustainable growth. We’re passionate about delivering exceptional value and achieving our clients’ strategic objectives.`,
+      content: `Tungston Labs a web technology and branding company has a dedicated
+team of talented experts committed in empowering our clients marketing
+objectives. We are committed to bring your vision to life through our expert
+digital marketing services, innovative web development, and distinctive
+graphic designing. We empower brands with digital marketing services, smart
+web development and unique graphic designing to craft your presence
+digitally.`,
       icon1: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -36,7 +42,9 @@ const AboutCards = () => {
     },
     {
       title: "Our Vision",
-      content: `To establish ourselves as the preeminent marketing \\ software consultancy that drives business growth and elevates brands through revolutionary ideas, ingenious strategies, and flawless execution.`,
+      content: `We target to become a leading branding and web solution firm that drives
+your company to growth and elevates brands to victory through unique ideas,
+excellent strategies and seamless implementation. `,
       icon1: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -87,7 +95,10 @@ const AboutCards = () => {
     },
     {
       title: "Mission statement",
-      content: `Our mission is to collaborate with our clients to generate inspiring ideas, devise brand strategies that differentiate, optimize digital channels that convert, manage roll outs that deliver, and create plugs that resonate. We are dedicated to delivering exceptional value by harnessing our expertise, creativity, and technology to drive business outcomes and surpass our clients’ expectations.`,
+      content: `Our goal is to collaborate with clients with whom we can spark inspiring
+ideas, plan strategies that are unique, create digital experiences that deliver
+results. We combine creative designing, digital expertise and technology to
+drive business growth and exceed your expectations.`,
       icon1: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
