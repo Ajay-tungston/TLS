@@ -2,6 +2,7 @@ import React from "react";
 import ServiceListCard from "../components/ServiceListCard";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
+import Prominova from "../assets/promo.svg";
 
 const Pixellar = () => {
   const services = [
@@ -1916,7 +1917,97 @@ const Pixellar = () => {
           </h1>{" "}
         </div>
       </section>
-      <section className="text-white p-6 md:p-16 space-y-6">
+
+      <section className="p-6 md:p-16 md:px-[121px] space-y-6">
+        <div className="flex flex-col bg-black items-center gap-16">
+          {/* Main container */}
+          <div className="   lg:h-96 md:w-[1595px] w-[362px] h-[247px]  md:px-6 bg-black  lg:pr-28 pt-9  lg:border-[8px] border-[1px]  border-[#ff7554] flex flex-col lg:flex-row justify-start items-center gap-6 lg:gap-24 relative">
+            {/* Title Section */}
+            {/* Title Section */}
+            <div className="w-full  lg:w-14  flex lg:flex-col justify-start lg:justify-center lg:text-center items-center gap-2.5 lg:h-full lg:pt-12">
+              {/* Full-width Prominova for small screens */}
+              <div className="flex justify-center items-center lg:hidden -mx-[1px] w-screen px-6 -mt-[50px] bg-[#FF7554] h-[37px] text-center">
+                <h2
+                  className="
+    text-white 
+    text-center 
+    font-bricolage 
+    text-4xl sm:text-5xl 
+    font-medium 
+    leading-[133.863%]
+    max-md:text-[20px] 
+    max-md:font-medium 
+    max-md:text-[#E0DCD9] 
+    max-md:leading-[133.863%]"
+                >
+                  <span className="max-md:text-shadow-[0px_0px_12.2px_rgba(0,0,0,0.33)]">
+                    Pixellar
+                  </span>
+                </h2>
+              </div>
+
+              {/* Vertical Prominova for large screens */}
+              <div
+                className="hidden lg:block relative font-bricolage text-6xl font-medium text-white whitespace-nowrap
+    -rotate-90 origin-top-left ml-0.5 self-stretch mt-52 text-center
+    [text-shadow:_0px_0px_12px_rgb(0_0_0_/_0.33)]"
+              >
+                <span className="relative after:content-[''] after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[4px] after:bg-[#FF7554]">
+                  Pixellar
+                </span>
+              </div>
+            </div>
+
+            {/* Content section */}
+            <div className="w-full lg:w-[calc(100%-96px)] text-white font-normal font-['Rethink_Sans'] px-2 sm:px-4 lg:pr-[116px]">
+              <p
+                className="
+  text-white 
+  font-normal 
+  font-['Rethink_Sans'] 
+  text-[10px] 
+  sm:text-sm 
+  md:text-base 
+  lg:text-[25px] 
+  leading-3 
+  sm:leading-relaxed 
+  md:leading-[1.6] 
+  lg:leading-[133.863%]
+"
+              >
+                Pixellar at Tungston Labs is a creative powerhouse blending
+                cutting-edge design with AI-driven insights to deliver
+                exceptional digital experiences. Specializing in UI/UX design,
+                branding, dynamic graphics, and motion visuals, Pixellar
+                transforms ideas into visually compelling, emotionally resonant
+                content that helps businesses stand out. With a deep
+                understanding of user behavior, design trends, and storytelling,
+                the team crafts seamless interfaces and impactful brand
+                identities. From startups to enterprises, Pixellar’s
+                forward-thinking approach and collaborative process ensure every
+                project is both innovative and effective—empowering brands to
+                connect meaningfully with their audience and thrive in today’s
+                fast-evolving, competitive digital landscape.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="relative w-[363px] md:w-[1595px] h-[51px] sm:h-[200px] md:h-[288px] lg:h-[288px] xl:h-[288px] mt-[20px] lg:mt-[55px]">
+          <img
+            src={Prominova}
+            alt="Our Services"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/40 flex items-center justify-center border-[1px] md:border-[3px] border-[#FF7544]  backdrop-blur-[0px]">
+            <h1 className="text-white text-sm sm:text-2xl md:text-4xl lg:text-6xl xl:text-8xl font-medium font-['Bricolage_Grotesque_72pt'] text-center leading-none">
+              Our services
+            </h1>
+          </div>
+        </div>
+      </section>
+
+      <section className="text-white p-6 md:p-16 md:px-[121px] space-y-6">
         {services.map((service, index) => (
           <ServiceListCard
             key={index}
