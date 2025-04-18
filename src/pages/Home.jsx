@@ -356,6 +356,7 @@ const Home = () => {
     font-[700]
     text-[#FF7544]
     text-[35px] md:text-[64px]
+    
     leading-[133.863%] md:leading-[85.672px]
   "
             >

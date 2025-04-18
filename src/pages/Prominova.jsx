@@ -974,7 +974,7 @@ const ProminovaSection = () => {
     -rotate-90 origin-top-left ml-0.5 self-stretch mt-72 text-center
     [text-shadow:_0px_0px_12px_rgb(0_0_0_/_0.33)]"
               >
-                <span className="relative after:content-[''] after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[4px] after:bg-[#FF7554]">
+                <span className="relative after:content-[''] after:absolute after:left-0 after:bottom-[-5px] after:w-full after:h-[4px] after:bg-[#FF7554]">
                   Prominova
                 </span>
               </div>
