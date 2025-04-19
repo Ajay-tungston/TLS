@@ -147,7 +147,7 @@ const Portfolio = () => {
     max-md:text-[18px] 
     max-md:leading-[133.863%]"
           >
-            Our Portfolio
+            FROM VISION TO REALITY 
           </h1>{" "}
           <h3
             className="
@@ -160,7 +160,7 @@ const Portfolio = () => {
     max-md:text-[14px] 
     max-md:leading-[133.863%]"
           >
-            Showcasing Excellence, One Project at a Time
+            Showcasing Expertise, One project at a Time. 
           </h3>
           <div className=" flex justify-center md:pb-[55px]">
             <p
@@ -174,12 +174,12 @@ const Portfolio = () => {
     max-md:text-[11px] 
     max-md:leading-[143.9%]"
             >
-              At TungstonLabs, we take pride in crafting innovative and
-              result-driven solutions for our clients. Our portfolio highlights
-              a diverse range of projects spanning various industries,
-              showcasing our expertise in UI/UX design, web and mobile
-              development, digital solutions, 3D motion graphics, and graphic
-              design.
+              At Tungston Labs, we focus on developing innovative solutions that deliver outcomes
+specifically designed for our client’s needs. Our diverse portfolio showcases a broad
+spectrum of projects across various industries that we worked on, highlighting our
+proficiency in UI/UX designing, web development, digital solutions, 3D motion graphics,
+and graphic design.
+
             </p>
           </div>
           <div></div>
@@ -253,21 +253,20 @@ const Portfolio = () => {
         </div>
         <div className="text-left">
           <h2 className="text-[var(--bg,#FF7544)] text-left font-[Bricolage_Grotesque_72pt] text-[18px] md:text-[45px] font-medium leading-none my-[10px] md:mt-[35px] md:mb-[17px] inline-block border-b-[1px] border-[#6C6C6C]">
-            HEW Diamonds – Logo & <br className="md:hidden" /> Website Design
+          HEW Diamonds – Logo and <br className="md:hidden" /> Website design
           </h2>
           <p className="text-white font-[Rethink_Sans] text-[11px] md:text-[20px] font-normal leading-[143%] md:w-[1213px] md:h-[203px]">
-            We had the privilege of crafting a sophisticated brand identity and
-            digital presence for HEW Diamonds, a luxury jewelry brand that
-            embodies elegance and precision. Our work included designing a
-            sleek, modern logo that reflects the brand’s timeless appeal and
-            exclusivity.
-            <br /> In addition, we developed a bespoke website that offers an
-            immersive, high-end shopping experience. With a refined dark
-            aesthetic, intuitive navigation, and interactive elements, the site
-            seamlessly showcases HEW Diamonds' exquisite craftsmanship. The
-            result is a seamless blend of luxury branding and cutting-edge
-            digital design, elevating the brand’s online presence to match its
-            premium offerings.
+          We had the opportunity to collaborate with HEW Diamonds, a high-end jewelry brand,
+          to craft a sophisticated brand identity that genuinely reflects the brand's luxurious
+          nature. We focused on creating a sleek and contemporary logo that captures the
+          brand’s timeless elegance and exclusivity. 
+         <br /> Additionally, we developed a bespoke website that provides an immersive, premium
+         shopping experience. This site has a dark aesthetic along with an easy-to-navigate
+         interface, and interactive elements, designed to highlight HEW Diamonds’ exquisite
+         craftsmanship. The outcome is a harmonious fusion of luxury branding and cuttingedge
+         digital design which enhance and represent the brand's true essence in the online
+         space.
+
           </p>
         </div>
       </section>
@@ -333,19 +332,17 @@ const Portfolio = () => {
         </div>
         <div className="md:text-right text-left md:ml-auto md:w-fit ">
           <h2 className="text-[var(--bg,#FF7544)] md:text-right text-left font-[Bricolage_Grotesque_72pt] text-[18px] md:text-[45px] font-medium leading-none my-[10px] md:mt-[35px] md:mb-[17px]  inline-block border-b-[1px] border-[#6C6C6C]">
-            Toni&Guy Essensuals –<br className="md:hidden" /> Social Media
-            Creatives
+          Toni & Guy Essensuals –<br className="md:hidden" /> Social Media Creatives 
           </h2>
           <p className=" text-white font-[Rethink_Sans] text-[11px] md:text-[20px] font-normal leading-[143%] md:w-[1213px] md:h-[203px]">
-            We collaborated with Toni&Guy Essensuals Kanjirappally to design
-            engaging and visually striking social media content that enhances
-            their digital presence. Our work included promotional graphics,
-            announcement posts, and marketing creatives tailored to attract and
-            engage their audience.From grand opening announcements to exclusive
-            offers and appointment bookings, each post was crafted with a modern
-            aesthetic and brand consistency. The bold typography, stylish
-            imagery, and compelling call-to-actions effectively communicate
-            their services while reinforcing their premium salon experience.
+          We partnered with the prestigious hairdressing brand Toni & Guy Essensuals
+Kanjirappally to create eye-catching social media content that enhances their online
+presence. Our efforts included creating and running promotional posts, announcement
+posts, and marketing designs aimed at attracting and engaging new audiences through
+social media platform. Each post was carefully designed to achieve specific objectives,
+from grand opening notifications to special offers and appointment bookings. We
+consistently employed bold typography, fashionable imagery, and engaging content to
+effectively communicate their services.
           </p>
         </div>
       </section>
@@ -409,24 +406,19 @@ const Portfolio = () => {
         </div>
         <div className="text-left">
           <h2 className="text-[var(--bg,#FF7544)] text-left font-[Bricolage_Grotesque_72pt] text-[18px] md:text-[45px] font-medium leading-none my-[10px] md:mt-[35px] md:mb-[17px]  inline-block border-b-[1px] border-[#6C6C6C]">
-            AKSA – Logo &<br className="md:hidden" /> Website Design
+          Aksa – Logo &<br className="md:hidden" /> Website design
           </h2>
           <p className="text-white font-[Rethink_Sans] text-[11px] md:text-[20px] font-normal leading-[143%] md:w-[1213px] md:h-[203px]">
-            Our team crafted a bold and modern brand identity for AKSA,
-            including a logo and website design that reflect the company’s
-            strength and innovation in the manufacturing sector. The logo
-            features a clean, professional design with a strong typographic
-            presence, ensuring brand recognition across both digital and print
-            platforms. Its versatility allows seamless integration across
-            various backgrounds and applications.
-            <br /> For the website, we developed an engaging and user-friendly
-            experience, incorporating a structured layout, vibrant color
-            contrasts, and intuitive navigation. The design highlights AKSA’s
-            expertise, values, and industrial presence while maintaining a
-            contemporary aesthetic.
-            <br /> This project successfully merges branding and digital
-            experience, creating a powerful visual identity that strengthens
-            AKSA’s industry presence.
+          Our team collaborated with AKSA to create a compelling and modern brand identity,
+          which includes a logo and website design that reflect the company’s strength and
+          innovative nature in the manufacturing sector. The logo features a stylish, bold
+          typographic design that ensures easy recognition in both digital and print formats. 
+            <br /> For the website, we designed an engaging and intuitive experience with a well-structured layout, 
+            vibrant colour contrasts, and straightforward navigation. This design
+          was crafted to highlight AKSA’s expertise, core values, and significance in the industry,
+          all while maintaining a contemporary aesthetic.
+          This project successfully merges branding with a digital experience, resulting in a
+         striking visual identity that amplifies AKSA’s presence in the market.
           </p>
         </div>
       </section>
@@ -492,18 +484,16 @@ const Portfolio = () => {
         </div>
         <div className="md:text-right text-left md:ml-auto md:w-fit ">
           <h2 className="text-[var(--bg,#FF7544)] md:text-right text-left font-[Bricolage_Grotesque_72pt] text-[18px] md:text-[45px] font-medium leading-none my-[10px] md:mt-[35px] md:mb-[17px]  inline-block border-b-[1px] border-[#6C6C6C]">
-            Tree Valley – Website Design
+          Tree Valley – Website Design
           </h2>
           <p className=" text-white font-[Rethink_Sans] text-[11px] md:text-[20px] font-normal leading-[143%] md:w-[1213px] md:h-[203px]">
-            We designed a visually immersive and user-friendly website for Tree
-            Valley, capturing the essence of nature and tranquility. The design
-            embraces earthy tones, organic textures, and a seamless layout to
-            reflect the serene experience of staying in a treehouse retreat. The
-            website offers an intuitive browsing experience, allowing visitors
-            to explore accommodations, amenities, and booking options
-            effortlessly. High-quality visuals, elegant typography, and smooth
-            navigation create an engaging digital presence that aligns with Tree
-            Valley’s brand identity.
+          Our collaboration with Tree Valley resulted in creating an engaging and user-friendly
+           website. The design incorporates earthy colours and organic textures to embody the
+            essence of nature and tranquillity, reflecting the peaceful experience their services
+            provide. To build the website, we utilized high-quality images, refined typography, and
+            smooth navigation to establish a captivating online presence. In addition to its aesthetic
+            appeal, the website delivers a smooth browsing experience, enabling visitors to easily
+            explore accommodations, amenities, and booking options.
           </p>
         </div>
       </section>
@@ -577,18 +567,15 @@ const Portfolio = () => {
             <br className="md:hidden" />
           </h2>
           <p className="text-white font-[Rethink_Sans] text-[11px] md:text-[20px] font-normal leading-[143%] md:w-[1213px] md:h-[203px]">
-            Our approach to ARM SBC’s branding and digital presence focused on
-            creating a modern, tech-driven identity through a custom logo and
-            website design.The logo incorporates a simplified circuit icon
-            combined with bold typography, symbolizing innovation and precision
-            in the embedded systems industry. This design ensures strong brand
-            recognition while maintaining a futuristic and professional
-            aesthetic.
+          Our strategy for ARM SBC's partnership in branding and online visibility centred on
+          creating a contemporary, tech-focused identity through a custom logo and website
+          design. The logo incorporates a sharp icon along with eye-catching typography to
+          symbolize innovation and precision. This design enhances brand recognition and
+          exudes a sleek, professional feel.
             <br />
-            For the website, we developed a sleek and user-friendly interface
-            that highlights ARM SBC’s products effectively. The dark theme,
-            intuitive navigation, and structured layout provide an optimal user
-            experience while reinforcing a cutting-edge, high-tech look.
+            For the website, we developed a refined and intuitive interface that effectively highlights
+            ARM SBC's products. The dark colour palette, easy-to-use navigation, and structured
+            layout provide an outstanding user experience while projecting a cutting-edge look.
           </p>
         </div>
       </section>
@@ -654,18 +641,20 @@ const Portfolio = () => {
         </div>
         <div className="md:text-right text-left md:ml-auto md:w-fit ">
           <h2 className="text-[var(--bg,#FF7544)] md:text-right text-left font-[Bricolage_Grotesque_72pt] text-[18px] md:text-[45px] font-medium leading-none my-[10px] md:mt-[35px] md:mb-[17px]  inline-block border-b-[1px] border-[#6C6C6C]">
-            YFLY – Social Media & Brochure Design
+          YFLY – Social Media & Brochure Design
           </h2>
           <p className=" text-white font-[Rethink_Sans] text-[11px] md:text-[20px] font-normal leading-[143%] md:w-[1213px] md:h-[203px]">
-            At Y Fly, we’ve taken a comprehensive approach to elevate the brand
-            by building a dynamic, user-friendly website that reflects the
-            company’s vision of empowering students to pursue global education
-            opportunities. Beyond the digital platform, we also handle Y Fly’s
-            social media presence—designing and managing engaging content that
-            communicates their mission, showcases services, and keeps their
-            audience informed and inspired. From hiring posts to university
-            guides and student spotlights, our visuals are crafted to build
-            trust and drive meaningful interaction across platforms.
+          For YFLY Study Abroad, we implemented a series of well-planned social media
+initiatives aimed to enhance brand visibility and establish relationships with students
+who aspire to study internationally. Our approach integrated stylish visuals, captivating
+content, and unified messaging to embody the company’s professionalism and
+reliability. 
+In addition to our digital campaigns, we created an elegant and informative brochure
+that encapsulated the essence of YFLY’s offerings. Every component — from the layout
+to the typography — was carefully selected to uphold a sophisticated, professional
+image across all platforms. The brochure communicated packages, information and
+other details that are essential in a colorful, creative aesthetics.
+
           </p>
         </div>
       </section>
@@ -685,13 +674,12 @@ const Portfolio = () => {
                text-[11px] text-white 
                md:text-[25px]"
           >
-            No challenge is too big or too small for us. At TungstonLabs, we
-            specialize in solving complex design and usability issues, ensuring
-            every digital interaction is smooth, engaging, and impactful.
-            Whether it's refining user interfaces, enhancing user experience, or
-            building innovative solutions from the ground up, we bring
-            creativity and expertise to tackle any problem. Your vision, our
-            design—seamlessly crafted for success.
+           We take on projects and collaborations to challenge ourselves. No challenge being too
+large or small for our team. At Tungston Labs, we focus on solving intricate design and
+usability challenges, guaranteeing that each digital interaction is seamless, engaging,
+and meaningful. Whether it's improving user interfaces, elevating user experience, or
+develop groundbreaking solutions from scratch, we combine creativity and expertise to
+address any issue. Your vision, our design – expertly tailored for achievement.
           </p>
         </div>
       </section>

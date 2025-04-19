@@ -9,7 +9,7 @@ const Pixellar = () => {
     {
       title: "Brand Consulting",
       description:
-        "We craft high-performance, scalable, and user-friendly websites tailored to your business needs. From front-end design to back-end development, our solutions ensure seamless functionality and an exceptional user experience.",
+        "We help your business to define, develop, and strengthen their brand identity to connect better with their target audience. We create strategies for positioning, messaging,designing, and growth to build a consistent and impactful brand presence.ence.",
       mobileSvg: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -242,7 +242,7 @@ const Pixellar = () => {
     {
       title: "Brand Guideline Design",
       description:
-        "We build innovative, high-performance mobile apps for iOS and Android. Our user-centric approach ensures intuitive design, seamless performance, and robust functionality to keep your audience engaged.",
+        "We create a detailed document that defines how a brand should look, feel, and communicate across all platforms. This includes setting rules for logo usage, colours,fonts, imagery, tone of voice, and other elements to ensure a consistent and professional brand identity.",
       mobileSvg: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -319,7 +319,7 @@ const Pixellar = () => {
     {
       title: "Logo Design",
       description:
-        "We create powerful, secure, and scalable e-commerce platforms that drive sales and enhance customer experiences. From seamless checkout to advanced analytics, our solutions help businesses thrive in the digital marketplace.",
+        "We create a unique visual symbol that represents a brand’s identity, values, and mission. It involves combining typography, colours, and graphics to craft a simple yet memorable mark that helps a brand stand out and connect with its audience.",
       mobileSvg: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -470,7 +470,7 @@ const Pixellar = () => {
     {
       title: "Brand Collateral",
       description:
-        "Ensures seamless integration, automation, and deployment for faster, more reliable software delivery. Our expertise in CI/CD, cloud infrastructure, and monitoring helps businesses optimize performance, enhance security, and scale efficiently.",
+        "We work on creating brand collateral such as brochures, business cards, social media graphics, and presentations that visually represent your brand and support its marketing and communication efforts. ",
       mobileSvg: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -539,7 +539,7 @@ const Pixellar = () => {
     {
       title: "Packaging Design",
       description:
-        "Ensure seamless integration, automation, and deployment for faster, more reliable software delivery. Our expertise in CVCG, cloud infrastructure, and monitoring helps businesses optimize performance, enhance security, and scale efficiently.",
+        "We specialise in creating the packaging exterior of a product, including its shape, colours, graphics, and materials, to protect the product and attract customers.",
       largeSvg: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -1000,7 +1000,7 @@ const Pixellar = () => {
     {
       title: "UX/UI Design",
       description:
-        "Leverages cutting-edge algorithms and deep learning to drive intelligent automation, predictive analytics, and data-driven decision-making. Our solutions help businesses enhance efficiency, personalize experiences, and unlock new opportunities with AI-powered innovation.",
+        "We focus on creating digital experiences that are both visually appealing and easy to use. It involves designing layouts, interactions, and user flows to ensure that websites, apps, or software are intuitive, engaging, and meet user needs effectively.",
       largeSvg: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -1285,7 +1285,7 @@ const Pixellar = () => {
     {
       title: "Graphic Design",
       description:
-        "Creating augmented reality applications that enhance real-world experiences with interactive digital elements.",
+        "To communicate ideas visually we combine images, typography, colours, and layouts to communicate ideas visually. From creating everything from logos and marketing materials to websites and social media content, helping brands capture attention and deliver clear, impactful messages.",
       mobileSvg: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -1340,7 +1340,7 @@ const Pixellar = () => {
     {
       title: "2D / 3D Visualization",
       description:
-        "We offer scalable, secure, and efficient cloud solutions to optimise business operations. From cloud migration to infrastructure management, our expertise ensures flexibility, reliability, and cost efficiency.",
+        "We use 2D/3D visualizations, to represent concepts, products, or spaces before they are built or produced.",
       largeSvg: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -1505,7 +1505,7 @@ const Pixellar = () => {
     {
       title: "Brand Identity",
       description:
-        "We provide cutting-edge cybersecurity solutions to protect businesses from digital threats. Our services include threat detection, data encryption, and link management to ensure robust security and compliance.",
+        "Creating a brand identity is crucial. So we help you built a collection of visual and verbal elements — like logos, colours, typography, and messaging — that together create a distinct and recognizable image for a brand. ",
       largeSvg: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -1852,9 +1852,9 @@ const Pixellar = () => {
       ),
     },
     {
-      title: "3D Asset Crea",
+      title: "3D Asset Creation",
       description:
-        "We provide cutting-edge cybersecurity solutions and link management to ensure robust security and compliance.",
+        "In Asset creation we build design and build digital 3D models for products or services. These digital assets helps brands showcase their products with high-quality visuals before manufacturing or launching.",
       largeSvg: (
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -1921,7 +1921,7 @@ const Pixellar = () => {
       <section className="p-6 md:p-16 md:px-[121px] space-y-6">
         <div className="flex flex-col bg-black items-center gap-16">
           {/* Main container */}
-          <div className="   lg:h-96 md:w-[1595px] w-[362px] h-[247px]  md:px-6 bg-black  lg:pr-28 pt-9  lg:border-[8px] border-[1px]  border-[#ff7554] flex flex-col lg:flex-row justify-start items-center gap-6 lg:gap-24 relative">
+          <div className=" min-h-[400px] mt-[35px] lg:h-96 md:w-[1300px] w-[360px] h-[195px]  px-6 bg-black lg:pl-12 lg:pr-28 py-9  outline-2 outline-offset-[-8px] outline-[#ff7554] flex flex-col lg:flex-row justify-start items-center gap-6 lg:gap-24  relative">
             {/* Title Section */}
             {/* Title Section */}
             <div className="w-full  lg:w-14  flex lg:flex-col justify-start lg:justify-center lg:text-center items-center gap-2.5 lg:h-full lg:pt-12">
@@ -1975,25 +1975,18 @@ const Pixellar = () => {
   lg:leading-[133.863%]
 "
               >
-                Pixellar at Tungston Labs is a creative powerhouse blending
-                cutting-edge design with AI-driven insights to deliver
-                exceptional digital experiences. Specializing in UI/UX design,
-                branding, dynamic graphics, and motion visuals, Pixellar
-                transforms ideas into visually compelling, emotionally resonant
-                content that helps businesses stand out. With a deep
-                understanding of user behavior, design trends, and storytelling,
-                the team crafts seamless interfaces and impactful brand
-                identities. From startups to enterprises, Pixellar’s
-                forward-thinking approach and collaborative process ensure every
-                project is both innovative and effective—empowering brands to
-                connect meaningfully with their audience and thrive in today’s
-                fast-evolving, competitive digital landscape.
+                Pixellar at Tungston Labs is a for the creative hub dedicated to digital design, branding,
+and visual storytelling. We merge creativity with cutting-edge innovation to shape your
+brand's identity. Our team assists you in crafting captivating designs through graphic
+design and 3D animation to enhance your brand's visual appeal, along with various
+other creative offerings. From logos and marketing materials to engaging 3D/2D visuals,
+we deliver distinctive visual solutions.
               </p>
             </div>
           </div>
         </div>
 
-        <div className="relative w-[363px] md:w-[1595px] h-[51px] sm:h-[200px] md:h-[288px] lg:h-[288px] xl:h-[288px] mt-[20px] lg:mt-[55px]">
+        <div className="relative w-screen max-w-[90%]  md:max-w-[768px] lg:max-w-[1100px] xl:max-w-[1300px] mx-auto h-[51px] sm:h-[200px] md:h-[288px] mt-[20px] lg:mt-[55px]">
           <img
             src={Prominova}
             alt="Our Services"
