@@ -1,6 +1,7 @@
 import { Info, Glasses, Rocket, ArrowRight } from "lucide-react";
-
+import { useNavigate } from "react-router-dom";
 const AboutCards = () => {
+  const navigate = useNavigate();
   const cards = [
     {
       title: "About us",
@@ -94,7 +95,7 @@ excellent strategies and seamless implementation. `,
       ),
     },
     {
-      title: "Mission statement",
+      title: "Our Mission",
       content: `Our goal is to collaborate with clients with whom we can spark inspiring
 ideas, plan strategies that are unique, create digital experiences that deliver
 results. We combine creative designing, digital expertise and technology to
@@ -191,9 +192,12 @@ drive business growth and exceed your expectations.`,
                   fill="#FF7544"
                 />
               </svg>
-            </span>
+            </span >
+            <div onClick={()=>navigate('/about')}>
             View more{" "}
+            </div>
             <span className="hidden md:flex w-[24px] h-[24px]">
+              
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"

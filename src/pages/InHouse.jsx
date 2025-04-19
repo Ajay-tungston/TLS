@@ -26,13 +26,29 @@ const FeatureItem = ({ boldPart, restPart }) => {
   );
 };
 
-const PlanCard = ({ name, specKey, isTopRated }) => {
+const PlanCard = ({ name, specKey, isTopRated, dec }) => {
   // Plan specifications based on specKey
   const specs = {
-    Pulse2: { cpu: "1 vCPU", ram: "4 GB", storage: "50 GB" },
-    Pulse3: { cpu: "2 vCPU", ram: "8 GB", storage: "100 GB" },
-    Pulse4: { cpu: "4 vCPU", ram: "16 GB", storage: "200 GB" },
-    Pulse5: { cpu: "8 vCPU", ram: "32 GB", storage: "400 GB" },
+    Pulse2: {
+      cpu: "1vCPU core",
+      ram: "4GB RAM",
+      storage: "50 GB NVMe SSD storage",
+    },
+    Pulse3: {
+      cpu: "2vCPU core",
+      ram: "8GB RAM",
+      storage: "100 GB NVMe SSD storage",
+    },
+    Pulse4: {
+      cpu: "4 vCPU core",
+      ram: "16 GB RAM",
+      storage: "200 GB NVMe SSD storage",
+    },
+    Pulse5: {
+      cpu: "8 vCPU core",
+      ram: "32 GB RAM",
+      storage: "400 GB NVMe SSD storage",
+    },
   };
 
   const currentSpecs = specs[specKey];
@@ -55,7 +71,7 @@ const PlanCard = ({ name, specKey, isTopRated }) => {
       )}
 
       <div
-        className={`w-96 h-[600px] px-6 pt-14 pb-72 bg-black ${
+        className={`w-96 h-[728px] px-6 pt-6 pb-72 bg-black ${
           isTopRated ? "rounded-bl-2xl rounded-br-2xl" : "rounded-2xl"
         } outline outline-1 outline-offset-[-1px] outline-[#FF7544] flex flex-col justify-start items-start gap-7`}
       >
@@ -65,13 +81,10 @@ const PlanCard = ({ name, specKey, isTopRated }) => {
               {name}
             </div>
             <div className="self-stretch justify-start text-white text-base font-normal leading-snug">
-              Our server hosting solutions are designed to deliver speed,
-              security, and scalability — whether you're running a personal
-              project, hosting multiple websites, or powering demanding
-              applications
+              {dec}
             </div>
           </div>
-          <div className="self-stretch px-6 py-2.5 bg-[#FF7544] rounded-[5px] inline-flex justify-center items-center gap-2.5">
+          <div className="self-stretch px-6  py-2.5 bg-[#FF7544] rounded-[5px] inline-flex justify-center items-center gap-2.5">
             <div className="justify-start text-white text-sm font-bold leading-tight">
               Choose plan
             </div>
@@ -145,13 +158,15 @@ const InHouseProducts = () => {
             }}
           >
             <p className="whitespace-pre-line text-base sm:text-lg md:text-xl leading-relaxed">
-              We design and develop innovative digital solutions
+              We create and build innovative digital solutions
               <br className="hidden sm:inline" />
-              that transform ideas into engaging user experiences.
+              that turns concepts into captivating user experiences
               <br className="hidden sm:inline" />
-              Our products are crafted with, ensuring seamless
+              Our server and hosting plans are designed with emphasis on
               <br className="hidden sm:inline" />
-              interactions across platforms.
+              usability, visual appeal, and efficiency, guaranteeing
+              <br className="hidden sm:inline" />
+              smooth interactions across different platforms
             </p>
           </div>
         </div>
@@ -172,28 +187,25 @@ const InHouseProducts = () => {
           }}
         >
           <p className="mb-4">
-            Forms the backbone of your application, ensuring seamless
-            performance, advanced security, and the flexibility to scale as your
-            needs evolve. Engineered with modern technology, it's optimized to
-            handle high traffic volumes, complex processes, and mission-critical
-            operations without compromising on speed or reliability. Whether
-            you're serving dynamic content, handling user data, or powering
-            microservices, this server maintains consistent uptime and system
-            integrity, even during peak load conditions. Operating in real time,
-            it supports backend services, APIs, and live user interactions to
-            ensure every transaction, request, and response is delivered
-            smoothly. Robust failover mechanisms, automated backups, and threat
-            prevention systems work together to keep your services resilient and
-            secure.
+            TLS Viper serves the foundation of your business applications,
+            offering outstanding performance, strong security, and the ability
+            to grow with your needs change. Built on modern, enterprise-level
+            infrastructure, it efficiently handles high traffic, intricate
+            workflows, and critical operations without compromising speed,
+            uptime, or relaiblity. Whether you're providing dynamic content,
+            protecting sensitive information, or managing essential
+            microservices, TLS Viper guarantees consistent system stability even
+            during peak usage times.
             <br />
-            With comprehensive monitoring and analytics tools, you gain full
-            visibility into server health, resource usage, and performance
-            trends — enabling you to make informed decisions as you fine-tune
-            workloads, manage deployments, and respond proactively to system
-            alerts — all through a centralized, intuitive dashboard designed for
-            developers, sysadmins, and DevOps teams alike. Whether you're just
-            launching or scaling globally, this server adapts with you,
-            delivering unmatched reliability and control.
+            It operates continuously in real time, facilitating backend
+            services, APIs, and live user interactions, ensuring that every
+            transaction, request, and response is completed seamlessly. Advanced
+            failover strategies, automated backup systems, and proactive threat
+            prevention collaborate to maintain high resilience and security for
+            your services. With extensive monitoring tools and real-time
+            analytics, you gain valuable insights into server performance,
+            allowing you to enhance operations and respond quickly through an
+            easy-to-use, developer-centric dashboard.
           </p>
         </div>
 
@@ -212,21 +224,49 @@ const InHouseProducts = () => {
 
         <div className="w-full max-w-[1105px] text-white text-lg sm:text-xl md:text-2xl font-medium font-[Rubik] leading-relaxed sm:leading-loose text-left">
           Get started in complete confidence. Our 30-day money-back guarantee
-          means it's risk-free.
+          means it's riskfree.
         </div>
 
         {/* Product Cards Section */}
-        <div className="self-stretch mt-[52px] overflow-x-auto pb-10">
+        <div className="self-stretch mt-[52px]  pb-10">
           <div
             className="inline-flex justify-center items-end ml-16 gap-8 min-w-max mx-auto"
             style={{
               fontFamily: '"Rethink Sans", sans-serif',
             }}
           >
-            <PlanCard name="TLS VIPER SAGA" specKey="Pulse2" isTopRated={false} />
-            <PlanCard name="TLS VIPER SUPER CAT" specKey="Pulse3" isTopRated={true} />
-            <PlanCard name="TLS VIPER SONIC" specKey="Pulse4" isTopRated={false} />
-            <PlanCard name="TLS VIPER VECNA" specKey="Pulse5" isTopRated={false} />
+            <PlanCard
+              name="TLS VIPER SAGA"
+              specKey="Pulse2"
+              isTopRated={false}
+              dec={
+                "The TLS Viper Saga is a reliable entry - level server option designed for startups , small enterprises and bloggers who need reliable server resources that ensures efficient processing, rapid loading times, and adaptability across various Linux environments for fast operations without incurring excessive expenses for smooth operations and flexibility without overwhelming cost."
+              }
+            />
+            <PlanCard
+              name="TLS VIPER SUPER CAT"
+              specKey="Pulse3"
+              isTopRated={true}
+              dec={
+                "The TLS Viper Super Cat is designed to enhance your hosting capabilities with improved speed, strength, and adaptability. Benefiting mid-sized online retail sites, agencies, and developers overseeing medium-traffic websites or intricate applications. It delivers the necessary power to manage multitasking, database operations, and to effectively accommodate moderate levels of traffic"
+              }
+            />
+            <PlanCard
+              name="TLS VIPER SONIC"
+              specKey="Pulse4"
+              isTopRated={false}
+              dec={
+                "TLS Viper Sonic is designed specifically for enterprises and applications that require significant power and dependability. Advantageous for large enterprises, busy ecommerce sites, SaaS companies, and entities handling intricate databases or applications. It guarantees seamless multitasking, rapid data retrieval, and dependable performance, even during intense workloads."
+              }
+            />
+            <PlanCard
+              name="TLS VIPER VECNA"
+              specKey="Pulse5"
+              isTopRated={false}
+              dec={
+                "TLS Viper Vecna is our premier server solution, designed for high traffic e- commerce platforms, businesses, large enterprises and critical applications that require outstanding performance and dependability. Guarantees excellent uptime, security, and scalability. Delivers exceptional processing power, exceptional high-speed performance, maximum reliability, high concurrency for seamless multitasking."
+              }
+            />
           </div>
         </div>
 

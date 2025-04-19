@@ -3,8 +3,11 @@ import AboutCards from "../components/Home/AboutCards";
 import Realms from "../components/Home/Realms";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const navigate = useNavigate();
+  
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -48,9 +51,7 @@ const Home = () => {
     md:text-[45px] md:text-left
   "
             >
-              Maximize your brand’s potential with our innovative solutions and
-              expertise, driving growth, efficiency, and lasting impact in a
-              competitive market. Let’s elevate your brand!
+              
             </p>
           </div>
 
@@ -80,18 +81,7 @@ const Home = () => {
           </p>
         </div>
       </section>
-      {/* <div className="w-ful ">
-        <img
-          src="/images/Frame 503.png"
-          alt=""
-          className="hidden md:block w-full"
-        />
-        <object
-          data="/images/Frame 1704.svg"
-          type="image/svg+xml"
-          className="md:hidden w-full"
-        ></object>
-      </div> */}
+    
 
       <section className="bg-black text-white px-6 py-2 md:px-32 md:py-8 relative">
         <div className="flex flex-row justify-between items-center  mx-auto gap-6">
@@ -207,8 +197,8 @@ const Home = () => {
         style={{ backgroundImage: "url('/images/Frame 1747.svg')" }}
       >
         <h1 className="text-[#FF7544] px-[281px] text-center font-[Bricolage Grotesque 72pt] text-[95px] font-semibold leading-[91%]">
-          Maximize your brand's potential with our innovative solutions
-          and expertise
+        Empowering Brands with Innovation and Expertise  
+
         </h1>
       </section>
       <section
@@ -235,79 +225,54 @@ shared commitment to excellence.
 
         </p>
       </section>
-      <section className="bg-black text-white px-6 py-2 md:px-0  md:py-8">
-        <div className="py-8 flex flex-col items-center">
-          <div className="flex flex-wrap justify-center gap-[39px] md:gap-[64px] ">
-            {/* Card */}
-            <div
-              className="bg-[#434343] hover:bg-white hover:scale-105 flex flex-col justify-center items-center 
-                  w-[74px] h-[78px] p-[25px_14.869px_26px_14.869px]
-                  lg:w-[285px] lg:h-[300px] lg:p-[76px_21.51px_77px_22.51px]"
-            >
-              <img
-                src="/images/logo-01 1.png"
-                alt="HEW Diamonds"
-                className=" w-[44.262px] h-[27px] md:h-[147px] md:w-[240.981px]"
-              />
-            </div>
-
-            <div
-              className="bg-[#434343] hover:bg-white hover:scale-105 flex flex-col justify-center items-center 
-                  w-[74px] h-[78px] p-[25px_14.869px_26px_14.869px]
-                  lg:w-[285px] lg:h-[300px] lg:p-[76px_21.51px_77px_22.51px]"
-            >
-              <img
-                src="/images/Frame 1800.png"
-                alt="Essensuals"
-                className=" w-[44.262px] h-[27px] md:h-[147px] md:w-[240.981px]"
-              />
-            </div>
-
-            <div
-              className="bg-[#434343] hover:bg-white hover:scale-105 flex flex-col justify-center items-center 
-                  w-[74px] h-[78px] p-[25px_14.869px_26px_14.869px]
-                  lg:w-[285px] lg:h-[300px] lg:p-[76px_21.51px_77px_22.51px]"
-            >
-              <img
-                src="/images/Frame.png"
-                alt="AKSA"
-                className=" w-[44.262px] h-[27px] md:h-[147px] md:w-[240.981px]"
-              />
-            </div>
-
-            <div
-              className="bg-[#434343] hover:bg-white hover:scale-105 flex flex-col justify-center items-center 
-                  w-[74px] h-[78px] p-[25px_14.869px_26px_14.869px]
-                  lg:w-[285px] lg:h-[300px] lg:p-[76px_21.51px_77px_22.51px]"
-            >
-              <img
-                src="/images/Frame 1753.png"
-                alt="Tijara"
-                className=" w-[44.262px] h-[27px] md:h-[147px] md:w-[240.981px]"
-              />
-            </div>
-
-            <div
-              className="bg-[#434343] hover:bg-white hover:scale-105 flex flex-col justify-center items-center 
-                  w-[74px] h-[78px] p-[25px_14.869px_26px_14.869px]
-                  lg:w-[285px] lg:h-[300px] lg:p-[76px_21.51px_77px_22.51px]"
-            >
-              <img
-                src="/images/Frame 1754.png"
-                alt="ARM SBC"
-                className=" w-[44.262px] h-[27px] md:h-[147px] md:w-[240.981px]"
-              />
-            </div>
-          </div>
-
-          {/* "See more" only on mobile */}
-          <div className="mt-6 lg:hidden w-full flex justify-end">
-            <button className="text-[#FF7544] text-right font-[Helvetica_Compressed] text-[15px] font-[500] leading-[149%]">
-              See more
-            </button>
-          </div>
+    <section className="bg-black text-white px-6 py-2 md:px-0  md:py-8">
+  <div className="py-8 flex flex-col items-center">
+    <div className="flex flex-wrap justify-center gap-[39px] md:gap-[64px] ">
+      {[
+        { src: "/images/logo-01 1.png", alt: "HEW Diamonds" },
+        { src: "/images/Frame 1800.png", alt: "Essensuals" },
+        { src: "/images/Frame.png", alt: "AKSA" },
+        { src: "/images/Frame 1753.png", alt: "Tijara" },
+        { src: "/images/Frame 1754.png", alt: "ARM SBC" },
+      ].map((item, index) => (
+        <div
+          key={index}
+          onClick={() => navigate('/portfolio')}
+          className="bg-[#434343] hover:bg-white hover:scale-105 flex flex-col justify-center items-center 
+              w-[74px] h-[78px] p-[25px_14.869px_26px_14.869px]
+              lg:w-[285px] lg:h-[300px] lg:p-[76px_21.51px_77px_22.51px]"
+        >
+          <img
+            src={item.src}
+            alt={item.alt}
+            className=" w-[44.262px] h-[27px] md:h-[147px] md:w-[240.981px]"
+          />
         </div>
-      </section>
+      ))}
+    </div>
+    <div className="mt-6 lg:hidden w-full flex justify-end">
+      
+    </div>
+
+{/* "See more" for large screens */}
+<div className="hidden lg:flex w-full justify-end mt-6">
+  <button
+    onClick={() => navigate('/portfolio')}
+    className="text-[#FF7544] text-right font-[Helvetica_Compressed] text-[39px] font-[500] font-style:Helvetica Compressed leading-[149%] mr-24 hover:underline focus:outline-none"
+  >
+    See more
+  </button>
+</div>
+
+
+    {/* "See more" only on mobile */}
+    <div className="mt-6 lg:hidden w-full flex justify-end">
+      <button className="text-[#FF7544] text-right font-[Helvetica_Compressed] text-[15px] font-[500] leading-[149%]">
+        See more
+      </button>
+    </div>
+  </div>
+</section>
 
       <section className="bg-[#2b2b2b] text-white px-6 py-2 md:px-52 md:py-8">
         <div className=" mx-auto flex flex-col md:flex-row gap-10">
@@ -407,7 +372,7 @@ Our team will shortly reach out to you.
               <input
                 type="text"
                 name="help"
-                placeholder="Strategic optimization of digital/media channels."
+                // placeholder="Strategic optimization of digital/media channels."
                 onChange={handleChange}
                 className="py-[9px] px-[4px] mt-0 mb-[8px] bg-transparent border border-[#FF7544] outline-none col-span-2"
               />
@@ -426,7 +391,7 @@ Our team will shortly reach out to you.
               <input
                 type="text"
                 name="size"
-                placeholder="2 to 10 employees"
+                // placeholder="2 to 10 employees"
                 onChange={handleChange}
                 className="py-[9px] px-[4px] mt-0 mb-[8px] bg-transparent border border-[#FF7544] outline-none col-span-2"
               />
@@ -447,7 +412,7 @@ Our team will shortly reach out to you.
               <input
                 type="text"
                 name="hearAbout"
-                placeholder="2 to 10 employees"
+                // placeholder="2 to 10 employees"
                 onChange={handleChange}
                 className="py-[9px] px-[4px] mt-0 mb-[8px] bg-transparent border border-[#FF7544] outline-none col-span-2"
               />

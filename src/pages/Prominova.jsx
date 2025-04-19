@@ -924,7 +924,7 @@ const ProminovaSection = () => {
     <>
       <Navbar />
       <section className="bg-black w-screen min-h-screen flex flex-col items-center justify-start pt-4 md:pt-4 lg:pt-4 px-4 md:px-8 lg:px-16">
-        <div className="relative w-[189px] h-[146px] sm:w-[189px] sm:h-[146px] md:w-[200px] md:h-[100px] lg:w-[600px] lg:h-[400px] xl:w-[1000px] xl:h-[1000px] overflow-hidden rounded-lg shadow-lg flex-shrink-0">
+        <div className="relative w-[189px] h-[146px] pt-[2px] sm:w-[189px] sm:h-[146px] md:w-[200px] pb-[22px] md:h-[100px] lg:w-[600px] lg:h-[400px] xl:w-[1257px] xl:h-[975px] overflow-hidden rounded-lg shadow-lg flex-shrink-0">
           <img
             src={Promis}
             alt="Descriptive Alt Text"
@@ -957,7 +957,7 @@ const ProminovaSection = () => {
 
         <div className="flex flex-col bg-black items-center gap-16">
           {/* Main container */}
-          <div className=" min-h-[400px] mt-[35px] lg:h-96 md:w-[1679px] w-[360px] h-[195px]  px-6 bg-black lg:pl-12 lg:pr-28 py-9  outline-2 outline-offset-[-8px] outline-[#ff7554] flex flex-col lg:flex-row justify-start items-center gap-6 lg:gap-24  relative">
+          <div className=" min-h-[400px] mt-[35px] lg:h-96 md:w-[1300px] w-[360px] h-[195px]  px-6 bg-black lg:pl-12 lg:pr-28 py-9  outline-2 outline-offset-[-8px] outline-[#ff7554] flex flex-col lg:flex-row justify-start items-center gap-6 lg:gap-24  relative">
             {/* Title Section */}
             {/* Title Section */}
             <div className="w-full  lg:w-14 lg:border-[8px] border-[1px] flex lg:flex-col justify-start lg:justify-center lg:text-center items-center gap-2.5 lg:h-full lg:pt-12">
@@ -1008,7 +1008,7 @@ are the other services we provide that oversee your brand identity.
           </div>
         </div>
 
-        <div className="relative w-[360px] md:w-[1679px] h-[51px] sm:h-[200px] md:h-[288px] lg:h-[288px] xl:h-[288px] mt-[20px] lg:mt-[55px]">
+        <div className="relative w-screen max-w-[90%]  md:max-w-[768px] lg:max-w-[1100px] xl:max-w-[1300px] mx-auto h-[51px] sm:h-[200px] md:h-[288px] mt-[20px] lg:mt-[55px]">
           <img
             src={Prominova}
             alt="Our Services"
