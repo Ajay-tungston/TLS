@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import Groupfront from "../assets/World.png";
 import thumbsup from "../assets/Vectooor.png";
 import checkIcon from "../assets/check_small.png";
 import inHouse from "../assets/inhouse.png";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import axios from "axios";
 
 const FeatureItem = ({ boldPart, restPart }) => {
   return (
@@ -129,6 +130,50 @@ const PlanCard = ({ name, specKey, isTopRated }) => {
 };
 
 const InHouseProducts = () => {
+  const [formData, setFormData] = useState({
+    companyName: "",
+    email: "",
+    count: "2 to 10 employees",
+    phone: "",
+    plan: "TLS VIPER SAGA",
+  });
+  const [loading, setLoading] = useState(false);
+  console.log(formData);
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    try {
+      const res = await axios.post(
+        `${import.meta.env.VITE_API_BASE_URL}/api/inform`,
+        {
+          company: formData.companyName,
+          email: formData.email,
+          employeeCount: formData.count,
+          phone: formData.phone,
+          stack: formData.plan,
+        }
+      );
+      alert("Message submitted successfully");
+      setFormData({
+        companyName: "",
+        email: "",
+        count: "2 to 10 employees",
+        phone: "",
+        plan: "TLS VIPER SAGA",
+      });
+    } catch (error) {
+      alert("Failed to send message.");
+      console.error(error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const isDisabled=!formData.companyName||!formData.email||!formData.count||!formData.phone||!formData.plan
   return (
     <>
       <Navbar />
@@ -223,10 +268,26 @@ const InHouseProducts = () => {
               fontFamily: '"Rethink Sans", sans-serif',
             }}
           >
-            <PlanCard name="TLS VIPER SAGA" specKey="Pulse2" isTopRated={false} />
-            <PlanCard name="TLS VIPER SUPER CAT" specKey="Pulse3" isTopRated={true} />
-            <PlanCard name="TLS VIPER SONIC" specKey="Pulse4" isTopRated={false} />
-            <PlanCard name="TLS VIPER VECNA" specKey="Pulse5" isTopRated={false} />
+            <PlanCard
+              name="TLS VIPER SAGA"
+              specKey="Pulse2"
+              isTopRated={false}
+            />
+            <PlanCard
+              name="TLS VIPER SUPER CAT"
+              specKey="Pulse3"
+              isTopRated={true}
+            />
+            <PlanCard
+              name="TLS VIPER SONIC"
+              specKey="Pulse4"
+              isTopRated={false}
+            />
+            <PlanCard
+              name="TLS VIPER VECNA"
+              specKey="Pulse5"
+              isTopRated={false}
+            />
           </div>
         </div>
 
@@ -265,6 +326,9 @@ const InHouseProducts = () => {
               <div className="w-full px-3 py-2 bg-neutral-50 rounded-md flex justify-start items-center">
                 <input
                   type="text"
+                  name="companyName"
+                  value={formData.companyName}
+                  onChange={handleChange}
                   placeholder="Company name"
                   className="w-full text-neutral-400 text-base md:text-lg lg:text-xl font-normal font-['Sansation'] bg-transparent outline-none"
                 />
@@ -274,6 +338,9 @@ const InHouseProducts = () => {
               <div className="w-full px-3 py-2 bg-neutral-50 rounded-md flex justify-start items-center">
                 <input
                   type="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
                   placeholder="Company E-mail"
                   className="w-full text-neutral-400 text-base md:text-lg lg:text-xl font-normal font-['Sansation'] bg-transparent outline-none"
                 />
@@ -282,15 +349,33 @@ const InHouseProducts = () => {
               {/* Employee Count and Phone Number */}
               <div className="w-full flex flex-col md:flex-row justify-start items-start gap-4 md:gap-2.5">
                 <div className="w-full md:w-1/2 px-3 py-2 bg-neutral-50 rounded-md flex justify-start items-center">
-                  <input
-                    type="text"
+                  <select
+                    // type="text"
+                    name="count"
+                    value={formData.count}
+                    onChange={handleChange}
                     placeholder="Employee count"
                     className="w-full text-neutral-400 text-base md:text-lg lg:text-xl font-normal font-['Sansation'] bg-transparent outline-none"
-                  />
+                  >
+                    <option value="2 to 10 employees">2 to 10 employees</option>
+                    <option value="11 to 50 employees">
+                      11 to 50 employees
+                    </option>
+                    <option value="51 to 200 employees">
+                      51 to 200 employees
+                    </option>
+                    <option value="201 to 500 employees">
+                      201 to 500 employees
+                    </option>
+                    <option value="501+ employees">501+ employees</option>
+                  </select>
                 </div>
                 <div className="w-full md:w-1/2 px-3 py-2 bg-neutral-50 rounded-md flex justify-start items-center">
                   <input
                     type="tel"
+                    name="phone"
+                    value={formData.phone}
+                    onChange={handleChange}
                     placeholder="Phone number"
                     className="w-full text-neutral-400 text-base md:text-lg lg:text-xl font-normal font-['Sansation'] bg-transparent outline-none"
                   />
@@ -299,20 +384,37 @@ const InHouseProducts = () => {
 
               {/* Stack */}
               <div className="w-full px-3 py-2 bg-neutral-50 rounded-md flex justify-start items-center">
-                <input
-                  type="text"
+                <select
+                  // type="text"
                   placeholder="Stack"
                   className="w-full text-neutral-400 text-base md:text-lg lg:text-xl font-normal font-['Sansation'] bg-transparent outline-none"
-                />
+                >
+                  <option value="TLS VIPER SAGA">TLS VIPER SAGA</option>
+                  <option value="TLS VIPER SUPER CAT">
+                    TLS VIPER SUPER CAT
+                  </option>
+                  <option value="TLS VIPER SONIC">TLS VIPER SONIC</option>
+                  <option value="TLS VIPER VECNA">TLS VIPER VECNA</option>
+                </select>
               </div>
             </div>
 
             {/* Submit Button */}
-            <button className="w-full px-3 py-2 bg-[#FF7544] hover:bg-orange-500 rounded outline outline-1 outline-offset-[-1px] outline-orange-400 flex justify-center items-center transition-colors duration-200">
-              <span className="text-center text-black text-base md:text-lg lg:text-xl font-bold font-['Sansation'] leading-relaxed">
-                Sent request
-              </span>
-            </button>
+            {!loading ? (
+              <button
+                className={`${isDisabled?"bg-[#d58365] hover:bg-[#e6997c] cursor-not-allowed":"bg-[#FF7544] hover:bg-orange-500 cursor-pointer "} " w-full px-3 py-2 bg-[#FF7544] hover:bg-orange-500 rounded outline outline-1 outline-offset-[-1px] outline-orange-400 flex justify-center items-center transition-colors duration-200"`}
+                onClick={handleSubmit}
+                disabled={isDisabled}
+              >
+                <span className="text-center text-black text-base md:text-lg lg:text-xl font-bold font-['Sansation'] leading-relaxed">
+                  Sent request
+                </span>
+              </button>
+            ) : (
+              <button className="w-full px-3 py-2 bg-[#FF7544] hover:bg-orange-500 rounded outline outline-1 outline-offset-[-1px] outline-orange-400 flex justify-center items-center transition-colors duration-200">
+                <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+              </button>
+            )}
           </div>
         </div>
 
