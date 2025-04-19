@@ -5,9 +5,9 @@ import Footer from "../components/Footer";
 const AboutSection = () => {
     const teamItems = [
         {
-            name: "Provitect",
+            name: "Proxitech",
             description:
-                "Provitect at Tungston Labs is an innovative technology initiative focused on delivering cutting-edge solutions in AI, automation, and digital transformation. It combines advanced analytics, machine learning, and cloud-based architectures to enhance business efficiency and scalability. Whether it's optimizing workflows, streamlining operations, or enabling smart decision-making, Provitect drives innovation for enterprises seeking next-generation tech solutions.",
+                "Proxitech at Tungston labs offers complete ERP solutions helping you to manage your business. We offer web development services to create and maintain websites, web applications along with app development supporting both android and iOS, Dev Ops ensure seamless integration and automation from reliable software and much more.",
             icon: <img src="/images/settings.png" alt="Provitect Logo"
                 className="w-[107px] h-[111px] p-[10px] items-center gap-[10px] border-[3px]"
             />,
@@ -16,7 +16,7 @@ const AboutSection = () => {
         {
             name: "Prominova",
             description:
-                "Prominova at Tungston Labs is a dedicated division specializing in digital marketing, data and analytics, AI and machine learning, web and mobile app development, and more. Our expert teams collaborate to deliver innovative, data-driven solutions that drive growth and digital transformation. By combining cutting-edge technology with industry expertise, we help businesses stay ahead in an increasingly competitive digital landscape.",
+                "Prominova is a dedicated division for branding and digital marketing services. The team ensures to build you a unique brand identity and helps you connect with your customers or audience. Our team would work with Pay-per-click campaigns, targeted Social media marketing and use SEO tools to drive traffic and increase conversions.",
             icon: <img src="/images/prominova.png" alt="Prominova Logo"
                 className="w-[107px] h-[111px] p-[10px] flex items-center gap-[10px] border-[3px]" />,
             color: "bg-[#FF7544]",
@@ -24,7 +24,7 @@ const AboutSection = () => {
         {
             name: "Pixellar",
             description:
-                "Pixellar at Tungston Labs is a creative powerhouse specializing in digital design, branding, and visual storytelling. It merges cutting-edge design techniques with AI-driven insights to craft stunning visuals, immersive user experiences, and impactful brand identities. From UI/UX design to dynamic graphics and motion visuals, Pixellar transforms ideas into visually compelling digital experiences, helping businesses stand out in a competitive landscape.",
+                "Pixellar is the creative team of Tungston Labs, focusing on digital design, branding and visual story telling. Blending creativity with originality to build your brand visually. Our team uses the tools based on UI/UX designing, 3D/ 2D visualization to create a visually immersive interface based on your business needs, Package designing and labelling for delivering your products.",
             icon: <img src="/images/pixellar.png" alt="Pixellar Logo"
                 className="w-[107px] h-[111px] p-[10px] flex items-center gap-[10px] border-[3px]" />,
             color: "bg-[#FF7544]",
@@ -50,9 +50,9 @@ const AboutSection = () => {
                         textAlign: 'center',
                     }}
                 >
-                    At TLS, we are a team of experts dedicated to elevating brands through strategic marketing and
-                    innovative solutions. With a blend of creativity and strategy, we help businesses unlock their full
-                    potential, drive growth, and achieve lasting impact.
+                    At Tungston Labs we combine the elements of marketing strategies, web development
+and designing tools to bring something unique from your ideas. Helping business to
+reach new heights no matter how small or big they are. 
                 </p>
             </div>
 
@@ -75,19 +75,22 @@ const AboutSection = () => {
                         </h2>
                         <div className="text-white space-y-4">
                             <p className="text-base sm:text-[21px]">
-                                At TLS, we are more than just a marketing agency—we are a team of strategists, creators, and innovators committed to
-                                transforming brands and driving measurable success. Our diverse team includes idea generators, brand strategists,
-                                digital specialists, rollout managers, and creative designers, all working together to deliver tailored solutions that align
-                                with our clients' unique goals.
+                            Tungston Labs is more than just a marketing agency, we are a technology and branding
+                        company. Our team consists of sharp strategists and artistic creators who help your
+                        business to thrive in the digital age. We are dedicated to drive your website and bring
+                        digital success by tactics that help your ideas and goals to flourish. We believe in
+                        consistent efforts and dedication towards our client since each collaboration is built
+                        upon trust and integrity
                             </p>
                             <p className="text-base sm:text-[21px]">
-                                We believe that every brand has untapped potential, and our mission is to unlock it through innovation, strategy, and
-                                impactful execution. Whether it's building a compelling brand identity, crafting high-performing marketing campaigns, or
-                                enhancing digital experiences, we ensure that every initiative contributes to long-term, sustainable growth.
+                            We believe that every brand has the hidden potential to grow, and our mission is to
+                            unlock them through our services and create something new or change its course to
+                            success. Whether it is to build a compelling brand identity, craft high performing
+                            marketing campaigns, or enhancing the digital experience, we ensure every initiative
+                            yields a long term sustainable growth.
                                 <br className="hidden sm:block" />
-                                At the heart of our work is a passion for delivering exceptional value—not just meeting expectations, but exceeding them.
-                                By blending creativity, data-driven insights, and cutting-edge technology, we help brands thrive in an ever-evolving
-                                marketplace, turning strategic objectives into real-world success.
+                                At the heart of our work is a passion for delivering high value results, not only to meet
+                                expectations but to exceed them.
                             </p>
                         </div>
                     </div>
@@ -104,26 +107,26 @@ const AboutSection = () => {
                             className="text-3xl sm:text-[45px] font-semibold leading-[134%] tracking-[0] text-[#FF7544] mb-4 sm:mb-6"
                             style={{ fontFamily: 'Bricolage Grotesque' }}
                         >
-                            Our Vision
+                            Why Work With Us.
                         </h2>
                         <div className="text-white space-y-4">
                             <p className="text-base sm:text-[21px]">
-                                Our mission is to establish ourselves as the foremost marketing and software consultancy, recognized for our unparalleled
-                                ability to drive business growth and elevate brands to new heights. We are committed to transforming the way businesses
-                                engage with their audiences through revolutionary ideas, cutting-edge technologies, and forward-thinking strategies.
+                            We leverage new outlook and innovation to enhance every step in marketing strategies
+                                and web development services. We take time to understand and research on what truly
+                                matters to our clients and create tailored solutions that fulfil their goals perfectly.
                                 <br className="hidden sm:block" />
-                                With a relentless focus on innovation, we craft ingenious marketing and software solutions that not only meet but exceed
-                                industry standards. Our expertise spans across diverse domains, enabling us to deliver customized, data-driven strategies
-                                that enhance brand visibility, optimize operations, and maximize ROI.
+                                Having a dedicated marketing and support team by your side, we ensure seamless
+maintenance and expert guidance to run your brand at its best possible way.
                                 <br className="hidden sm:block" />
-                                At the heart of our consultancy is a passion for excellence and a dedication to flawless execution. We believe that success
-                                lies in the details, and we meticulously refine every aspect of our approach to ensure seamless implementation and
-                                impactful results.
-                                <br className="hidden sm:block" />
+                                We
+envision to establish ourselves as the foremost marketing and software consultancy,
+recognized for our ability to drive business growth and elevate your brand to new
+heights possible only by building truthful connection with you. 
+                                {/* <br className="hidden sm:block" />
                                 By fostering long-term partnerships, embracing emerging trends, and continuously pushing boundaries, we empower
                                 businesses to achieve sustainable growth and maintain a competitive edge in an ever-evolving digital landscape. Our
                                 commitment is not just to meet expectations, but to redefine them—establishing a new benchmark for marketing and
-                                software consultancy excellence.
+                                software consultancy excellence. */}
                             </p>
                         </div>
                     </div>

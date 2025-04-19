@@ -4,7 +4,11 @@ import Realms from "../components/Home/Realms";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
+
 const Home = () => {
+  const navigate = useNavigate();
+  
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -89,9 +93,7 @@ const Home = () => {
     md:text-[45px] md:text-left
   "
             >
-              Maximize your brand’s potential with our innovative solutions and
-              expertise, driving growth, efficiency, and lasting impact in a
-              competitive market. Let’s elevate your brand!
+              
             </p>
           </div>
 
@@ -121,18 +123,7 @@ const Home = () => {
           </p>
         </div>
       </section>
-      {/* <div className="w-ful ">
-        <img
-          src="/images/Frame 503.png"
-          alt=""
-          className="hidden md:block w-full"
-        />
-        <object
-          data="/images/Frame 1704.svg"
-          type="image/svg+xml"
-          className="md:hidden w-full"
-        ></object>
-      </div> */}
+    
 
       <section className="bg-black text-white px-6 py-2 md:px-32 md:py-8 relative">
         <div className="flex flex-row justify-between items-center  mx-auto gap-6">
@@ -248,8 +239,8 @@ const Home = () => {
         style={{ backgroundImage: "url('/images/Frame 1747.svg')" }}
       >
         <h1 className="text-[#FF7544] px-[281px] text-center font-[Bricolage Grotesque 72pt] text-[95px] font-semibold leading-[91%]">
-          Maximize your brand's potential with our innovative solutions
-          and expertise
+        Empowering Brands with Innovation and Expertise  
+
         </h1>
       </section>
       <section
@@ -257,8 +248,7 @@ const Home = () => {
         style={{ backgroundImage: "url('/images/Frame 1748.svg')" }}
       >
         <h1 className="text-[#FF7544] text-center font-[Bricolage Grotesque 72pt] text-[21px] font-semibold leading-[91%]">
-          Maximize your brand's potential with our innovative solutions
-          and expertise
+        Empowering Brands with Innovation and Expertise
         </h1>
       </section>
 
@@ -267,89 +257,64 @@ const Home = () => {
           Our Clients
         </h2>{" "}
         <p className="text-center text-white font-[Rethink_Sans] text-[10px] font-normal leading-[13.386px] md:text-[25px] md:leading-[33.466px] md:px-28">
-          We take pride in collaborating with forward-thinking brands across
-          diverse industries. From ambitious startups to established global
-          enterprises, our clients rely on us to craft and execute innovative
-          marketing strategies that drive measurable success. Through tailored
-          solutions, cutting-edge creativity, and data-driven insights, we help
-          brands strengthen their market presence, connect with their audience,
-          and achieve sustainable growth. At TLS, every partnership is built on
-          trust, innovation, and a shared commitment to excellence.
+        As a branding and technology expert, we take pride in working with growth
+oriented brands across different industries. Be it an ambitious startup
+building a brand from the base or an established business seeking digital
+transformation, our clients rely on us to craft and execute innovative
+marketing strategies and advanced web development that drive measurable
+success. At Tungston Labs every partnership is built on trust, innovation and
+shared commitment to excellence. 
+
         </p>
       </section>
-      <section className="bg-black text-white px-6 py-2 md:px-0  md:py-8">
-        <div className="py-8 flex flex-col items-center">
-          <div className="flex flex-wrap justify-center gap-[39px] md:gap-[64px] ">
-            {/* Card */}
-            <div
-              className="bg-[#434343] hover:bg-white hover:scale-105 flex flex-col justify-center items-center 
-                  w-[74px] h-[78px] p-[25px_14.869px_26px_14.869px]
-                  lg:w-[285px] lg:h-[300px] lg:p-[76px_21.51px_77px_22.51px]"
-            >
-              <img
-                src="/images/logo-01 1.png"
-                alt="HEW Diamonds"
-                className=" w-[44.262px] h-[27px] md:h-[147px] md:w-[240.981px]"
-              />
-            </div>
-
-            <div
-              className="bg-[#434343] hover:bg-white hover:scale-105 flex flex-col justify-center items-center 
-                  w-[74px] h-[78px] p-[25px_14.869px_26px_14.869px]
-                  lg:w-[285px] lg:h-[300px] lg:p-[76px_21.51px_77px_22.51px]"
-            >
-              <img
-                src="/images/Frame 1800.png"
-                alt="Essensuals"
-                className=" w-[44.262px] h-[27px] md:h-[147px] md:w-[240.981px]"
-              />
-            </div>
-
-            <div
-              className="bg-[#434343] hover:bg-white hover:scale-105 flex flex-col justify-center items-center 
-                  w-[74px] h-[78px] p-[25px_14.869px_26px_14.869px]
-                  lg:w-[285px] lg:h-[300px] lg:p-[76px_21.51px_77px_22.51px]"
-            >
-              <img
-                src="/images/Frame.png"
-                alt="AKSA"
-                className=" w-[44.262px] h-[27px] md:h-[147px] md:w-[240.981px]"
-              />
-            </div>
-
-            <div
-              className="bg-[#434343] hover:bg-white hover:scale-105 flex flex-col justify-center items-center 
-                  w-[74px] h-[78px] p-[25px_14.869px_26px_14.869px]
-                  lg:w-[285px] lg:h-[300px] lg:p-[76px_21.51px_77px_22.51px]"
-            >
-              <img
-                src="/images/Frame 1753.png"
-                alt="Tijara"
-                className=" w-[44.262px] h-[27px] md:h-[147px] md:w-[240.981px]"
-              />
-            </div>
-
-            <div
-              className="bg-[#434343] hover:bg-white hover:scale-105 flex flex-col justify-center items-center 
-                  w-[74px] h-[78px] p-[25px_14.869px_26px_14.869px]
-                  lg:w-[285px] lg:h-[300px] lg:p-[76px_21.51px_77px_22.51px]"
-            >
-              <img
-                src="/images/Frame 1754.png"
-                alt="ARM SBC"
-                className=" w-[44.262px] h-[27px] md:h-[147px] md:w-[240.981px]"
-              />
-            </div>
-          </div>
-
-          {/* "See more" only on mobile */}
-          <div className="mt-6 lg:hidden w-full flex justify-end">
-            <button className="text-[#FF7544] text-right font-[Helvetica_Compressed] text-[15px] font-[500] leading-[149%]">
-              See more
-            </button>
-          </div>
+    <section className="bg-black text-white px-6 py-2 md:px-0  md:py-8">
+  <div className="py-8 flex flex-col items-center">
+    <div className="flex flex-wrap justify-center gap-[39px] md:gap-[64px] ">
+      {[
+        { src: "/images/logo-01 1.png", alt: "HEW Diamonds" },
+        { src: "/images/Frame 1800.png", alt: "Essensuals" },
+        { src: "/images/Frame.png", alt: "AKSA" },
+        { src: "/images/Frame 1753.png", alt: "Tijara" },
+        { src: "/images/Frame 1754.png", alt: "ARM SBC" },
+      ].map((item, index) => (
+        <div
+          key={index}
+          onClick={() => navigate('/portfolio')}
+          className="bg-[#434343] hover:bg-white hover:scale-105 flex flex-col justify-center items-center 
+              w-[74px] h-[78px] p-[25px_14.869px_26px_14.869px]
+              lg:w-[285px] lg:h-[300px] lg:p-[76px_21.51px_77px_22.51px]"
+        >
+          <img
+            src={item.src}
+            alt={item.alt}
+            className=" w-[44.262px] h-[27px] md:h-[147px] md:w-[240.981px]"
+          />
         </div>
-      </section>
+      ))}
+    </div>
+    <div className="mt-6 lg:hidden w-full flex justify-end">
+      
+    </div>
+
+{/* "See more" for large screens */}
+<div className="hidden lg:flex w-full justify-end mt-6">
+  <button
+    onClick={() => navigate('/portfolio')}
+    className="text-[#FF7544] text-right font-[Helvetica_Compressed] text-[39px] font-[500] font-style:Helvetica Compressed leading-[149%] mr-24 hover:underline focus:outline-none"
+  >
+    See more
+  </button>
+</div>
+
+
+    {/* "See more" only on mobile */}
+    <div className="mt-6 lg:hidden w-full flex justify-end">
+      <button className="text-[#FF7544] text-right font-[Helvetica_Compressed] text-[15px] font-[500] leading-[149%]">
+        See more
+      </button>
+    </div>
+  </div>
+</section>
 
       <section className="bg-[#2b2b2b] text-white px-6 py-2 md:px-52 md:py-8">
         <div className=" mx-auto flex flex-col md:flex-row gap-10">
@@ -379,13 +344,10 @@ const Home = () => {
     leading-[13.386px] md:leading-[36.143px]
   "
             >
-              Thank you for expressing your interest in our services. We are
-              thrilled to have the opportunity to learn more about your business
-              and explore ways to collaborate towards achieving your objectives.
-              Kindly fill out the form below or use the provided contact details
-              to reach us. We will promptly respond to your inquiry and initiate
-              a conversation on how we can assist you. Thank you for considering
-              us as your partner, and we look forward to hearing from you soon.
+              Thank you for showing interest in our services, we are glad for the opportunity
+to work with you. To learn more about our services, kindly fill out the form
+below to connect with our team or use the given contact details to reach us.
+Our team will shortly reach out to you.
             </p>
             <p
               className="
@@ -395,6 +357,7 @@ const Home = () => {
     font-[700]
     text-[#FF7544]
     text-[35px] md:text-[64px]
+    
     leading-[133.863%] md:leading-[85.672px]
   "
             >

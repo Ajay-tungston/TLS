@@ -27,7 +27,7 @@ const ContactUs = () => {
                 maxWidth: '630px',
               }}
             >
-              Got questions or need support? We're here to help! Reach out to us anytime, and we’ll get back to you as soon as possible.
+              
             </p>
           </div>
 
@@ -46,8 +46,10 @@ const ContactUs = () => {
                   maxWidth: '400px',
                 }}
               >
-                We’re always here to listen. Whether you have a question, need support, or just want to say hello, feel free to reach out.
-                Fill out the form below or contact us through any of our channels — we’ll get back to you shortly.
+                Got any question or need support? Reach out anytime and we’ll get back to you as soon
+             as possible. We’re here to help, whether you have queries or want to reach out. Fill out
+             the form below or contact us through our given contact numbers – we’ll get back to you
+             soon. 
               </p>
 
               {/* Address */}
@@ -66,9 +68,11 @@ const ContactUs = () => {
                     maxWidth: '330px',
                   }}
                 >
-                  Tungsten Labs, Ullampilly Building, 4th Floor,<br />
-                  Seaport – Airport Rd, behind Olimugal Juma Masjid,<br />
-                  Thrikkakara, Vazhakkala, Kakkanad, Kochi, Kerala 682030
+                  Tungston Labs, Ullampilly Building, 4th Floor,
+Seaport – Airport Rd, behind Olimugal Juma Masjid,
+Thrikkakara, Vazhakkala, Kakkanad, Kochi, Kerala
+682021
+
                 </p>
               </div>
 
@@ -79,9 +83,9 @@ const ContactUs = () => {
                   Phone
                 </div>
                 <ul className="text-gray-300 mt-1 space-y-1">
-                  <li>+91 97783 77526</li>
-                  <li>+91 75610 49196</li>
-                  <li>+91 96337 01495</li>
+                  <li>+91 9778377526</li>
+                  <li>+91 7561049196</li>
+                  <li>+91 9633701495</li>
                 </ul>
               </div>
 
@@ -91,7 +95,7 @@ const ContactUs = () => {
                   <FaEnvelope />
                   E-mail
                 </div>
-                <p className="text-gray-300 mt-1">info@tungstenlabs.com</p>
+                <p className="text-gray-300 mt-1">info@tungstonlabs.com</p>
               </div>
 
               {/* Social Icons */}
