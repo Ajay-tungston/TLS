@@ -277,7 +277,7 @@ const InHouseProducts = () => {
         </div>
 
         {/* Product Cards Section */}
-        <div className=" mt-[52px]  w-screen  h-auto overflow-x-scroll md:overflow-x-auto md:pl-24 ">
+        <div className=" mt-[52px]  w-screen  h-auto overflow-x-scroll  md:overflow-x-auto md:pl-24 ">
           <div
             className="flex overflow-x-auto lg:overflow-x-visible px-4 snap-x snap-mandatory scroll-smooth   "
             style={{
