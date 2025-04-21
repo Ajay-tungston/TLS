@@ -203,9 +203,9 @@ const AboutSection = () => {
                                         </div>
 
                                         {/* Content Area */}
-                                        <div className="flex-1 bg-black  sm:ml-[44px] flex flex-col sm:flex-row sm:items-center sm:justify-between -mt-20">
+                                        <div className="flex-1 bg-black  sm:ml-[44px] flex flex-col sm:flex-row sm:items-center sm:justify-between p-5 md:p-0">
                                             <p
-                                                className="text-white text-base sm:text-[21px] leading-relaxed sm:leading-[134%] mb-4 sm:mb-0"
+                                                className="text-white text-base sm:text-[21px] leading-relaxed sm:leading-[134%] mb-4 sm:mb-0 "
                                                 style={{
                                                     maxWidth: '1000px',
                                                     fontFamily: 'Bricolage Grotesque',
