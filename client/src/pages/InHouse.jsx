@@ -57,7 +57,7 @@ const PlanCard = ({ name, specKey, isTopRated, dec }) => {
   return (
     <div className="relative flex flex-col h-full">
       {isTopRated && (
-        <div className="self-stretch h-16 pl-7 pr-6 pt-3 pb-6 bg-[#FF7544] rounded-tl-3xl rounded-tr-3xl inline-flex justify-between items-center">
+        <div className="w-[384px] h-16 pl-7 pr-6 pt-3 pb-6 bg-[#FF7544] rounded-tl-3xl rounded-tr-3xl inline-flex justify-between items-center">
           <div className="justify-start text-white text-xl font-bold leading-relaxed">
             Top Rated
           </div>
@@ -185,11 +185,16 @@ const InHouseProducts = () => {
     }
   };
 
-  const isDisabled=!formData.companyName||!formData.email||!formData.count||!formData.phone||!formData.plan
+  const isDisabled =
+    !formData.companyName ||
+    !formData.email ||
+    !formData.count ||
+    !formData.phone ||
+    !formData.plan;
   return (
     <>
       <Navbar />
-      <section className="bg-black w-screen min-h-screen flex flex-col items-center justify-start pt-20 md:pt-32 lg:pt-40 px-4 md:px-8 lg:px-16">
+      <section className="bg-black min-h-screen flex flex-col items-center justify-start pt-20 md:pt-32 lg:pt-40 px-4 md:px-8 overflow-x-hidden lg:px-16">
         <div className="max-w-5xl mt-[125px] text-white/70 text-sm md:text-base lg:text-lg text-left mb-16">
           <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold text-[#FF7544] font-['Bricolage_Grotesque'] text-center mb-6 md:mb-10">
             Our Inhouse Products
@@ -225,7 +230,7 @@ const InHouseProducts = () => {
         </div>
 
         <div
-          className="max-w-7xl text-white/80 text-sm md:text-base lg:text-lg text-left mb-24 mt-[29px] font-rethink"
+          className="max-w-7xl text-white/80 text-sm md:text-base lg:text-lg text-left mb-24 mt-[29px]  font-rethink"
           style={{
             fontFamily: '"Rethink Sans", sans-serif',
           }}
@@ -272,49 +277,60 @@ const InHouseProducts = () => {
         </div>
 
         {/* Product Cards Section */}
-        <div className="self-stretch mt-[52px]  pb-10">
+        <div className=" mt-[52px]  w-screen  h-auto overflow-x-scroll md:overflow-x-auto md:pl-24 ">
           <div
-            className="inline-flex justify-center items-end ml-16 gap-8 min-w-max mx-auto"
+            className="flex overflow-x-auto lg:overflow-x-visible px-4 snap-x snap-mandatory scroll-smooth   "
             style={{
               fontFamily: '"Rethink Sans", sans-serif',
             }}
           >
-            <PlanCard
-              name="TLS VIPER SAGA"
-              specKey="Pulse2"
-              isTopRated={false}
-              dec={
-                "The TLS Viper Saga is a reliable entry - level server option designed for startups , small enterprises and bloggers who need reliable server resources that ensures efficient processing, rapid loading times, and adaptability across various Linux environments for fast operations without incurring excessive expenses for smooth operations and flexibility without overwhelming cost."
-              }
-            />
-            <PlanCard
-              name="TLS VIPER SUPER CAT"
-              specKey="Pulse3"
-              isTopRated={true}
-              dec={
-                "The TLS Viper Super Cat is designed to enhance your hosting capabilities with improved speed, strength, and adaptability. Benefiting mid-sized online retail sites, agencies, and developers overseeing medium-traffic websites or intricate applications. It delivers the necessary power to manage multitasking, database operations, and to effectively accommodate moderate levels of traffic"
-              }
-            />
-            <PlanCard
-              name="TLS VIPER SONIC"
-              specKey="Pulse4"
-              isTopRated={false}
-              dec={
-                "TLS Viper Sonic is designed specifically for enterprises and applications that require significant power and dependability. Advantageous for large enterprises, busy ecommerce sites, SaaS companies, and entities handling intricate databases or applications. It guarantees seamless multitasking, rapid data retrieval, and dependable performance, even during intense workloads."
-              }
-            />
-            <PlanCard
-              name="TLS VIPER VECNA"
-              specKey="Pulse5"
-              isTopRated={false}
-              dec={
-                "TLS Viper Vecna is our premier server solution, designed for high traffic e- commerce platforms, businesses, large enterprises and critical applications that require outstanding performance and dependability. Guarantees excellent uptime, security, and scalability. Delivers exceptional processing power, exceptional high-speed performance, maximum reliability, high concurrency for seamless multitasking."
-              }
-            />
+            <div className=" md:min-w-[300px] flex-shrink-0 h-[800px] mx-4  mt-15">
+              <PlanCard
+                name="TLS VIPER SAGA"
+                specKey="Pulse2"
+                isTopRated={false}
+                dec={
+                  "The TLS Viper Saga is a reliable entry - level server option designed for startups , small enterprises and bloggers who need reliable server resources that ensures efficient processing, rapid loading times, and adaptability across various Linux environments for fast operations without incurring excessive expenses for smooth operations and flexibility without overwhelming cost."
+                }
+              />
+            </div>
+
+            <div className="min-w-[280px] lg:min-w-[300px] flex-shrink-0 h-[480px] mx-6 ">
+              <PlanCard
+                name="TLS VIPER SUPER CAT"
+                specKey="Pulse3"
+                isTopRated={true}
+                dec={
+                  "The TLS Viper Super Cat is designed to enhance your hosting capabilities with improved speed, strength, and adaptability. Benefiting mid-sized online retail sites, agencies, and developers overseeing medium-traffic websites or intricate applications. It delivers the necessary power to manage multitasking, database operations, and to effectively accommodate moderate levels of traffic"
+                }
+              />
+            </div>
+
+            <div className="min-w-[280px] lg:min-w-[300px] flex-shrink-0 h-[480px] mx-6 mt-15">
+              <PlanCard
+                name="TLS VIPER SONIC"
+                specKey="Pulse4"
+                isTopRated={false}
+                dec={
+                  "TLS Viper Sonic is designed specifically for enterprises and applications that require significant power and dependability. Advantageous for large enterprises, busy ecommerce sites, SaaS companies, and entities handling intricate databases or applications. It guarantees seamless multitasking, rapid data retrieval, and dependable performance, even during intense workloads."
+                }
+              />
+            </div>
+
+            <div className="min-w-[280px] lg:min-w-[300px] flex-shrink-0 h-[480px] mx-6 mt-15">
+              <PlanCard
+                name="TLS VIPER VECNA"
+                specKey="Pulse5"
+                isTopRated={false}
+                dec={
+                  "TLS Viper Vecna is our premier server solution, designed for high traffic e- commerce platforms, businesses, large enterprises and critical applications that require outstanding performance and dependability. Guarantees excellent uptime, security, and scalability. Delivers exceptional processing power, exceptional high-speed performance, maximum reliability, high concurrency for seamless multitasking."
+                }
+              />
+            </div>
           </div>
         </div>
 
-        <div className="px-4 md:px-8 lg:px-24 py-8 md:py-10 lg:py-14 mt-[60px] bg-neutral-800 flex flex-col lg:flex-row justify-start items-start gap-8 md:gap-12 lg:gap-64">
+        <div className="px-4 md:px-8 lg:px-24 py-8 md:py-10 lg:py-14 mt-[61px] md:mt-[61px] bg-neutral-800 flex flex-col lg:flex-row justify-start items-start gap-8 md:gap-12 lg:gap-64">
           {/* Text Section */}
           <div className="w-full lg:w-[616px] flex flex-col justify-start items-start gap-4 md:gap-5">
             <h2
@@ -425,7 +441,11 @@ const InHouseProducts = () => {
             {/* Submit Button */}
             {!loading ? (
               <button
-                className={`${isDisabled?"bg-[#d58365] hover:bg-[#e6997c] cursor-not-allowed":"bg-[#FF7544] hover:bg-orange-500 cursor-pointer "} " w-full px-3 py-2 bg-[#FF7544] hover:bg-orange-500 rounded outline outline-1 outline-offset-[-1px] outline-orange-400 flex justify-center items-center transition-colors duration-200"`}
+                className={`${
+                  isDisabled
+                    ? "bg-[#d58365] hover:bg-[#e6997c] cursor-not-allowed"
+                    : "bg-[#FF7544] hover:bg-orange-500 cursor-pointer "
+                } " w-full px-3 py-2 bg-[#FF7544] hover:bg-orange-500 rounded outline outline-1 outline-offset-[-1px] outline-orange-400 flex justify-center items-center transition-colors duration-200"`}
                 onClick={handleSubmit}
                 disabled={isDisabled}
               >
@@ -441,16 +461,15 @@ const InHouseProducts = () => {
           </div>
         </div>
 
-        <div className="w-full flex justify-center items-center mt-[126px] h-20 relative overflow-hidden">
-          <div className="loading-text text-[#ff7544] text-4xl sm:text-5xl md:text-6xl font-bold leading-[1.2]">
-            <span
-              className="animated-text"
-              style={{
-                fontFamily: '"Rethink Sans", sans-serif',
-              }}
-            >
-              The Future is Loading
-            </span>
+        <div className="w-full flex justify-center items-center mt-[26px] md:mt-[126px] lg:mt-[126px] h-20 relative overflow-hidden">
+          <div
+            className="loading-text text-[#ff7544] font-bold text-[18px] leading-[1.34] text-center whitespace-nowrap 
+                lg:text-[96px] lg:leading-[1.34]"
+            style={{
+              fontFamily: '"Bricolage Grotesque", sans-serif',
+            }}
+          >
+            <span className="animated-text">The Future is Loading</span>
             <span className="loading-dots"></span>
           </div>
         </div>
@@ -509,12 +528,28 @@ const InHouseProducts = () => {
           }
         `}</style>
 
-        <div className="mt-[126px] w-full max-w-[1200px] px-4 mx-auto">
-          <img
-            src={inHouse}
-            alt="Future technology illustration"
-            className="w-full h-auto object-cover rounded-lg shadow-xl"
-          />
+        <div
+          className="
+    w-full 
+    max-w-[1229px] 
+    mx-auto 
+    pt-[45.81px] pr-[63.8px] pb-[54.83px] pl-[44.45px]
+    lg:pt-[156px] lg:pr-[21.73px] lg:pb-[186.73px] lg:pl-[15px]
+    relative
+"
+        >
+          <div className="w-full flex justify-center">
+            <img
+              src={inHouse}
+              alt="Future technology illustration"
+              className="
+        w-[351px] h-[234px] 
+        sm:w-full sm:h-auto 
+        lg:w-[1229px] lg:h-[820px] 
+        object-cover rounded-lg shadow-xl
+      "
+            />
+          </div>
         </div>
       </section>
       <Footer />
