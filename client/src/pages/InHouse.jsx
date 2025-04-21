@@ -277,9 +277,9 @@ const InHouseProducts = () => {
         </div>
 
         {/* Product Cards Section */}
-        <div className=" mt-[52px]  w-screen  h-auto overflow-x-scroll md:overflow-x-auto md:pl-24 ">
+        <div className=" mt-[52px]  w-screen  h-auto overflow-x-scroll md:overflow-x-scroll md:pl-24 scrollbar-hide">
           <div
-            className="flex overflow-x-auto lg:overflow-x-visible px-4 snap-x snap-mandatory scroll-smooth   "
+            className="flex  overflow-x-auto lg:overflow-x-visible px-4 snap-x snap-mandatory scroll-smooth   "
             style={{
               fontFamily: '"Rethink Sans", sans-serif',
             }}
@@ -332,7 +332,7 @@ const InHouseProducts = () => {
 
         <div className="px-4 md:px-8 lg:px-24 py-8 md:py-10 lg:py-14 mt-[61px] md:mt-[61px] bg-neutral-800 flex flex-col lg:flex-row justify-start items-start gap-8 md:gap-12 lg:gap-64">
           {/* Text Section */}
-          <div className="w-full lg:w-[616px] flex flex-col justify-start items-start gap-4 md:gap-5">
+          <div className="w-full  flex flex-col justify-start items-start gap-4 md:gap-5">
             <h2
               className="w-full text-center lg:text-left text-white text-4xl md:text-5xl lg:text-6xl font-normal font-['Sansation'] leading-[50px] md:leading-[60px] lg:leading-[80px]"
               style={{
