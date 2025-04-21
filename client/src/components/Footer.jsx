@@ -290,14 +290,14 @@ const Footer = () => {
             <p className="text-[#FF7544] text-sm hover:underline cursor-pointer">
               Privacy Policy
             </p>
-            <p className="text-[#FF7544] text-sm">Copyright © 2025.</p>
+            {/* <p className="text-[#FF7544] text-sm">Copyright © 2025.</p> */}
           </div>
         </div>
       </div>
 
       {/* Bottom gradient bar */}
-      <div className="w-full bg-gradient-to-t from-[#FF7544] to-transparent text-sm text-center py-4 mt-10">
-        <p className="text-[#FF7544]">
+      <div className="w-full bg-gradient-to-t from-[#FF7544] to-transparent text-sm text-center py-9 mt-10">
+        <p className="text-[#FF7544] -mt-6">
           © Copyright 2025, Designed by{" "}
           <span className="font-bold text-white">Tungston Labs</span>
           <span className="text-[#FF7544]">.</span>

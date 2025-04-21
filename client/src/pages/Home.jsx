@@ -81,7 +81,7 @@ const Home = () => {
               style={{ fontFamily: '"Bricolage Grotesque", sans-serif' }}
               className="text-[#FF7544] font-medium leading-[90%]
     text-[40px] text-center
-    md:text-[105px] md:text-left mb-6"
+    md:text-[5rem] md:text-left mb-6"
             >
               Ideas invisible <br /> even to radars.
             </h1>
@@ -116,7 +116,7 @@ const Home = () => {
             className="md:hidden
     text-white font-normal leading-[127%]
     text-[18px] text-center
-    md:text-[45px] md:text-left
+    md:text-[2rem] md:text-left
   "
           >
             Maximize your brand’s potential with our innovative solutions and
