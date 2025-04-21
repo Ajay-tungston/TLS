@@ -33,14 +33,15 @@ const AboutSection = () => {
 
     return (
         <div className="relative w-full overflow-hidden bg-black">
-            <Navbar/>
+            <Navbar />
             {/* Header Section */}
             <div className="relative z-10 flex flex-col items-center justify-center min-h-[40vh] md:min-h-[50vh] px-4 py-8 md:py-24 mt-10 md:mt-20">
                 <img
                     src="/images/aboutus.png"
                     alt="Transforming Ideas into Iconic Brands"
-                    className="mx-auto mb-8 w-full max-w-[786px] h-auto md:h-[428px]"
+                    className="mx-auto mb-8 w-[264px] h-[144px] aspect-[11/6] md:w-[886px]  md:h-[428px]"
                 />
+
                 <p
                     className="text-white max-w-2xl mx-auto px-4 font-rethink text-lg md:text-[25px]"
                     style={{
@@ -51,8 +52,8 @@ const AboutSection = () => {
                     }}
                 >
                     At Tungston Labs we combine the elements of marketing strategies, web development
-and designing tools to bring something unique from your ideas. Helping business to
-reach new heights no matter how small or big they are. 
+                    and designing tools to bring something unique from your ideas. Helping business to
+                    reach new heights no matter how small or big they are.
                 </p>
             </div>
 
@@ -61,10 +62,9 @@ reach new heights no matter how small or big they are.
                 <div className="mx-auto px-4 pt-8 sm:px-6 lg:px-8">
                     {/* About Us Card */}
                     <div
-                        className="bg-black border-[#FF7544] rounded-lg p-4 sm:p-8 mb-8"
+                        className="bg-black rounded-lg p-4 sm:p-8 mb-8 border-[1px] sm:border-[8px] border-[#FF7544]"
                         style={{
-                            border: '8px solid #FF7544',
-                            boxShadow: '10px 4px 13.5px 0px #000'
+                            boxShadow: '10px 4px 13.5px 0px #000',
                         }}
                     >
                         <h2
@@ -75,19 +75,19 @@ reach new heights no matter how small or big they are.
                         </h2>
                         <div className="text-white space-y-4">
                             <p className="text-base sm:text-[21px]">
-                            Tungston Labs is more than just a marketing agency, we are a technology and branding
-                        company. Our team consists of sharp strategists and artistic creators who help your
-                        business to thrive in the digital age. We are dedicated to drive your website and bring
-                        digital success by tactics that help your ideas and goals to flourish. We believe in
-                        consistent efforts and dedication towards our client since each collaboration is built
-                        upon trust and integrity
+                                Tungston Labs is more than just a marketing agency, we are a technology and branding
+                                company. Our team consists of sharp strategists and artistic creators who help your
+                                business to thrive in the digital age. We are dedicated to drive your website and bring
+                                digital success by tactics that help your ideas and goals to flourish. We believe in
+                                consistent efforts and dedication towards our client since each collaboration is built
+                                upon trust and integrity
                             </p>
                             <p className="text-base sm:text-[21px]">
-                            We believe that every brand has the hidden potential to grow, and our mission is to
-                            unlock them through our services and create something new or change its course to
-                            success. Whether it is to build a compelling brand identity, craft high performing
-                            marketing campaigns, or enhancing the digital experience, we ensure every initiative
-                            yields a long term sustainable growth.
+                                We believe that every brand has the hidden potential to grow, and our mission is to
+                                unlock them through our services and create something new or change its course to
+                                success. Whether it is to build a compelling brand identity, craft high performing
+                                marketing campaigns, or enhancing the digital experience, we ensure every initiative
+                                yields a long term sustainable growth.
                                 <br className="hidden sm:block" />
                                 At the heart of our work is a passion for delivering high value results, not only to meet
                                 expectations but to exceed them.
@@ -97,9 +97,9 @@ reach new heights no matter how small or big they are.
 
                     {/* Vision Card */}
                     <div
-                        className="bg-black border-[#FF7544] rounded-lg p-4 sm:p-8"
+                        className="bg-black  rounded-lg p-4 sm:p-8 border-[1px] sm:border-[8px] border-[#FF7544]"
                         style={{
-                            border: '8px solid #FF7544',
+
                             boxShadow: '10px 4px 13.5px 0px #000'
                         }}
                     >
@@ -111,17 +111,17 @@ reach new heights no matter how small or big they are.
                         </h2>
                         <div className="text-white space-y-4">
                             <p className="text-base sm:text-[21px]">
-                            We leverage new outlook and innovation to enhance every step in marketing strategies
+                                We leverage new outlook and innovation to enhance every step in marketing strategies
                                 and web development services. We take time to understand and research on what truly
                                 matters to our clients and create tailored solutions that fulfil their goals perfectly.
                                 <br className="hidden sm:block" />
                                 Having a dedicated marketing and support team by your side, we ensure seamless
-maintenance and expert guidance to run your brand at its best possible way.
+                                maintenance and expert guidance to run your brand at its best possible way.
                                 <br className="hidden sm:block" />
                                 We
-envision to establish ourselves as the foremost marketing and software consultancy,
-recognized for our ability to drive business growth and elevate your brand to new
-heights possible only by building truthful connection with you. 
+                                envision to establish ourselves as the foremost marketing and software consultancy,
+                                recognized for our ability to drive business growth and elevate your brand to new
+                                heights possible only by building truthful connection with you.
                                 {/* <br className="hidden sm:block" />
                                 By fostering long-term partnerships, embracing emerging trends, and continuously pushing boundaries, we empower
                                 businesses to achieve sustainable growth and maintain a competitive edge in an ever-evolving digital landscape. Our
@@ -152,12 +152,12 @@ heights possible only by building truthful connection with you.
 
                     <div className="mx-auto space-y-8 mt-8 sm:mt-[50px]">
                         {teamItems.map((item, index) => (
-                            <div key={index} className="relative flex flex-col rounded-sm overflow-hidden mt-20 sm:mt-0">
+                            <div key={index} className="relative flex flex-col rounded-sm overflow-hidden mt-20 sm:mt-0 font-ricolage">
                                 {/* ✅ Name above the box on small screens */}
                                 <div
                                     className={`${item.color} sm:hidden `}
                                     style={{
-                                        width: '139px',
+                                        width: '200px',
                                         padding: '12px 18px',
                                         zIndex: 1000,
                                     }}
@@ -176,8 +176,7 @@ heights possible only by building truthful connection with you.
 
                                 {/* 🔶 Border box */}
                                 <div
-                                    className="flex flex-col rounded-sm overflow-hidden"
-                                    style={{ border: '8px solid #FF7544' }}
+                                    className="flex flex-col overflow-hidden border-[1px] sm:border-[8px] border-[#FF7544]"
                                 >
                                     <div className="flex flex-col sm:flex-row">
                                         {/* Desktop Sidebar */}
@@ -227,7 +226,7 @@ heights possible only by building truthful connection with you.
                     </div>
                 </div>
             </div>
-            <Footer/>
+            <Footer />
         </div>
     );
 };
