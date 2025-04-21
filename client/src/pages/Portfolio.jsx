@@ -189,7 +189,7 @@ and graphic design.
       <section className=" w-full  py-[25px] md:pb-[70px] md:pt-0 px-[19px] md:px-[60px] bg-black overflow-x-hidden">
         <div className="flex justify-center mb-[27px] md:mb-[55px]">
           <img
-            src="public/images/portfolio/logo-02 (1) 1.png"
+            src="/images/portfolio/logo-02 (1) 1.png"
             alt="logo1"
             className="w-[58px] h-[33px] md:w-[208px] md:h-[156px]"
           />
@@ -224,7 +224,7 @@ and graphic design.
             </div>
             <div className="w-[245px] h-[203px] md:w-[923px] md:h-[711px] flex-shrink-0 snap-center">
               <img
-                src="public/images/portfolio/Slice 1 1.png"
+                src="/images/portfolio/Slice 1 1.png"
                 className="w-full h-full pointer-events-none"
                 alt="image 2"
                 style={{ userSelect: "none" }}
@@ -232,7 +232,7 @@ and graphic design.
             </div>
             <div className="w-[245px] h-[203px] md:w-[923px] md:h-[711px] flex-shrink-0 snap-center">
               <img
-                src="public/images/portfolio/Slice 1 1 (1).png"
+                src="/images/portfolio/Slice 1 1 (1).png"
                 className="w-full h-full pointer-events-none"
                 alt="image 3"
                 style={{ userSelect: "none" }}
@@ -274,7 +274,7 @@ and graphic design.
       <section className=" w-full  py-[25px] md:pb-[70px] md:pt-0 px-[19px] md:px-[60px] bg-black overflow-x-hidden">
         <div className="flex justify-center mb-[27px] md:mb-[55px]">
           <img
-            src="public/images/portfolio/Mask group.png"
+            src="/images/portfolio/Mask group.png"
             alt="logo1"
             className="w-[114px] h-[30px] md:w-[336px] md:h-[87px]"
           />
@@ -302,7 +302,7 @@ and graphic design.
           <div className="flex flex-none space-x-4 p-4 w-full">
             <div className="w-[245px] h-[203px] md:w-[923px] md:h-[711px] flex-shrink-0 snap-center">
               <img
-                src="public/images/portfolio/toni&guy 3 2.png"
+                src="/images/portfolio/toni&guy 3 2.png"
                 className="object-contain w-full h-full pointer-events-none"
                 alt="image 1"
                 style={{ userSelect: "none" }}
@@ -310,7 +310,7 @@ and graphic design.
             </div>
             <div className="w-[245px] h-[203px] md:w-[923px] md:h-[711px] flex-shrink-0 snap-center">
               <img
-                src="public/images/portfolio/toni&guy 2 1.png"
+                src="/images/portfolio/toni&guy 2 1.png"
                 className="w-full h-full pointer-events-none"
                 alt="image 2"
                 style={{ userSelect: "none" }}
@@ -318,7 +318,7 @@ and graphic design.
             </div>
             <div className="w-[245px] h-[203px] md:w-[923px] md:h-[711px] flex-shrink-0 snap-center">
               <img
-                src="public/images/portfolio/toni&guy 3 1.png"
+                src="/images/portfolio/toni&guy 3 1.png"
                 className="w-full h-full pointer-events-none"
                 alt="image 3"
                 style={{ userSelect: "none" }}
@@ -350,7 +350,7 @@ effectively communicate their services.
       <section className=" w-full  py-[25px] md:pb-[70px] md:pt-0 px-[19px] md:px-[60px] bg-black overflow-x-hidden">
         <div className="flex justify-center mb-[27px] md:mb-[55px]">
           <img
-            src="public/images/portfolio/Frame.png"
+            src="/images/portfolio/Frame.png"
             alt="logo1"
             className="w-[72px] h-[19px] md:w-[264px] md:h-[68px]"
           />
@@ -377,7 +377,7 @@ effectively communicate their services.
           <div className="flex flex-none space-x-4 p-4 w-full">
             <div className="w-[245px] h-[203px] md:w-[923px] md:h-[711px] flex-shrink-0 snap-center">
               <img
-                src="public/images/portfolio/Frame 332 1.png"
+                src="/images/portfolio/Frame 332 1.png"
                 className="object-contain w-full h-full pointer-events-none"
                 alt="image 1"
                 style={{ userSelect: "none" }}
@@ -385,7 +385,7 @@ effectively communicate their services.
             </div>
             <div className="w-[245px] h-[203px] md:w-[923px] md:h-[711px] flex-shrink-0 snap-center ">
               <img
-                src="public/images/portfolio/Frame 333 1.png"
+                src="/images/portfolio/Frame 333 1.png"
                 className="w-full h-full pointer-events-none"
                 alt="image 2"
                 style={{ userSelect: "none" }}
@@ -393,7 +393,7 @@ effectively communicate their services.
             </div>
             <div className="w-[245px] h-[203px] md:w-[923px] md:h-[711px] flex-shrink-0 snap-center">
               <img
-                src="public/images/portfolio/Home 2.png"
+                src="/images/portfolio/Home 2.png"
                 className="w-full h-full pointer-events-none"
                 alt="image 3"
                 style={{ userSelect: "none" }}
@@ -426,7 +426,7 @@ effectively communicate their services.
       <section className=" w-full  py-[25px] md:pb-[70px] md:pt-0 px-[19px] md:px-[60px] bg-black overflow-x-hidden">
         <div className="flex justify-center mb-[27px] md:mb-[55px]">
           <img
-            src="public/images/portfolio/Frame 340 1.png"
+            src="/images/portfolio/Frame 340 1.png"
             alt="logo1"
             className="w-[134px] h-[30px] md:w-[308px] md:h-[68px]"
           />
@@ -454,7 +454,7 @@ effectively communicate their services.
           <div className="flex flex-none space-x-4 p-4 w-full">
             <div className="w-[201px] h-[203px] md:w-[1329px] md:h-[711px] flex-shrink-0 snap-center">
               <img
-                src="public/images/portfolio/tree valley insta 1.png"
+                src="/images/portfolio/tree valley insta 1.png"
                 className="object-contain w-full h-full pointer-events-none"
                 alt="image 1"
                 style={{ userSelect: "none" }}
@@ -462,7 +462,7 @@ effectively communicate their services.
             </div>
             <div className="w-[149px] h-[203px] md:w-[521px] md:h-[711px] flex-shrink-0 snap-center">
               <img
-                src="public/images/portfolio/Tree Valley Landing Page.png"
+                src="/images/portfolio/Tree Valley Landing Page.png"
                 className="w-full h-full pointer-events-none"
                 alt="image 2"
                 style={{ userSelect: "none" }}
@@ -470,7 +470,7 @@ effectively communicate their services.
             </div>
             <div className="w-[149px] h-[203px] md:w-[495px] md:h-[711px] flex-shrink-0 snap-center">
               <img
-                src="public/images/portfolio/Frame 343.png"
+                src="/images/portfolio/Frame 343.png"
                 className="w-full h-full pointer-events-none"
                 alt="image 3"
                 style={{ userSelect: "none" }}
@@ -501,7 +501,7 @@ effectively communicate their services.
       <section className=" w-full  py-[25px] md:pb-[70px] md:pt-0 px-[19px] md:px-[60px] bg-black overflow-x-hidden">
         <div className="flex justify-center mb-[27px] md:mb-[55px]">
           <img
-            src="public/images/portfolio/Frame 373.png"
+            src="/images/portfolio/Frame 373.png"
             alt="logo1"
             className="w-[70px] h-[30px] md:w-[248px] md:h-[104px]"
           />
@@ -528,13 +528,13 @@ effectively communicate their services.
           <div className="flex flex-none space-x-4 p-4 w-full">
             <div className="w-[463px] h-[203px] md:w-[1400px] md:h-[711px] flex-shrink-0 snap-center">
               <img
-                src="public/images/portfolio/Slide 4_3 - 1.png"
+                src="/images/portfolio/Slide 4_3 - 1.png"
                 className="hidden md:inline-block object-contain w-full h-full pointer-events-none"
                 alt="image 1"
                 style={{ userSelect: "none" }}
               />
               <img
-                src="public/images/portfolio/Frame 1658.png"
+                src="/images/portfolio/Frame 1658.png"
                 className="md:hidden object-contain w-full h-full pointer-events-none"
                 alt="image 1"
                 style={{ userSelect: "none" }}
@@ -542,7 +542,7 @@ effectively communicate their services.
             </div>
             <div className="w-[113px] h-[203px] md:w-[465px] md:h-[711px] flex-shrink-0 snap-center ">
               <img
-                src="public/images/portfolio/Products.png"
+                src="/images/portfolio/Products.png"
                 className="w-full h-full pointer-events-none"
                 alt="image 2"
                 style={{ userSelect: "none" }}
@@ -550,7 +550,7 @@ effectively communicate their services.
             </div>
             <div className="w-[245px] h-[203px] md:w-[617px] md:h-[711px] flex-shrink-0 snap-center">
               <img
-                src="public/images/portfolio/Frame 354.png"
+                src="/images/portfolio/Frame 354.png"
                 className="w-full h-full pointer-events-none"
                 alt="image 3"
                 style={{ userSelect: "none" }}
@@ -583,7 +583,7 @@ effectively communicate their services.
       <section className=" w-full  py-[25px] md:pb-[70px] md:pt-0 px-[19px] md:px-[60px] bg-black overflow-x-hidden">
         <div className="flex justify-center mb-[27px] md:mb-[55px] ">
           <img
-            src="public/images/portfolio/yfly png.png"
+            src="/images/portfolio/yfly png.png"
             alt="logo6"
             className="w-[108px] h-[29px] md:w-[251px] md:h-[68px]"
           />
@@ -611,7 +611,7 @@ effectively communicate their services.
           <div className="flex flex-none space-x-4 p-4 w-full">
             <div className="w-[272px] h-[203px] md:w-[1020px] md:h-[711px] flex-shrink-0 snap-center">
               <img
-                src="public/images/portfolio/file_10 1.png"
+                src="/images/portfolio/file_10 1.png"
                 className="object-contain w-full h-full pointer-events-none"
                 alt="image 1"
                 style={{ userSelect: "none" }}
@@ -619,7 +619,7 @@ effectively communicate their services.
             </div>
             <div className="w-[272px] h-[203px] md:w-[952px] md:h-[711px] flex-shrink-0 snap-center">
               <img
-                src="public/images/portfolio/af_493 1.png"
+                src="/images/portfolio/af_493 1.png"
                 className="w-full h-full pointer-events-none"
                 alt="image 2"
                 style={{ userSelect: "none" }}
@@ -627,7 +627,7 @@ effectively communicate their services.
             </div>
             <div className="w-[272px] h-[203px] md:w-[952px] md:h-[711px] flex-shrink-0 snap-center">
               <img
-                src="public/images/portfolio/288 1.png"
+                src="/images/portfolio/288 1.png"
                 className="w-full h-full pointer-events-none"
                 alt="image 3"
                 style={{ userSelect: "none" }}

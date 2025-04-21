@@ -290,7 +290,7 @@ const Footer = () => {
             <p className="text-[#FF7544] text-sm hover:underline cursor-pointer">
               Privacy Policy
             </p>
-            <p className="text-[#FF7544] text-sm">Copyright © 2023.</p>
+            <p className="text-[#FF7544] text-sm">Copyright © 2025.</p>
           </div>
         </div>
       </div>
