@@ -143,7 +143,7 @@ drive business growth and exceed your expectations.`,
               className="
   text-[21px] md:text-[55px] 
   font-[600] md:font-[500] 
-  font-[Bricolage Grotesque] 
+  font-bricolage 
   text-[#FF7544]
 "
             >

@@ -71,7 +71,7 @@ const Home = () => {
     !formData.message;
 
   return (
-    <div className="bg-black  overflow-x-hidden">
+    <div className="bg-black overflow-x-hidden">
       <Navbar />
       <section className="bg-black  text-white px-6 py-12 md:pt-2 md:px-32 md:py-24">
         <div className="grid md:grid-cols-2 gap-12 items-center ">
@@ -238,7 +238,7 @@ const Home = () => {
         className="hidden md:flex w-screen h-[1148px] bg-no-repeat bg-center bg-cover  justify-center items-center"
         style={{ backgroundImage: "url('/images/Frame 1747.svg')" }}
       >
-        <h1 className="text-[#FF7544] px-[281px] text-center font-[Bricolage Grotesque 72pt] text-[95px] font-semibold leading-[91%]">
+        <h1 className="text-[#FF7544] px-[281px] text-center font-bricolage text-[95px] font-semibold leading-[91%]">
           Empowering Brands with Innovation and Expertise
         </h1>
       </section>
@@ -246,7 +246,7 @@ const Home = () => {
         className="md:hidden flex justify-center items-center px-[48px] w-screen h-[215px] bg-no-repeat bg-center bg-cover"
         style={{ backgroundImage: "url('/images/Frame 1748.svg')" }}
       >
-        <h1 className="text-[#FF7544] text-center font-[Bricolage Grotesque 72pt] text-[21px] font-semibold leading-[91%]">
+        <h1 className="text-[#FF7544] text-center font-bricolage text-[21px] font-semibold leading-[91%]">
           Empowering Brands with Innovation and Expertise
         </h1>
       </section>
@@ -311,17 +311,17 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="bg-[#2b2b2b] text-white px-6 py-2 mb-[40px] md:mb-[90px] md:px-52 md:py-8">
-        <div className=" mx-auto flex flex-col md:flex-row gap-10">
+      <section className="bg-[#2b2b2b] w-screen text-white px-6 py-2 mb-[40px] md:mb-[90px] md:px-24 md:py-8">
+        <div className=" mx-auto flex flex-col md:flex-row md:px-2 gap-10">
           {/* Left Content */}
-          <div className="md:w-1/2">
+          <div className="md:w-1/2 md:pl-8">
             <h2
               className="
     mb-6 
     md:text-left text-center 
     text-white 
     font-[400] 
-    font-['Bricolage_Grotesque_72pt'] 
+    font-bricolage 
     text-[21px] md:text-[65px] 
     leading-[133.863%] md:leading-[87.011px]
   "
@@ -334,7 +334,7 @@ const Home = () => {
     md:text-left text-center 
     text-white 
     font-[400] 
-    font-['Rethink_Sans'] 
+    font-rethink
     text-[10px] md:text-[27px] 
     leading-[13.386px] md:leading-[36.143px]
   "

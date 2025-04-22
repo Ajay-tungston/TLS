@@ -151,7 +151,7 @@ import { SiBehance } from "react-icons/si";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white relative md:pt-4 pb-0">
+    <footer className="bg-black  text-white relative md:pt-4 pb-0">
       {/* Top orange border */}
       <div className="absolute top-0 left-0 w-full h-1 bg-[#FF7544]" />
 

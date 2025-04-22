@@ -26,7 +26,7 @@ const Realms = () => {
 
   return (
     <div className="bg-black text-[#FF7544] py-8 ">
-      <h2 className="text-[20px] md:text-[85px] font-[500] text-[#FF7544] text-center leading-[133.863%] mb-8">
+      <h2 className="text-[20px] font-bricolage md:text-[85px] font-[500] text-[#FF7544] text-center leading-[133.863%] mb-8">
         Our Services
       </h2>
       <div className="flex space-x-4 overflow-x-auto md:grid md:grid-cols-3 md:gap-6 md:space-x-0">
