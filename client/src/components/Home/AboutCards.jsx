@@ -136,7 +136,7 @@ drive business growth and exceed your expectations.`,
       {cards.map((card, index) => (
         <div
           key={index}
-          className=" border-[2px] md:border-[6px]  border-[#ff7544]  p-6 rounded-md relative "
+          className=" border-[2px] md:border-[6px]  border-[#ff7544]  p-6 relative "
         >
           <div className="flex items-start justify-between">
             <h2

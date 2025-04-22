@@ -1921,12 +1921,12 @@ const Pixellar = () => {
       <section className="p-6 md:p-16 md:px-[121px] space-y-6">
         <div className="flex flex-col bg-black items-center gap-16">
           {/* Main container */}
-          <div className=" min-h-[400px] mt-[35px] lg:h-96 md:w-[1300px] w-[360px] h-[195px]  px-6 bg-black lg:pl-12 lg:pr-28 py-9  outline-2 outline-offset-[-8px] outline-[#ff7554] flex flex-col lg:flex-row justify-start items-center gap-6 lg:gap-24  relative">
+          <div className=" lg:h-96 md:w-[1300px] w-[372px] h-[207px]  md:px-6 bg-black lg:pl-12 lg:pr-28 py-9  outline-2 outline-offset-[-8px] outline-[#ff7554] flex flex-col lg:flex-row justify-start items-center gap-6 lg:gap-24  relative ">
             {/* Title Section */}
             {/* Title Section */}
             <div className="w-full  lg:w-14  flex lg:flex-col justify-start lg:justify-center lg:text-center items-center gap-2.5 lg:h-full lg:pt-12">
               {/* Full-width Prominova for small screens */}
-              <div className="flex justify-center items-center lg:hidden -mx-[1px] w-screen px-6 -mt-[50px] bg-[#FF7554] h-[37px] text-center">
+              <div className="flex justify-center items-center lg:hidden mx-[6.2px] md:-mx-[1px] w-screen px-6 -mt-[30px] bg-[#FF7554] h-[37px] text-center">
                 <h2
                   className="
     text-white 
@@ -1959,7 +1959,7 @@ const Pixellar = () => {
             </div>
 
             {/* Content section */}
-            <div className="w-full lg:w-[calc(100%-96px)] text-white font-normal font-['Rethink_Sans'] px-2 sm:px-4 lg:pr-[116px]">
+            <div className="w-full lg:w-[calc(100%-96px)] text-white font-normal font-['Rethink_Sans'] px-5 md:px-2 sm:px-4 lg:pr-[116px] ">
               <p
                 className="
   text-white 
@@ -1969,8 +1969,7 @@ const Pixellar = () => {
   sm:text-sm 
   md:text-base 
   lg:text-[25px] 
-  leading-3 
-  sm:leading-relaxed 
+  leading-3.5 
   md:leading-[1.6] 
   lg:leading-[133.863%]
 "
@@ -1986,14 +1985,14 @@ we deliver distinctive visual solutions.
           </div>
         </div>
 
-        <div className="relative w-screen max-w-[90%]  md:max-w-[768px] lg:max-w-[1100px] xl:max-w-[1300px] mx-auto h-[51px] sm:h-[200px] md:h-[288px] mt-[20px] lg:mt-[55px]">
+        <div className="relative w-[363px] md:w-screen   md:max-w-[768px] lg:max-w-[1100px] xl:max-w-[1300px] mx-auto h-[51px] sm:h-[200px] md:h-[288px] mt-[20px] lg:mt-[55px]">
           <img
             src={Prominova}
             alt="Our Services"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black/40 flex items-center justify-center border-[1px] md:border-[3px] border-[#FF7544]  backdrop-blur-[0px]">
-            <h1 className="text-white text-sm sm:text-2xl md:text-4xl lg:text-6xl xl:text-8xl font-medium font-['Bricolage_Grotesque_72pt'] text-center leading-none">
+            <h1 className="text-white text-[20px] md:text-4xl lg:text-6xl xl:text-8xl font-medium font-['Bricolage_Grotesque_72pt'] text-center leading-none">
               Our services
             </h1>
           </div>

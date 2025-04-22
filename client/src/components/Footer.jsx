@@ -151,7 +151,7 @@ import { SiBehance } from "react-icons/si";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white relative pt-4 pb-0">
+    <footer className="bg-black text-white relative md:pt-4 pb-0">
       {/* Top orange border */}
       <div className="absolute top-0 left-0 w-full h-1 bg-[#FF7544]" />
 
@@ -212,7 +212,7 @@ const Footer = () => {
       </div>
 
       {/* Main Footer Grid */}
-      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 mt-6">
+      <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8b md:mt-6">
         {/* Left: Logo + Contact */}
         <div className="flex flex-col items-start space-y-4 md:-ml-25 md:-mt-30 relative z-[1]">
           <img
@@ -224,7 +224,8 @@ const Footer = () => {
           <div className="-mt-6 ml-1 md:ml-5 mb-2">
             <h4 className="text-[#FF7544] font-bold">PHONE</h4>
             <p className="text-[#FF7544]">+91 7561049196</p>
-            <p className="text-[#FF7544]">+49 17684162253</p>
+            <p className="text-[#FF7544]">+91 9778377526</p>
+            <p className="text-[#FF7544]">+91 9633701495</p>
           </div>
 
           <div className="mt-5 ml-1 md:ml-5 mb-5">

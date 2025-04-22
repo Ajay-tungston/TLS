@@ -300,7 +300,7 @@ and graphic design.
           className="custom-scrollbar"
         >
           <div className="flex flex-none space-x-4 p-4 w-full">
-            <div className="w-[245px] h-[203px] md:w-[923px] md:h-[711px] flex-shrink-0 snap-center">
+            <div className="w-[304px] h-[203px] md:w-[923px] md:h-[711px] flex-shrink-0 snap-center">
               <img
                 src="/images/portfolio/toni&guy 3 2.png"
                 className="object-contain w-full h-full pointer-events-none"
@@ -308,7 +308,7 @@ and graphic design.
                 style={{ userSelect: "none" }}
               />
             </div>
-            <div className="w-[245px] h-[203px] md:w-[923px] md:h-[711px] flex-shrink-0 snap-center">
+            <div className="w-[309px] h-[203px] md:w-[923px] md:h-[711px] flex-shrink-0 snap-center">
               <img
                 src="/images/portfolio/toni&guy 2 1.png"
                 className="w-full h-full pointer-events-none"
@@ -316,7 +316,7 @@ and graphic design.
                 style={{ userSelect: "none" }}
               />
             </div>
-            <div className="w-[245px] h-[203px] md:w-[923px] md:h-[711px] flex-shrink-0 snap-center">
+            <div className="w-[390px] h-[203px] md:w-[923px] md:h-[711px] flex-shrink-0 snap-center">
               <img
                 src="/images/portfolio/toni&guy 3 1.png"
                 className="w-full h-full pointer-events-none"
@@ -383,7 +383,7 @@ effectively communicate their services.
                 style={{ userSelect: "none" }}
               />
             </div>
-            <div className="w-[245px] h-[203px] md:w-[923px] md:h-[711px] flex-shrink-0 snap-center ">
+            <div className="w-[264px] h-[203px] md:w-[923px] md:h-[711px] flex-shrink-0 snap-center ">
               <img
                 src="/images/portfolio/Frame 333 1.png"
                 className="w-full h-full pointer-events-none"
@@ -391,7 +391,7 @@ effectively communicate their services.
                 style={{ userSelect: "none" }}
               />
             </div>
-            <div className="w-[245px] h-[203px] md:w-[923px] md:h-[711px] flex-shrink-0 snap-center">
+            <div className="w-[241px] h-[203px] md:w-[923px] md:h-[711px] flex-shrink-0 snap-center">
               <img
                 src="/images/portfolio/Home 2.png"
                 className="w-full h-full pointer-events-none"
@@ -540,7 +540,7 @@ effectively communicate their services.
                 style={{ userSelect: "none" }}
               />
             </div>
-            <div className="w-[113px] h-[203px] md:w-[465px] md:h-[711px] flex-shrink-0 snap-center ">
+            <div className="w-[140px] h-[203px] md:w-[465px] md:h-[711px] flex-shrink-0 snap-center ">
               <img
                 src="/images/portfolio/Products.png"
                 className="w-full h-full pointer-events-none"

@@ -90,7 +90,7 @@ const Home = () => {
               className=" hidden md:block
     text-white font-normal leading-[117%]
     text-[18px] text-center
-    md:text-[45px] md:text-left
+    md:text-[2rem] md:text-left
   "
             >
               Maximize your brand’s potential with our innovative solutions and
@@ -116,7 +116,7 @@ const Home = () => {
             className="md:hidden
     text-white font-normal leading-[127%]
     text-[18px] text-center
-    md:text-[2rem] md:text-left
+    md:text-[45px] md:text-left
   "
           >
             Maximize your brand’s potential with our innovative solutions and
@@ -279,7 +279,7 @@ const Home = () => {
                 key={index}
                 onClick={() => navigate("/portfolio")}
                 className="bg-white md:bg-[#434343] hover:bg-white hover:scale-105 flex flex-col justify-center items-center 
-              w-[64px] h-[78px] p-[25px_14.869px_26px_14.869px]
+              w-[74px] h-[78px] p-[25px_14.869px_26px_14.869px]
               lg:w-[265px] lg:h-[300px] lg:p-[76px_21.51px_77px_22.51px]"
               >
                 <img
@@ -311,7 +311,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="bg-[#2b2b2b] text-white px-6 py-2 md:px-52 md:py-8">
+      <section className="bg-[#2b2b2b] text-white px-6 py-2 mb-[40px] md:mb-[90px] md:px-52 md:py-8">
         <div className=" mx-auto flex flex-col md:flex-row gap-10">
           {/* Left Content */}
           <div className="md:w-1/2">
