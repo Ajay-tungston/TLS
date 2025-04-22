@@ -44,7 +44,8 @@ const Navbar = () => {
           <div className="hidden md:flex items-center ml-4">
             <Link
               to="/contact"
-              className="bg-[#FF7544] hover:bg-[#e86638] text-black font-extrabold px-6 py-2 rounded-md text-sm"
+              className="bg-[#FF7544] hover:bg-[#e86638] text-black font-extrabold px-6 py-2 rounded-md font-rethink text-lg"
+              
             >
               Contact us
             </Link>
@@ -81,7 +82,7 @@ const Navbar = () => {
               </Link>
             ))}
             <Link
-              to="/contactus"
+              to="/contact"
               className="bg-[#FF7544] hover:bg-[#e86638] text-black font-extrabold px-4 py-2 rounded-md text-sm w-max"
               onClick={() => setIsOpen(false)}
             >

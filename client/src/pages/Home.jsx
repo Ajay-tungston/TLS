@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 
 const Home = () => {
   const navigate = useNavigate();
-  
+
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -71,37 +71,39 @@ const Home = () => {
     !formData.message;
 
   return (
-    <div className="bg-black w-screen">
+    <div className="bg-black  overflow-x-hidden">
       <Navbar />
-      <section className="bg-black text-white px-6 py-12 md:px-32 md:py-24">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+      <section className="bg-black  text-white px-6 py-12 md:pt-2 md:px-32 md:py-24">
+        <div className="grid md:grid-cols-2 gap-12 items-center ">
           {/* Left section */}
           <div>
             <h1
               style={{ fontFamily: '"Bricolage Grotesque", sans-serif' }}
               className="text-[#FF7544] font-medium leading-[90%]
     text-[40px] text-center
-    md:text-[105px] md:text-left mb-6"
+    md:text-[5rem] md:text-left mb-6"
             >
               Ideas invisible <br /> even to radars.
             </h1>
             <p
               style={{ fontFamily: '"Rethink Sans", sans-serif' }}
               className=" hidden md:block
-    text-white font-normal leading-[127%]
+    text-white font-normal leading-[117%]
     text-[18px] text-center
     md:text-[45px] md:text-left
   "
             >
-              
+              Maximize your brand’s potential with our innovative solutions and
+              expertise, driving growth, efficiency, and lasting impact in a
+              competitive market. Let’s elevate your brand!
             </p>
           </div>
 
           {/* Right section */}
           <div className="flex justify-center md:justify-end">
             {/* Dummy image/logo */}
-            <div className="w-[170px] md:w-[660px] h-[170px] md:h-[660px]">
-              <video autoPlay muted loop playsInline>
+            <div className="w-[170px] md:w-[660px] h-[170px] md:h-[660px] max-w-full">
+              <video autoPlay muted loop playsInline className="w-full h-full object-contain"> 
                 <source
                   src="/videos/logoAnimation.mp4"
                   type="video/mp4"
@@ -114,7 +116,7 @@ const Home = () => {
             className="md:hidden
     text-white font-normal leading-[127%]
     text-[18px] text-center
-    md:text-[45px] md:text-left
+    md:text-[2rem] md:text-left
   "
           >
             Maximize your brand’s potential with our innovative solutions and
@@ -123,7 +125,6 @@ const Home = () => {
           </p>
         </div>
       </section>
-    
 
       <section className="bg-black text-white px-6 py-2 md:px-32 md:py-8 relative">
         <div className="flex flex-row justify-between items-center  mx-auto gap-6">
@@ -178,7 +179,7 @@ const Home = () => {
                   </svg>
                 </span>
               </div>
-              <h2 className="text-[#FFF] font-[700]  tracking-normal md:text-[79.371px] text-[14px] md:leading-[90%] leading-[12.6px] font-[Rethink Sans] mb-2">
+              <h2 className="text-[#FFF] font-[700]  tracking-normal md:text-[79.371px] text-[14px] md:leading-[90%] leading-[14.6px] font-[Rethink Sans] mb-2">
                 We are a <br></br>
                 <span
                   style={{
@@ -211,13 +212,12 @@ const Home = () => {
               style={{
                 fontFamily: '"Rethink Sans", sans-serif',
                 fontWeight: 500,
-                lineHeight: "92.7%",
                 color: "#FFF",
               }}
               className=" md:mr-16
-    text-white font-medium leading-[92.7%]
+    text-white font-medium  leading-[125.7%] md:leading-[92.7%]
     text-[10px] text-right
-    md:text-[50px] md:text-end
+    md:text-[50px] md:text-end 
   "
             >
               We are a team of marketing and tech experts that will grow your
@@ -239,8 +239,7 @@ const Home = () => {
         style={{ backgroundImage: "url('/images/Frame 1747.svg')" }}
       >
         <h1 className="text-[#FF7544] px-[281px] text-center font-[Bricolage Grotesque 72pt] text-[95px] font-semibold leading-[91%]">
-        Empowering Brands with Innovation and Expertise  
-
+          Empowering Brands with Innovation and Expertise
         </h1>
       </section>
       <section
@@ -248,7 +247,7 @@ const Home = () => {
         style={{ backgroundImage: "url('/images/Frame 1748.svg')" }}
       >
         <h1 className="text-[#FF7544] text-center font-[Bricolage Grotesque 72pt] text-[21px] font-semibold leading-[91%]">
-        Empowering Brands with Innovation and Expertise
+          Empowering Brands with Innovation and Expertise
         </h1>
       </section>
 
@@ -257,64 +256,60 @@ const Home = () => {
           Our Clients
         </h2>{" "}
         <p className="text-center text-white font-[Rethink_Sans] text-[10px] font-normal leading-[13.386px] md:text-[25px] md:leading-[33.466px] md:px-28">
-        As a branding and technology expert, we take pride in working with growth
-oriented brands across different industries. Be it an ambitious startup
-building a brand from the base or an established business seeking digital
-transformation, our clients rely on us to craft and execute innovative
-marketing strategies and advanced web development that drive measurable
-success. At Tungston Labs every partnership is built on trust, innovation and
-shared commitment to excellence. 
-
+          As a branding and technology expert, we take pride in working with
+          growth oriented brands across different industries. Be it an ambitious
+          startup building a brand from the base or an established business
+          seeking digital transformation, our clients rely on us to craft and
+          execute innovative marketing strategies and advanced web development
+          that drive measurable success. At Tungston Labs every partnership is
+          built on trust, innovation and shared commitment to excellence.
         </p>
       </section>
-    <section className="bg-black text-white px-6 py-2 md:px-0  md:py-8">
-  <div className="py-8 flex flex-col items-center">
-    <div className="flex flex-wrap justify-center gap-[39px] md:gap-[64px] ">
-      {[
-        { src: "/images/logo-01 1.png", alt: "HEW Diamonds" },
-        { src: "/images/Frame 1800.png", alt: "Essensuals" },
-        { src: "/images/Frame.png", alt: "AKSA" },
-        { src: "/images/Frame 1753.png", alt: "Tijara" },
-        { src: "/images/Frame 1754.png", alt: "ARM SBC" },
-      ].map((item, index) => (
-        <div
-          key={index}
-          onClick={() => navigate('/portfolio')}
-          className="bg-[#434343] hover:bg-white hover:scale-105 flex flex-col justify-center items-center 
-              w-[74px] h-[78px] p-[25px_14.869px_26px_14.869px]
-              lg:w-[285px] lg:h-[300px] lg:p-[76px_21.51px_77px_22.51px]"
-        >
-          <img
-            src={item.src}
-            alt={item.alt}
-            className=" w-[44.262px] h-[27px] md:h-[147px] md:w-[240.981px]"
-          />
+      <section className="bg-black text-white px-6 py-2 md:px-0  md:py-8">
+        <div className="py-8 flex flex-col items-center">
+          <div className="flex flex-wrap justify-center gap-[39px] md:gap-[64px] ">
+            {[
+              { src: "/images/logo-01 1.png", alt: "HEW Diamonds" },
+              { src: "/images/Frame 1800.png", alt: "Essensuals" },
+              { src: "/images/Frame.png", alt: "AKSA" },
+              { src: "/images/Frame 1753.png", alt: "Tijara" },
+              { src: "/images/Frame 1754.png", alt: "ARM SBC" },
+            ].map((item, index) => (
+              <div
+                key={index}
+                onClick={() => navigate("/portfolio")}
+                className="bg-white md:bg-[#434343] hover:bg-white hover:scale-105 flex flex-col justify-center items-center 
+              w-[64px] h-[78px] p-[25px_14.869px_26px_14.869px]
+              lg:w-[265px] lg:h-[300px] lg:p-[76px_21.51px_77px_22.51px]"
+              >
+                <img
+                  src={item.src}
+                  alt={item.alt}
+                  className=" w-[44.262px] h-[27px] md:h-[147px] md:w-[240.981px]"
+                />
+              </div>
+            ))}
+          </div>
+          <div className="mt-6 lg:hidden w-full flex justify-end"></div>
+
+          {/* "See more" for large screens */}
+          <div className="hidden lg:flex w-full justify-end mt-6">
+            <button
+              onClick={() => navigate("/portfolio")}
+              className="text-[#FF7544] text-right font-[Helvetica_Compressed] text-[39px] font-[500] font-style:Helvetica Compressed leading-[149%] mr-24 hover:underline focus:outline-none"
+            >
+              See more
+            </button>
+          </div>
+
+          {/* "See more" only on mobile */}
+          <div className="mt-6 lg:hidden w-full flex justify-end">
+            <button className="text-[#FF7544] text-right font-[Helvetica_Compressed] text-[15px] font-[500] leading-[149%]">
+              See more
+            </button>
+          </div>
         </div>
-      ))}
-    </div>
-    <div className="mt-6 lg:hidden w-full flex justify-end">
-      
-    </div>
-
-{/* "See more" for large screens */}
-<div className="hidden lg:flex w-full justify-end mt-6">
-  <button
-    onClick={() => navigate('/portfolio')}
-    className="text-[#FF7544] text-right font-[Helvetica_Compressed] text-[39px] font-[500] font-style:Helvetica Compressed leading-[149%] mr-24 hover:underline focus:outline-none"
-  >
-    See more
-  </button>
-</div>
-
-
-    {/* "See more" only on mobile */}
-    <div className="mt-6 lg:hidden w-full flex justify-end">
-      <button className="text-[#FF7544] text-right font-[Helvetica_Compressed] text-[15px] font-[500] leading-[149%]">
-        See more
-      </button>
-    </div>
-  </div>
-</section>
+      </section>
 
       <section className="bg-[#2b2b2b] text-white px-6 py-2 md:px-52 md:py-8">
         <div className=" mx-auto flex flex-col md:flex-row gap-10">
@@ -344,10 +339,11 @@ shared commitment to excellence.
     leading-[13.386px] md:leading-[36.143px]
   "
             >
-              Thank you for showing interest in our services, we are glad for the opportunity
-to work with you. To learn more about our services, kindly fill out the form
-below to connect with our team or use the given contact details to reach us.
-Our team will shortly reach out to you.
+              Thank you for showing interest in our services, we are glad for
+              the opportunity to work with you. To learn more about our
+              services, kindly fill out the form below to connect with our team
+              or use the given contact details to reach us. Our team will
+              shortly reach out to you.
             </p>
             <p
               className="

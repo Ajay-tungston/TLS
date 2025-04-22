@@ -946,7 +946,7 @@ const ProminovaSection = () => {
             {/* "Prominova" Text */}
             <h1
               className="font-['Bricolage_Grotesque_72pt']
-        text-[20px] sm:text-[20px] md:text-[40px] lg:text-[64px]
+        text-[20px] sm:text-[20px]  md:text-[40px] lg:text-[64px]
         font-medium leading-[133.863%] text-[#E0DCD9]
         [text-shadow:_0px_0px_12.2px_rgba(0,0,0,0.33)]"
             >
@@ -957,7 +957,7 @@ const ProminovaSection = () => {
 
         <div className="flex flex-col bg-black items-center gap-16">
           {/* Main container */}
-          <div className="  mt-[35px] lg:h-96 md:w-[1300px] w-[360px] h-auto  px-6 bg-black lg:pl-12 lg:pr-28 py-9  outline-2 outline-offset-[-8px] outline-[#ff7554] flex flex-col lg:flex-row justify-start items-center gap-6 lg:gap-24  relative">
+          <div className="  mt-[35px] lg:h-96 md:w-[1300px] w-[370px] h-auto  px-6 lg:pl-12 lg:pr-28 py-9  outline-2 outline-offset-[-8px] outline-[#ff7554] flex flex-col lg:flex-row justify-start items-center gap-6 lg:gap-24  relative">
             {/* Title Section */}
             {/* Title Section */}
             <div className="w-full  lg:w-14 lg:border-[8px] border-[1px] flex lg:flex-col justify-start lg:justify-center lg:text-center items-center gap-2.5 lg:h-full lg:pt-12">
@@ -1008,7 +1008,7 @@ are the other services we provide that oversee your brand identity.
           </div>
         </div>
 
-        <div className="relative w-screen max-w-[90%]  md:max-w-[768px] lg:max-w-[1100px] xl:max-w-[1300px] mx-auto h-[51px] sm:h-[200px] md:h-[288px] mt-[20px] lg:mt-[55px]">
+        <div className="relative w-screen max-w-[95%]  md:max-w-[768px] lg:max-w-[1100px] xl:max-w-[1300px] mx-auto h-[51px] sm:h-[200px] md:h-[288px] mt-[20px] lg:mt-[55px]">
           <img
             src={Prominova}
             alt="Our Services"
