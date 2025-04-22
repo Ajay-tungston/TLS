@@ -3,6 +3,7 @@ import ServiceListCard from "../components/ServiceListCard";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Prominova from "../assets/promo.svg";
+import OurServiceCard from "../components/OurServiceCard";
 
 const Pixellar = () => {
   const services = [
@@ -1918,85 +1919,11 @@ const Pixellar = () => {
         </div>
       </section>
 
-      <section className="p-6 md:p-16 md:px-[121px] space-y-6">
-        <div className="flex flex-col bg-black items-center gap-16">
-          {/* Main container */}
-          <div className=" lg:h-96 md:w-full w-[352px] h-[207px]  md:px-6 bg-black lg:pl-12 lg:pr-28 py-9  outline-2 md:outline-[8px] outline-offset-[-8px] outline-[#ff7554] flex flex-col lg:flex-row justify-start items-center gap-6 lg:gap-24  relative ">
-            {/* Title Section */}
-            {/* Title Section */}
-            <div className="w-full  lg:w-14  flex lg:flex-col justify-start lg:justify-center lg:text-center items-center gap-2.5 lg:h-full lg:pt-12">
-              {/* Full-width Prominova for small screens */}
-              <div className="flex justify-center items-center lg:hidden mx-[6.2px] md:-mx-[1px] w-screen px-6 -mt-[30px] bg-[#FF7554] h-[37px] text-center">
-                <h2
-                  className="
-    text-white 
-    text-center 
-    font-bricolage 
-    text-4xl sm:text-5xl 
-    font-medium 
-    leading-[133.863%]
-    max-md:text-[20px] 
-    max-md:font-medium 
-    max-md:text-[#E0DCD9] 
-    max-md:leading-[133.863%]"
-                >
-                  <span className="max-md:text-shadow-[0px_0px_12.2px_rgba(0,0,0,0.33)]">
-                    Pixellar
-                  </span>
-                </h2>
-              </div>
-
-              {/* Vertical Prominova for large screens */}
-              <div
-                className="hidden lg:block relative font-bricolage text-6xl font-medium text-white whitespace-nowrap
-    -rotate-90 origin-top-left ml-0.5 self-stretch mt-52 text-center
-    [text-shadow:_0px_0px_12px_rgb(0_0_0_/_0.33)]"
-              >
-                <span className="relative after:content-[''] after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[4px] after:bg-[#FF7554]">
-                  Pixellar
-                </span>
-              </div>
-            </div>
-
-            {/* Content section */}
-            <div className="w-full lg:w-[calc(100%-96px)] text-white font-normal font-['Rethink_Sans'] px-5 md:px-2 sm:px-4 lg:pr-[116px] ">
-              <p
-                className="
-  text-white 
-  font-normal 
-  font-['Rethink_Sans'] 
-  text-[10px] 
-  sm:text-sm 
-  md:text-base 
-  lg:text-[25px] 
-  leading-3.5 
-  md:leading-[1.6] 
-  lg:leading-[133.863%]
-"
-              >
-                Pixellar at Tungston Labs is a for the creative hub dedicated to digital design, branding,
-and visual storytelling. We merge creativity with cutting-edge innovation to shape your
-brand's identity. Our team assists you in crafting captivating designs through graphic
-design and 3D animation to enhance your brand's visual appeal, along with various
-other creative offerings. From logos and marketing materials to engaging 3D/2D visuals,
-we deliver distinctive visual solutions.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="relative w-[343px]  md:w-full lg:max-w-[1100px] xl:max-w-[1300px] mx-auto h-[51px] sm:h-[200px] md:h-[288px] mt-[20px] lg:mt-[55px] ">
-          <img
-            src={Prominova}
-            alt="Our Services"
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-black/40 flex items-center justify-center border-[1px] md:border-[3px] border-[#FF7544]  backdrop-blur-[0px]">
-            <h1 className="text-white text-[20px] md:text-4xl lg:text-6xl xl:text-8xl font-medium font-['Bricolage_Grotesque_72pt'] text-center leading-none">
-              Our services
-            </h1>
-          </div>
-        </div>
+      <section className="w-screen text-white p-6 md:p-16 md:px-[121px]">
+        <OurServiceCard
+          name="Pixellar"
+          data="Pixellar at Tungston Labs is a for the creative hub dedicated to digital design, branding, and visual storytelling. We merge creativity with cutting-edge innovation to shape your brand's identity. Our team assists you in crafting captivating designs through graphic design and 3D animation to enhance your brand's visual appeal, along with various other creative offerings. From logos and marketing materials to engaging 3D/2D visuals, we deliver distinctive visual solutions."
+        />
       </section>
 
       <section className="text-white p-6 md:p-16 md:px-[121px] space-y-6">

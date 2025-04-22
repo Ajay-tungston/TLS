@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import ProxitechIcon from "../assets/proxitech.svg";
 import WeComeImage from "../assets/weCome.png"; // Import the image
 import ServiceListCard from "../components/ServiceListCard";
+import OurServiceCard from "../components/OurServiceCard";
 
 const ServicesSection = () => {
   const services = [
@@ -1263,7 +1264,7 @@ const ServicesSection = () => {
       <Navbar />
 
       <section className="bg-black w-screen min-h-screen flex flex-col items-center justify-start pt-4 md:pt-0 px-4 md:px-8 ">
-        <div className=" relative w-[314px] h-[165px] mt-2 md:mt-0  md:w-[1502px] md:h-[788px] overflow-hidden rounded-lg shadow-lg mb-40 md:mb-40">
+        <div className=" relative w-[314px] h-[165px] mt-2 md:mt-0  md:w-[1502px] md:h-[788px] overflow-hidden rounded-lg shadow-lg">
           <img
             src={ProxitechIcon}
             alt="Descriptive Alt Text"
@@ -1271,77 +1272,18 @@ const ServicesSection = () => {
           />
         </div>
 
-        <div className="flex flex-col bg-black items-center gap-16 -mt-48">
-          {/* Main container */}
-          <div className=" min-h-[250px] mt-[35px] lg:h-96 md:w-[1300px]  h-[195px]  px-6 bg-black lg:pl-12 lg:pr-28 py-9  outline-2 outline-offset-[-8px] outline-[#ff7554] flex flex-col lg:flex-row justify-start items-center gap-6 lg:gap-24  relative">
-            {/* Title Section */}
-            {/* Title Section */}
-            <div className="w-full  lg:w-14 lg:border-[8px] border-[1px] flex lg:flex-col justify-start lg:justify-center lg:text-center items-center gap-2.5 lg:h-full lg:pt-12">
-              {/* Full-width Prominova for small screens */}
-              <div className="block lg:hidden -mx-5 w-screen px-6 -mt-8 bg-[#FF7554] py-1 text-center">
-                <h2 className="text-white font-bricolage text-[20px]  font-medium">
-                  Proxitech
-                </h2>
-              </div>
-
-              {/* Vertical Prominova for large screens */}
-              <div
-                className="hidden lg:block relative font-bricolage text-6xl font-medium text-white whitespace-nowrap
-    -rotate-90 origin-top-left ml-0.5 self-stretch mt-72 text-center
-    [text-shadow:_0px_0px_12px_rgb(0_0_0_/_0.33)]"
-              >
-                <span className="relative after:content-[''] after:absolute after:left-0 after:bottom-[-2px] after:w-full after:h-[4px] after:bg-[#FF7554]">
-                  Proxitech
-                </span>
-              </div>
-            </div>
-
-            {/* Content section */}
-            <div className="w-full lg:w-[calc(100%-96px)] text-white font-normal font-['Rethink_Sans'] px-2 sm:px-4 -lg:pr-[10px]">
-              <p
-                className="
-  text-white 
-  font-normal 
-  font-['Rethink_Sans'] 
-  text-[10px] 
-  sm:text-sm 
-  md:text-base 
-  lg:text-[20px] 
-  leading-4
-  sm:leading-relaxed 
-  md:leading-[1.6] 
-  lg:leading-[133.863%]
-"
-              >
-                At Tungston Labs, we offer a set of comprehensive technical
-                services aimed to facilitate digital transformation and
-                enhancing business performance. Through Proxitech, we deliver
-                ERP solutions that optimize operational efficiency, web
-                development services that enable you to establish a strong
-                online presence, and app development customized for both iOS and
-                Android platforms. We provide personalized technical services,
-                encompassing system integration, cloud solutions, and IT support
-                tailored to your business requirements.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div className="relative w-screen max-w-[95%]  md:max-w-[768px] lg:max-w-[1100px] xl:max-w-[1300px] mx-auto h-[51px] sm:h-[200px] md:h-[288px] mt-[20px] lg:mt-[55px]">
-          {/* Background Image */}
-          <img
-            src={WeComeImage}
-            alt="Our Services"
-            className="w-full h-full object-cover"
+        <section className="w-screen  text-white p-6 md:p-16 md:px-[121px]">
+          <OurServiceCard
+            name="Proxitech"
+            data="At Tungston Labs, we offer a set of comprehensive technical services aimed to facilitate
+digital transformation and enhancing business performance. Through Proxitech, we
+deliver ERP solutions that optimize operational efficiency, web development services
+that enable you to establish a strong online presence, and app development
+customized for both iOS and Android platforms. We provide personalized technical
+services, encompassing system integration, cloud solutions, and IT support tailored to
+your business requirements."
           />
-
-          {/* Overlay */}
-          <div className="absolute inset-0 w-full flex items-center justify-center border border-[#FF7554] backdrop-blur-[0px]">
-            <h1 className="text-white text-[20px] md:text-4xl lg:text-6xl xl:text-8xl font-medium font-['Bricolage_Grotesque_72pt'] text-center leading-none">
-              Our services
-            </h1>
-          </div>
-        </div>
+        </section>
 
         <div className="w-screen text-white md:px-[121px] p-6 md:p-16 space-y-6 ">
           {services.map((service, index) => (
