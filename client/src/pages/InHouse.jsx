@@ -150,7 +150,6 @@ const InHouseProducts = () => {
     phone: "",
     plan: "TLS VIPER SUPER CAT",
   });
-  console.log(formData)
   const [loading, setLoading] = useState(false);
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });

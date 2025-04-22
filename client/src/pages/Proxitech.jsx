@@ -1273,7 +1273,7 @@ const ServicesSection = () => {
 
         <div className="flex flex-col bg-black items-center gap-16 -mt-48">
           {/* Main container */}
-          <div className=" min-h-[250px] mt-[35px] lg:h-96 md:w-[1300px] w-[360px] h-[195px]  px-6 bg-black lg:pl-12 lg:pr-28 py-9  outline-2 outline-offset-[-8px] outline-[#ff7554] flex flex-col lg:flex-row justify-start items-center gap-6 lg:gap-24  relative">
+          <div className=" min-h-[250px] mt-[35px] lg:h-96 md:w-[1300px] w-[350px] h-[195px]  px-6 bg-black lg:pl-12 lg:pr-28 py-9  outline-2 outline-offset-[-8px] outline-[#ff7554] flex flex-col lg:flex-row justify-start items-center gap-6 lg:gap-24  relative">
             {/* Title Section */}
             {/* Title Section */}
             <div className="w-full  lg:w-14 lg:border-[8px] border-[1px] flex lg:flex-col justify-start lg:justify-center lg:text-center items-center gap-2.5 lg:h-full lg:pt-12">

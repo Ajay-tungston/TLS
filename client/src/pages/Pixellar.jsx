@@ -1921,7 +1921,7 @@ const Pixellar = () => {
       <section className="p-6 md:p-16 md:px-[121px] space-y-6">
         <div className="flex flex-col bg-black items-center gap-16">
           {/* Main container */}
-          <div className=" lg:h-96 md:w-full w-[372px] h-[207px]  md:px-6 bg-black lg:pl-12 lg:pr-28 py-9  outline-2 md:outline-[8px] outline-offset-[-8px] outline-[#ff7554] flex flex-col lg:flex-row justify-start items-center gap-6 lg:gap-24  relative ">
+          <div className=" lg:h-96 md:w-full w-[352px] h-[207px]  md:px-6 bg-black lg:pl-12 lg:pr-28 py-9  outline-2 md:outline-[8px] outline-offset-[-8px] outline-[#ff7554] flex flex-col lg:flex-row justify-start items-center gap-6 lg:gap-24  relative ">
             {/* Title Section */}
             {/* Title Section */}
             <div className="w-full  lg:w-14  flex lg:flex-col justify-start lg:justify-center lg:text-center items-center gap-2.5 lg:h-full lg:pt-12">
@@ -1985,7 +1985,7 @@ we deliver distinctive visual solutions.
           </div>
         </div>
 
-        <div className="relative w-[363px]  md:w-full lg:max-w-[1100px] xl:max-w-[1300px] mx-auto h-[51px] sm:h-[200px] md:h-[288px] mt-[20px] lg:mt-[55px] ">
+        <div className="relative w-[343px]  md:w-full lg:max-w-[1100px] xl:max-w-[1300px] mx-auto h-[51px] sm:h-[200px] md:h-[288px] mt-[20px] lg:mt-[55px] ">
           <img
             src={Prominova}
             alt="Our Services"

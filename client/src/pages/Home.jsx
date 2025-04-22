@@ -103,7 +103,7 @@ const Home = () => {
           <div className="flex justify-center md:justify-end">
             {/* Dummy image/logo */}
             <div className="w-[170px] md:w-[660px] h-[170px] md:h-[660px] max-w-full">
-              <video autoPlay muted loop playsInline className="w-full h-full object-contain"> 
+              <video autoPlay muted loop playsInline className="w-full h-full object-contain">
                 <source
                   src="/videos/logoAnimation.mp4"
                   type="video/mp4"
@@ -305,7 +305,9 @@ const Home = () => {
 
           {/* "See more" only on mobile */}
           <div className="mt-6 lg:hidden w-full flex justify-end">
-            <button className="text-[#FF7544] text-right   font-['Anton']
+            <button
+             onClick={() => navigate("/portfolio")} 
+             className="text-[#FF7544] text-right   font-['Anton']
  text-[15px] font-[500] leading-[149%]">
               See more
             </button>
@@ -514,11 +516,10 @@ const Home = () => {
               <button
                 type="submit"
                 disabled={isDisabled}
-                className={`${
-                  isDisabled
+                className={`${isDisabled
                     ? "bg-[#d58365] hover:bg-[#e6997c] cursor-not-allowed "
                     : "bg-[#FF7544] hover:bg-orange-600 cursor-pointer "
-                }" flex items-center justify-center gap-2  text-white py-3 rounded col-span-2 transition duration-300"`}
+                  }" flex items-center justify-center gap-2  text-white py-3 rounded col-span-2 transition duration-300"`}
               >
                 {!loading ? (
                   <>
