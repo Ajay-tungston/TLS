@@ -27,7 +27,7 @@ const FeatureItem = ({ boldPart, restPart }) => {
   );
 };
 
-const PlanCard = ({ name, specKey, isTopRated, dec }) => {
+const PlanCard = ({ name, specKey, isTopRated, dec,setFormData ,formData}) => {
   // Plan specifications based on specKey
   const specs = {
     Pulse2: {
@@ -85,8 +85,8 @@ const PlanCard = ({ name, specKey, isTopRated, dec }) => {
               {dec}
             </div>
           </div>
-          <div className="self-stretch px-6  py-2.5 bg-[#FF7544] rounded-[5px] inline-flex justify-center items-center gap-2.5">
-            <div className="justify-start text-white text-sm font-bold leading-tight">
+          <div className={`${formData.plan!==name?" bg-transparent ":"bg-[#FF7544] "}" border border-[#FF7544] self-stretch px-6  py-2.5  rounded-[5px] inline-flex justify-center items-center gap-2.5" `} onClick={()=>setFormData((prv)=>({...prv,plan:name}))}>
+            <div className="justify-start text-white text-sm font-bold leading-tight" >
               Choose plan
             </div>
           </div>
@@ -148,8 +148,9 @@ const InHouseProducts = () => {
     email: "",
     count: "2 to 10 employees",
     phone: "",
-    plan: "TLS VIPER SAGA",
+    plan: "TLS VIPER SUPER CAT",
   });
+  console.log(formData)
   const [loading, setLoading] = useState(false);
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -235,7 +236,7 @@ const InHouseProducts = () => {
             fontFamily: '"Rethink Sans", sans-serif',
           }}
         >
-          <p className="mb-4">
+          <p className="mb-4 text-center md:text-left">
             TLS Viper serves the foundation of your business applications,
             offering outstanding performance, strong security, and the ability
             to grow with your needs change. Built on modern, enterprise-level
@@ -293,6 +294,8 @@ const InHouseProducts = () => {
                 dec={
                   "The TLS Viper Saga is a reliable entry - level server option designed for startups , small enterprises and bloggers who need reliable server resources that ensures efficient processing, rapid loading times, and adaptability across various Linux environments for fast operations without incurring excessive expenses for smooth operations and flexibility without overwhelming cost."
                 }
+                setFormData={setFormData}
+                formData={formData}
               />
             </div>
 
@@ -304,6 +307,8 @@ const InHouseProducts = () => {
                 dec={
                   "The TLS Viper Super Cat is designed to enhance your hosting capabilities with improved speed, strength, and adaptability. Benefiting mid-sized online retail sites, agencies, and developers overseeing medium-traffic websites or intricate applications. It delivers the necessary power to manage multitasking, database operations, and to effectively accommodate moderate levels of traffic"
                 }
+                setFormData={setFormData}
+                formData={formData}
               />
             </div>
 
@@ -315,6 +320,8 @@ const InHouseProducts = () => {
                 dec={
                   "TLS Viper Sonic is designed specifically for enterprises and applications that require significant power and dependability. Advantageous for large enterprises, busy ecommerce sites, SaaS companies, and entities handling intricate databases or applications. It guarantees seamless multitasking, rapid data retrieval, and dependable performance, even during intense workloads."
                 }
+                setFormData={setFormData}
+                formData={formData}
               />
             </div>
 
@@ -326,6 +333,8 @@ const InHouseProducts = () => {
                 dec={
                   "TLS Viper Vecna is our premier server solution, designed for high traffic e- commerce platforms, businesses, large enterprises and critical applications that require outstanding performance and dependability. Guarantees excellent uptime, security, and scalability. Delivers exceptional processing power, exceptional high-speed performance, maximum reliability, high concurrency for seamless multitasking."
                 }
+                setFormData={setFormData}
+                formData={formData}
               />
             </div>
           </div>
@@ -343,12 +352,12 @@ const InHouseProducts = () => {
                   fill="#FF7544"
                 />
               </svg>
-            </span>
+            </span> 
             to see more
           </p>
         </div>
 
-        <div className="px-4 md:px-8 lg:px-24 py-8 md:py-10 lg:py-14 mt-[61px] md:mt-[61px] md:mb-[61px] lg:mb-[61px]  bg-neutral-800 flex flex-col lg:flex-row justify-start items-start gap-8 md:gap-12 lg:gap-64">
+        <div className="px-4 md:px-8 lg:px-24 py-8 md:py-10 lg:py-14 mt-[61px] md:mt-[61px] md:mb-[61px] lg:mb-[61px]  bg-neutral-800 flex flex-col lg:flex-row justify-start items-start gap-8 md:gap-12 lg:gap-0">
           {/* Text Section */}
           <div className="w-full  flex flex-col justify-start items-start gap-4 md:gap-5">
             <h2
@@ -373,7 +382,7 @@ const InHouseProducts = () => {
 
           {/* Form Section */}
           <div
-            className="w-full lg:w-[619px] flex flex-col justify-start items-start gap-6 md:gap-8 lg:gap-10"
+            className="w-full lg:w-[719px] flex flex-col justify-start items-start gap-6 md:gap-8 lg:gap-10"
             style={{
               fontFamily: '"Exo", sans-serif',
             }}
@@ -443,6 +452,9 @@ const InHouseProducts = () => {
               <div className="w-full px-3 py-2 bg-neutral-50 rounded-md flex justify-start items-center">
                 <select
                   // type="text"
+                  name="plan"
+                  value={formData.plan}
+                    onChange={handleChange}
                   placeholder="Stack"
                   className="w-full text-neutral-400 text-base md:text-lg lg:text-xl font-normal font-['Sansation'] bg-transparent outline-none"
                 >

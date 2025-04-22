@@ -9,7 +9,7 @@ const AboutSection = () => {
             description:
                 "Proxitech at Tungston labs offers complete ERP solutions helping you to manage your business. We offer web development services to create and maintain websites, web applications along with app development supporting both android and iOS, Dev Ops ensure seamless integration and automation from reliable software and much more.",
             icon: <img src="/images/settings.png" alt="Provitect Logo"
-                className="w-[107px] h-[111px] p-[10px] items-center gap-[10px] border-[3px]"
+                className="w-[77px] md:w-[107px] h-[73px] md:h-[111px] p-[10px] items-center gap-[10px] border-[3px]"
             />,
             color: "bg-[#FF7544]",
         },
@@ -18,7 +18,7 @@ const AboutSection = () => {
             description:
                 "Prominova is a dedicated division for branding and digital marketing services. The team ensures to build you a unique brand identity and helps you connect with your customers or audience. Our team would work with Pay-per-click campaigns, targeted Social media marketing and use SEO tools to drive traffic and increase conversions.",
             icon: <img src="/images/prominova.png" alt="Prominova Logo"
-                className="w-[107px] h-[111px] p-[10px] flex items-center gap-[10px] border-[3px]" />,
+                className="w-[77px] md:w-[107px] h-[73px] md:h-[111px] p-[10px] flex items-center gap-[10px] border-[3px]" />,
             color: "bg-[#FF7544]",
         },
         {
@@ -26,7 +26,7 @@ const AboutSection = () => {
             description:
                 "Pixellar is the creative team of Tungston Labs, focusing on digital design, branding and visual story telling. Blending creativity with originality to build your brand visually. Our team uses the tools based on UI/UX designing, 3D/ 2D visualization to create a visually immersive interface based on your business needs, Package designing and labelling for delivering your products.",
             icon: <img src="/images/pixellar.png" alt="Pixellar Logo"
-                className="w-[107px] h-[111px] p-[10px] flex items-center gap-[10px] border-[3px]" />,
+                className="w-[77px] md:w-[107px] h-[73px] md:h-[111px] p-[10px] flex items-center gap-[10px] border-[3px]" />,
             color: "bg-[#FF7544]",
         },
     ];
@@ -43,7 +43,7 @@ const AboutSection = () => {
                 />
 
                 <p
-                    className="text-white max-w-2xl mx-auto px-4 font-rethink text-lg md:text-[25px]"
+                    className="text-white text-sm max-w-2xl mx-auto px-4 font-rethink md:text-lg md:text-[25px]"
                     style={{
                         fontWeight: 600,
                         lineHeight: '134%',
@@ -62,7 +62,7 @@ const AboutSection = () => {
                 <div className="mx-auto px-4 pt-8 sm:px-6 lg:px-8">
                     {/* About Us Card */}
                     <div
-                        className="bg-black rounded-lg p-4 sm:p-8 mb-8 border-[1px] sm:border-[8px] border-[#FF7544]"
+                        className="bg-black  p-4 sm:p-8 mb-8 border-[1px] sm:border-[8px] border-[#FF7544]"
                         style={{
                             boxShadow: '10px 4px 13.5px 0px #000',
                         }}
@@ -97,7 +97,7 @@ const AboutSection = () => {
 
                     {/* Vision Card */}
                     <div
-                        className="bg-black  rounded-lg p-4 sm:p-8 border-[1px] sm:border-[8px] border-[#FF7544]"
+                        className="bg-black   p-4 sm:p-8 border-[1px] sm:border-[8px] border-[#FF7544]"
                         style={{
 
                             boxShadow: '10px 4px 13.5px 0px #000'
@@ -135,10 +135,10 @@ const AboutSection = () => {
                 {/* Our Team Section */}
                 <div className="w-full bg-black mt-8 sm:mt-[102px] px-4 sm:px-6 lg:px-8">
                     <div
-                        className="w-full h-auto sm:h-[88px] flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-[40px] bg-[#FF7544] rounded-sm p-4 sm:py-[14px] sm:px-[57px]"
+                        className="w-full h-[50px] md:h-[88px] flex flex-row justify-between items-center gap-4 sm:gap-[40px] bg-[#FF7544] rounded-sm p-4 sm:py-[14px] sm:px-[57px]"
                     >
                         <h2
-                            className="text-4xl sm:text-[72px] font-medium leading-[133.863%] text-[#E0DCD9]"
+                            className="text-[20px] md:text-[72px] font-medium leading-[133.863%] text-[#E0DCD9]"
                             style={{ fontFamily: 'Bricolage Grotesque' }}
                         >
                             Our Team
@@ -152,7 +152,7 @@ const AboutSection = () => {
 
                     <div className="mx-auto space-y-8 mt-8 sm:mt-[50px]">
                         {teamItems.map((item, index) => (
-                            <div key={index} className="relative flex flex-col rounded-sm overflow-hidden mt-20 sm:mt-0 font-ricolage">
+                            <div key={index} className="relative flex flex-col  overflow-hidden mt-20 sm:mt-0 font-ricolage">
                                 {/* ✅ Name above the box on small screens */}
                                 <div
                                     className={`${item.color} sm:hidden `}
@@ -203,7 +203,7 @@ const AboutSection = () => {
                                         </div>
 
                                         {/* Content Area */}
-                                        <div className="flex-1 bg-black  sm:ml-[44px] flex flex-col sm:flex-row sm:items-center sm:justify-between p-5 md:p-0">
+                                        <div className="flex-1 relative  sm:ml-[44px] flex flex-col sm:flex-row sm:items-center sm:justify-between p-5 pb-[73px] md:pb-0 md:p-0">
                                             <p
                                                 className="text-white text-base sm:text-[21px] leading-relaxed sm:leading-[134%] mb-4 sm:mb-0 "
                                                 style={{
@@ -214,9 +214,10 @@ const AboutSection = () => {
                                             >
                                                 {item.description}
                                             </p>
-                                            <div className="border border-white self-center sm:self-auto md:mt-50  md:mr-20  ml-56 md:ml-0 ">
+                                            <div className="border-2 absolute border-white self-center sm:self-auto bottom-0 right-0 md:bottom-8 md:right-8 ">
                                                 {item.icon}
                                             </div>
+                                            {/* md:mt-50  md:mr-20  ml-56 md:ml-0 */}
                                         </div>
                                     </div>
                                 </div>

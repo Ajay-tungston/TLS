@@ -920,7 +920,7 @@ const ProminovaSection = () => {
   return (
     <>
       <Navbar />
-      <section className="bg-black w-screen min-h-screen flex flex-col items-center justify-start pt-4 md:pt-4 lg:pt-4 px-4 md:px-8 lg:px-16">
+      <section className="bg-black w-screen min-h-screen flex flex-col items-center justify-start pt-4 md:pt-4 lg:pt-4 px-4 md:px-8 lg:px-16 ">
         <div className="relative md:w-[1257px] md:h-[975px] pt-[9px] w-[189px] sm:h-[115px] pb-[22px] lg:w-[600px] lg:h-[400px] xl:w-[1257px] xl:h-[975px] overflow-hidden rounded-lg shadow-lg flex-shrink-0">
           <img
             src={Promis}
@@ -954,7 +954,7 @@ const ProminovaSection = () => {
 
         <div className="flex flex-col bg-black items-center gap-16">
           {/* Main container */}
-          <div className="  -mt-[10px] lg:h-96 w-screen  max-w-[88%]   mx-auto h-auto  px-6 lg:pl-12 lg:pr-28 py-9  outline-2 outline-offset-[-8px] outline-[#ff7554] flex flex-col lg:flex-row justify-start items-center gap-6 lg:gap-24  relative">
+          <div className="  -mt-[10px] lg:h-96 w-screen max-w-[90%] md:max-w-[85%]   mx-auto h-auto  px-6 lg:pl-12 lg:pr-28 py-9  outline-2 outline-offset-[-8px] outline-[#ff7554] flex flex-col lg:flex-row justify-start items-center gap-6 lg:gap-24  relative">
             {/* Title Section */}
          
             <div className=" w-screen  max-w-[99%] md:max-w-0 lg:max-w-0 flex lg:flex-col justify-start lg:justify-center lg:text-center items-center gap-2.5 lg:h-full lg:pt-12">
@@ -1005,7 +1005,7 @@ const ProminovaSection = () => {
           </div>
         </div>
 
-        <div className="relative w-screen  max-w-[93%]   mx-auto h-[51px] sm:h-[200px] md:h-[288px] mt-[20px] lg:mt-[55px]">
+        <div className="relative w-screen  max-w-[95%] md:max-w-[92%]   mx-auto h-[51px] sm:h-[200px] md:h-[288px] mt-[20px] lg:mt-[55px]">
           <img
             src={Prominova}
             alt="Our Services"
@@ -1028,7 +1028,7 @@ const ProminovaSection = () => {
             />
           ))}
         </div>
-        <div className="relative w-full">
+        <div className="relative w-full py-[36px] md:py-[104px]">
           {/* Background Image */}
           <img
             src={DownProm}

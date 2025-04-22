@@ -1273,13 +1273,13 @@ const ServicesSection = () => {
 
         <div className="flex flex-col bg-black items-center gap-16 -mt-48">
           {/* Main container */}
-          <div className=" min-h-[400px] mt-[35px] lg:h-96 md:w-[1300px] w-[360px] h-[195px]  px-6 bg-black lg:pl-12 lg:pr-28 py-9  outline-2 outline-offset-[-8px] outline-[#ff7554] flex flex-col lg:flex-row justify-start items-center gap-6 lg:gap-24  relative">
+          <div className=" min-h-[250px] mt-[35px] lg:h-96 md:w-[1300px] w-[360px] h-[195px]  px-6 bg-black lg:pl-12 lg:pr-28 py-9  outline-2 outline-offset-[-8px] outline-[#ff7554] flex flex-col lg:flex-row justify-start items-center gap-6 lg:gap-24  relative">
             {/* Title Section */}
             {/* Title Section */}
             <div className="w-full  lg:w-14 lg:border-[8px] border-[1px] flex lg:flex-col justify-start lg:justify-center lg:text-center items-center gap-2.5 lg:h-full lg:pt-12">
               {/* Full-width Prominova for small screens */}
-              <div className="block lg:hidden -mx-5 w-screen px-6 -mt-8 bg-[#FF7554] py-4 text-center">
-                <h2 className="text-white font-bricolage text-4xl sm:text-5xl font-medium">
+              <div className="block lg:hidden -mx-5 w-screen px-6 -mt-8 bg-[#FF7554] py-1 text-center">
+                <h2 className="text-white font-bricolage text-[20px]  font-medium">
                   Proxitech
                 </h2>
               </div>
@@ -1325,7 +1325,7 @@ your business requirements.
           </div>
         </div>
 
-        <div className="relative w-screen max-w-[90%]  md:max-w-[768px] lg:max-w-[1100px] xl:max-w-[1300px] mx-auto h-[51px] sm:h-[200px] md:h-[288px] mt-[20px] lg:mt-[55px]">
+        <div className="relative w-screen max-w-[95%]  md:max-w-[768px] lg:max-w-[1100px] xl:max-w-[1300px] mx-auto h-[51px] sm:h-[200px] md:h-[288px] mt-[20px] lg:mt-[55px]">
           {/* Background Image */}
           <img
             src={WeComeImage}
@@ -1335,7 +1335,7 @@ your business requirements.
 
           {/* Overlay */}
           <div className="absolute inset-0 w-full flex items-center justify-center border border-[#FF7554] backdrop-blur-[0px]">
-            <h1 className="text-white text-sm sm:text-2xl md:text-4xl lg:text-6xl xl:text-8xl font-medium font-['Bricolage_Grotesque_72pt'] text-center leading-none">
+            <h1 className="text-white text-[20px] md:text-4xl lg:text-6xl xl:text-8xl font-medium font-['Bricolage_Grotesque_72pt'] text-center leading-none">
               Our services
             </h1>
           </div>
@@ -1352,7 +1352,7 @@ your business requirements.
             />
           ))}
         </div>
-        <div className="relative w-full">
+        <div className="relative w-full py-[36px] md:py-[104px]">
           {/* Background Image */}
           <img
             src={WeComeImage}

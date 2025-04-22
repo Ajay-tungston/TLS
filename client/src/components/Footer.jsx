@@ -222,7 +222,7 @@ const Footer = () => {
           />
 
           <div className="-mt-6 ml-1 md:ml-5 mb-2">
-            <h4 className="text-[#FF7544] font-bold">PHONE</h4>
+            <h4 className="text-[#FF7544]  font-bold">PHONE</h4>
             <p className="text-[#FF7544]">+91 7561049196</p>
             <p className="text-[#FF7544]">+91 9778377526</p>
             <p className="text-[#FF7544]">+91 9633701495</p>

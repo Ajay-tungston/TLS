@@ -137,7 +137,7 @@ const Portfolio = () => {
       <section className="px-[19px] mt-[26.44px] md:mt-[149px] md:px-[60px] flex justify-center">
         <div className="w-full text-center md:border-b border-[rgba(244,130,17,0.35)]">
           <h1
-            className="
+            className="capitalize
     text-[#FF7544]
     text-center 
     font-bricolage 
@@ -147,7 +147,7 @@ const Portfolio = () => {
     max-md:text-[18px] 
     max-md:leading-[133.863%]"
           >
-            FROM VISION TO REALITY 
+            From vision to reality 
           </h1>{" "}
           <h3
             className="
@@ -158,7 +158,7 @@ const Portfolio = () => {
     font-normal 
     leading-[133.863%]
     max-md:text-[14px] 
-    max-md:leading-[133.863%]"
+    max-md:leading-[133.863%] pb-1 md:pb-2"
           >
             Showcasing Expertise, One project at a Time. 
           </h3>
@@ -316,7 +316,7 @@ and graphic design.
                 style={{ userSelect: "none" }}
               />
             </div>
-            <div className="w-[390px] h-[203px] md:w-[923px] md:h-[711px] flex-shrink-0 snap-center">
+            <div className="w-[390px] h-[203px] md:w-[1066px] md:h-[711px] flex-shrink-0 snap-center">
               <img
                 src="/images/portfolio/toni&guy 3 1.png"
                 className="w-full h-full pointer-events-none"

@@ -230,7 +230,7 @@ const Home = () => {
       <section className="bg-black text-white px-6 py-2 md:px-32 md:py-8">
         <AboutCards />
       </section>
-      <section className="bg-black text-white px-6 py-2 md:px-32 md:py-8">
+      <section className="bg-black text-white px-7  py-2 md:px-32 md:py-8">
         <Realms />
       </section>
 
@@ -296,7 +296,8 @@ const Home = () => {
           <div className="hidden lg:flex w-full justify-end mt-6">
             <button
               onClick={() => navigate("/portfolio")}
-              className="text-[#FF7544] text-right font-[Helvetica_Compressed] text-[39px] font-[500] font-style:Helvetica Compressed leading-[149%] mr-24 hover:underline focus:outline-none"
+              className="text-[#FF7544] text-right   font-['Anton']
+ text-[39px] font-[500] font-style:Helvetica Compressed leading-[149%] mr-24 hover:underline focus:outline-none"
             >
               See more
             </button>
@@ -304,7 +305,8 @@ const Home = () => {
 
           {/* "See more" only on mobile */}
           <div className="mt-6 lg:hidden w-full flex justify-end">
-            <button className="text-[#FF7544] text-right font-[Helvetica_Compressed] text-[15px] font-[500] leading-[149%]">
+            <button className="text-[#FF7544] text-right   font-['Anton']
+ text-[15px] font-[500] leading-[149%]">
               See more
             </button>
           </div>
