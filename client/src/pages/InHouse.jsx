@@ -285,7 +285,7 @@ const InHouseProducts = () => {
               fontFamily: '"Rethink Sans", sans-serif',
             }}
           >
-            <div className=" md:min-w-[300px] flex-shrink-0 h-[800px] mx-4  mt-15">
+            <div className=" md:min-w-[300px] flex-shrink-0 h-[800px]  mx-4  mt-15">
               <PlanCard
                 name="TLS VIPER SAGA"
                 specKey="Pulse2"
