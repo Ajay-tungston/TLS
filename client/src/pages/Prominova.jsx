@@ -1015,7 +1015,7 @@ are the other services we provide that oversee your brand identity.
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black/40 flex items-center justify-center border border-[#FF7544]  backdrop-blur-[0px]">
-            <h1 className="text-white text-sm sm:text-2xl md:text-4xl lg:text-6xl xl:text-8xl font-medium font-['Bricolage_Grotesque_72pt'] text-center leading-none">
+            <h1 className="text-white text-sm sm:text-[18px] md:text-4xl lg:text-6xl xl:text-8xl font-medium font-['Bricolage_Grotesque_72pt'] text-center leading-none">
               Our services
             </h1>
           </div>
