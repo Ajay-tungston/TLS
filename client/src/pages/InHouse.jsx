@@ -194,14 +194,14 @@ const InHouseProducts = () => {
   return (
     <>
       <Navbar />
-      <section className="bg-black min-h-screen flex flex-col items-center justify-start pt-20 md:pt-32 lg:pt-40 px-4 md:px-8 overflow-x-hidden lg:px-16">
-        <div className="max-w-5xl mt-[125px] text-white/70 text-sm md:text-base lg:text-lg text-left mb-16">
+      <section className="bg-black min-h-screen flex flex-col items-center justify-start  px-4 md:px-8 overflow-x-hidden lg:px-16">
+        <div className="max-w-5xl mt-12  sm:mt-[100px] md:mt-[125px] text-white/70 text-sm md:text-base lg:text-lg text-left ">
           <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold text-[#FF7544] font-['Bricolage_Grotesque'] text-center mb-6 md:mb-10">
             Our Inhouse Products
           </h1>
 
           <div
-            className="text-center space-y-6 w-full max-w-4xl px-4 sm:px-6"
+            className="text-center space-y-6 w-full text-white max-w-4xl px-4 sm:px-6"
             style={{
               fontFamily: '"Rethink Sans", sans-serif',
             }}
@@ -221,7 +221,7 @@ const InHouseProducts = () => {
         </div>
 
         <div
-          className="text-5xl md:text-6xl lg:text-7xl mt-[60px] text-[#FF7544] font-bold mb-16"
+          className="text-5xl md:text-6xl lg:text-7xl mt-[25px] text-[#FF7544] font-bold mb-[20px]"
           style={{
             fontFamily: '"Rethink Sans", sans-serif',
           }}
@@ -230,7 +230,7 @@ const InHouseProducts = () => {
         </div>
 
         <div
-          className="max-w-7xl text-white/80 text-sm md:text-base lg:text-lg text-left mb-24 mt-[29px]  font-rethink"
+          className="max-w-7xl text-white text-sm md:text-base lg:text-lg text-left mb-[20px] mt-[2px]  font-rethink"
           style={{
             fontFamily: '"Rethink Sans", sans-serif',
           }}
@@ -246,6 +246,7 @@ const InHouseProducts = () => {
             microservices, TLS Viper guarantees consistent system stability even
             during peak usage times.
             <br />
+            <br></br>
             It operates continuously in real time, facilitating backend
             services, APIs, and live user interactions, ensuring that every
             transaction, request, and response is completed seamlessly. Advanced
@@ -258,12 +259,12 @@ const InHouseProducts = () => {
           </p>
         </div>
 
-        <div className="mt-[42px] sm:mt-[42px] md:mt-[42px] lg:mt-[42px] xl:mt-[42px] 2xl:mt-[42px]">
+        <div className="mt-[20px] sm:mt-[20px] md:mt-[20px] lg:mt-[20px] xl:mt-[20px] 2xl:mt-[20px]">
           <img src={Groupfront} alt="Groupfront image" className="w-full" />
         </div>
 
         <div
-          className="text-[#FF7544] text-4xl font-medium font-['Rethink_Sans'] leading-[53.55px] mt-[42px] sm:mt-[42px] md:mt-[42px] lg:mt-[42px] xl:mt-[42px] 2xl:mt-[42px]"
+          className="text-[#FF7544] text-4xl font-medium font-['Rethink_Sans'] leading-[53.55px] mt-[42px] sm:mt-[20px] md:mt-[42px] lg:mt-[42px] xl:mt-[42px] 2xl:mt-[42px]"
           style={{
             fontFamily: '"Rethink Sans", sans-serif',
           }}
@@ -271,20 +272,20 @@ const InHouseProducts = () => {
           Pick your perfect plan
         </div>
 
-        <div className="w-full max-w-[1105px] text-white text-lg sm:text-xl md:text-2xl font-medium font-[Rubik] leading-relaxed sm:leading-loose text-left">
+        <div className="w-full max-w-[1105px] text-white text-lg sm:text-xl md:text-2xl font-medium font-[Rubik] leading-relaxed sm:leading-loose text-left mt-2">
           Get started in complete confidence. Our 30-day money-back guarantee
           means it's riskfree.
         </div>
 
         {/* Product Cards Section */}
-        <div className=" mt-[52px]  w-screen  h-auto overflow-x-scroll md:overflow-x-scroll md:pl-24 scrollbar-hide">
+        <div className=" mt-[20px]  w-screen  h-auto overflow-x-scroll md:overflow-x-scroll md:pl-24 scrollbar-hide">
           <div
             className="flex  overflow-x-auto lg:overflow-x-visible px-4 snap-x snap-mandatory scroll-smooth   "
             style={{
               fontFamily: '"Rethink Sans", sans-serif',
             }}
           >
-            <div className=" md:min-w-[300px] flex-shrink-0 h-[800px] mx-4  mt-15">
+            <div className=" md:min-w-[300px] flex-shrink-0 h-[800px]  mx-4  mt-15">
               <PlanCard
                 name="TLS VIPER SAGA"
                 specKey="Pulse2"
@@ -328,9 +329,26 @@ const InHouseProducts = () => {
               />
             </div>
           </div>
+          <p className="md:hidden flex items-center justify-center text-center mt-4 text-[14px] text-[#ff7554]">
+            <span className="w-[19px] h-[19px] mr-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="19"
+                height="19"
+                viewBox="0 0 19 19"
+                fill="none"
+              >
+                <path
+                  d="M14.234 8.21479L9.4997 7.26793V2.45998C9.4997 1.25978 8.64784 0.215538 7.51809 0.0318656C6.8214 -0.0805546 6.11838 0.112618 5.58716 0.565466C5.05514 1.01752 4.74955 1.677 4.74955 2.37527V11.532L3.99348 10.9311C3.03712 10.0381 1.53369 10.0895 0.640665 11.0443C-0.253947 12.0007 -0.20407 13.5065 0.742793 14.3939L3.67997 17.2258C4.86672 18.3698 6.42872 19 8.07703 19H13.4589C15.6416 19 17.4174 17.2242 17.4174 15.0415V12.0957C17.4174 10.2154 16.0794 8.58213 14.2348 8.214L14.234 8.21479ZM15.8332 15.0423C15.8332 16.3518 14.7676 17.4174 13.4582 17.4174H8.07623C6.83961 17.4174 5.6687 16.9448 4.77884 16.0866L1.83295 13.2468C1.51469 12.9475 1.49728 12.4448 1.79654 12.1257C1.94062 11.9722 2.13617 11.8827 2.34597 11.8764C2.35547 11.8764 2.36418 11.8764 2.37368 11.8764C2.57398 11.8764 2.76636 11.9532 2.95874 12.1297L5.04722 13.7923C5.28631 13.9815 5.61012 14.0203 5.88483 13.8857C6.15876 13.7543 6.33214 13.4764 6.33214 13.1732V2.37527C6.33214 2.14251 6.43427 1.92242 6.61161 1.77121C6.79211 1.61842 7.02328 1.55508 7.26238 1.59466C7.62893 1.65404 7.91552 2.03405 7.91552 2.45998V7.91711C7.91552 8.29475 8.18232 8.61934 8.55204 8.69297L13.9229 9.7665C15.0289 9.98739 15.8324 10.9683 15.8324 12.0957V15.0415L15.8332 15.0423ZM19 3.16696C19 3.60477 18.6461 3.95865 18.2083 3.95865H13.3568L14.3797 4.98231C14.6892 5.29186 14.6892 5.79221 14.3797 6.10176C14.2253 6.25614 14.0226 6.33373 13.82 6.33373C13.6173 6.33373 13.4146 6.25614 13.2602 6.10176L11.6191 4.4598C11.2731 4.11462 11.0831 3.65544 11.0831 3.16696C11.0831 2.67849 11.2731 2.21931 11.6198 1.87334L13.2602 0.232164C13.5698 -0.0773878 14.0701 -0.0773878 14.3797 0.232164C14.6892 0.541715 14.6892 1.04206 14.3797 1.35162L13.3568 2.37527H18.2083C18.6461 2.37527 19 2.72916 19 3.16696Z"
+                  fill="#FF7544"
+                />
+              </svg>
+            </span>
+            to see more
+          </p>
         </div>
 
-        <div className="px-4 md:px-8 lg:px-24 py-8 md:py-10 lg:py-14 mt-[61px] md:mt-[61px] bg-neutral-800 flex flex-col lg:flex-row justify-start items-start gap-8 md:gap-12 lg:gap-64">
+        <div className="px-4 md:px-8 lg:px-24 py-8 md:py-10 lg:py-14 mt-[61px] md:mt-[61px] md:mb-[61px] lg:mb-[61px]  bg-neutral-800 flex flex-col lg:flex-row justify-start items-start gap-8 md:gap-12 lg:gap-64">
           {/* Text Section */}
           <div className="w-full  flex flex-col justify-start items-start gap-4 md:gap-5">
             <h2
@@ -461,9 +479,9 @@ const InHouseProducts = () => {
           </div>
         </div>
 
-        <div className="w-full flex justify-center items-center mt-[26px] md:mt-[126px] lg:mt-[126px] h-20 relative overflow-hidden">
+        <div className="w-full flex justify-center items-center  mb-[25px] h-20 relative overflow-hidden">
           <div
-            className="loading-text text-[#ff7544] font-bold text-[18px] leading-[1.34] text-center whitespace-nowrap 
+            className="loading-text text-[#FF7544] font-bold text-[18px] leading-[1.34] text-center whitespace-nowrap 
                 lg:text-[96px] lg:leading-[1.34]"
             style={{
               fontFamily: '"Bricolage Grotesque", sans-serif',
@@ -528,16 +546,7 @@ const InHouseProducts = () => {
           }
         `}</style>
 
-        <div
-          className="
-    w-full 
-    max-w-[1229px] 
-    mx-auto 
-    pt-[45.81px] pr-[63.8px] pb-[54.83px] pl-[44.45px]
-    lg:pt-[156px] lg:pr-[21.73px] lg:pb-[186.73px] lg:pl-[15px]
-    relative
-"
-        >
+        <div className="w-screen mb-[60px] md:mt-[126px] lg:mt-[126px]">
           <div className="w-full flex justify-center">
             <img
               src={inHouse}
